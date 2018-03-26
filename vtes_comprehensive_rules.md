@@ -243,10 +243,9 @@ requirements given on a minion card can play it, while only a Methuselah who
 controls a ready minion who meets the requirements of a master card can
 play it.
 
+Some cards that have a requirement also have a burn option icon.
 <img src="http://www.vekn.net/images/stories/icons/misc/iconmiscburnoption.gif" width="30"/>
-
-Some cards that have a requirement also have a burn option icon. This icon
-means that a Methuselah who doesn't control a minion that meets the
+This icon means that a Methuselah who doesn't control a minion that meets the
 requirements may discard the card during any Methuselah's unlock phase. Each
 Methuselah is limited to one such discard each unlock phase.
 
@@ -467,24 +466,19 @@ later in the game (see [Influence Phase, sec. 7](#7-influence-phase)).
 Turns proceed clockwise around the playing area. Each player's turn is composed
 of the following five phases, in order:
 
-1. Unlock Phase
-
+1. **Unlock Phase**
    Unlock all your cards.
 
-1. Master Phase
-
+1. **Master Phase**
    Play a master card.
 
-1. Minion Phase
-
+1. **Minion Phase**
    Have your minions perform actions.
 
-1. Influence Phase
-
+1. **Influence Phase**
    Attempt to control vampires in your uncontrolled region.
 
-1. Discard Phase
-
+1. **Discard Phase**
    Discard a card from your hand (and draw another).
 
 Each of the phases is described in full detail in the following sections.
@@ -769,19 +763,20 @@ modifier or reaction card more than once (see
 sequencing strictures of all effects (see
 [Sequencing, sec. 1.6.1](#161-general)).
 
-Summary of the Course of an Action
+#### Summary of the Course of an Action
 
-The action is declared, and the card used for the action (action card,
-equipment, etc.) is played, if any. Lock the minion who is taking the action
-(the "acting minion").
-The target Methuselahs may try to block the action with any of their ready
-unlocked minions. If the action doesn't target another Methuselah, or targets a
-card controlled by the acting Methuselah, then the minions of the prey and
-predator may try to block.
-If one attempt to block is unsuccessful, another attempt can be made. If no
-more attempts are made, then the action is successful, and the cost of the
-action is paid. If a block attempt is successful, then the blocking minion
-locks and enters combat with the acting minion.
+- The action is declared, and the card used for the action (action card,
+  equipment, etc.) is played, if any. Lock the minion who is taking the action
+  (the "acting minion").
+- The target Methuselahs may try to block the action with any of their ready
+  unlocked minions. If the action doesn't target another Methuselah, or targets
+  a card controlled by the acting Methuselah, then the minions of the prey and
+  predator may try to block.
+- If one attempt to block is unsuccessful, another attempt can be made. If no
+  more attempts are made, then the action is successful, and the cost of the
+  action is paid. If a block attempt is successful, then the blocking minion
+  locks and enters combat with the acting minion.
+
 Action modifiers and reaction cards can be played at any time before resolution
 during an action (unless otherwise noted on card text), with the acting
 Methuselah getting the opportunity to play first. Only the acting minion can
@@ -936,17 +931,17 @@ to the referendum part of the political action.
 The referendum consists of three steps: setting the terms, polling (casting
 votes and ballots) and resolving the referendum.
 
-1. Choose the terms, if any, of the referendum. Cards that are used "during a
-   political action" but "before votes and ballots are cast" are used at this
+1. **Choose the terms**, if any, of the referendum. Cards that are used "during
+   a political action" but "before votes and ballots are cast" are used at this
    time (after the terms are set).
-2. Polling. All Methuselahs may now cast any votes and ballots they have (see
-   below) at this time, in any order. They call out their votes and ballots
+1. **Polling**. All Methuselahs may now cast any votes and ballots they have
+   (see below) at this time, in any order. They call out their votes and ballots
    freely, and there is no obligation to cast votes or ballots. Once a vote or a
    ballot has been cast, however, it cannot be changed. The polling stage is
    completed only when all Methuselahs are finished casting votes and ballots
    (if you need a time limit, the players can agree to wait 15 seconds after the
    last vote or ballot cast to close the polling stage).
-3. Resolve the referendum. If there are more votes for the referendum than
+1. **Resolve the referendum**. If there are more votes for the referendum than
    against, the referendum passes, and the effects of the successful referendum
    take place. Otherwise, the referendum fails and has no effect.
    Tied referendums fail.
