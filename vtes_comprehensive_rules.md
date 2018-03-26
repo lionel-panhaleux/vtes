@@ -407,7 +407,7 @@ The general types of minion cards are as follows:
 
 #### 1.6.4. Event Cards
 
-<img src="http://www.vekn.net/images/stories/icons/cardtype/icontypeevent.gif" width="30"/>
+<img src="http://www.vekn.net/images/stories/icons/cardtype/icontypeevent.gif" width="30" height="30"/>
 
 Event cards are played to represent events that affect the World of Darkness as
 a whole. Once each discard phase, a Methuselah may use a discard phase action
