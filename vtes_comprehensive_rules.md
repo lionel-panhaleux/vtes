@@ -446,12 +446,6 @@ torpor region. Torpor is a special area for wounded vampires (see
 of some of your minions, moving them to the ready region, face up (see
 [Influence Phase, sec. 7](#7-influence-phase)).
 
-Ready (Controlled)
-
-Uncontrolled (Face down)
-
-Torpor (Controlled)
-
 To begin, separate your crypt cards from your library cards. Shuffle both decks
 and allow your predator to cut both. Place both decks in front of you. Deal the
 top seven library cards to yourself to form your hand and deal the top four
