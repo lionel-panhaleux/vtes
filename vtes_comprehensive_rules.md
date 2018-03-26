@@ -1987,7 +1987,7 @@ who aren't in play. But for clarity, individual cases are shown below.
 
 The following effects are imbued-compatible:
 
-- **Bear-**Baiting (checking cost as capacity from crypt OK).
+- **Bear-Baiting** (checking cost as capacity from crypt OK).
 - **Brainwash** (targeting unknown uncontrolled card OK).
 - **Cairo Int'l Airport** (targeting unknown uncontrolled card OK).
 - **Clotho's Gift at [obf]** (moving card from crypt OK).
