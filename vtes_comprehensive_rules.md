@@ -175,9 +175,7 @@ of the card) are treated as Group 2 vampires; the others are Group 1.
 
 **Advancement**: An advancement card is a type of vampire card for your crypt.
 An advancement card looks just like a regular crypt card except that it has an
-Advancement icon under the clan icon.
-
-![vampiiconmiscadvancedres](http://www.vekn.net/images/stories/icons/misc/iconmiscadvanced.gif)
+Advancement icon under the clan icon <img src="http://www.vekn.net/images/stories/icons/misc/iconmiscadvanced.gif" width="30"/>.
 
 The advancement card is a vampire card in all respects, so it can be influenced
 in the normal manner. In addition, if you already control the advancement or
@@ -187,6 +185,8 @@ the vampire card from your uncontrolled region to the controlled vampire card
 (place the advancement card on top of the base card). The two cards effectively
 merge to form a single vampire.
 
+
+
 The particulars of this merge are as follows. The counters and cards on the
 vampire remain. The advancement and the base card are treated as a single
 vampire card, even if sent to the uncontrolled region somehow, until the
@@ -195,11 +195,11 @@ merged version.
 
 When merged, the text on the base card still applies, but the rest of the card
 is ignored (capacity, Disciplines, etc.). The advancement card applies in full.
-If the advancement card conflictsiconmiscmergedold with the base card (a
-different sect, for example), the advancement card has precedence. Some merged
-cards have an additional effect that only applies if the card is merged with
-its base card. Such an effect is identified in the card text by a "merged"
-icon.
+If the advancement card conflicts with the base card (a different sect, for
+example), the advancement card has precedence. Some merged cards have an
+additional effect that only applies if the card is merged with its base card.
+Such an effect is identified in the card text by a "merged" icon
+<img src="http://www.vekn.net/images/stories/icons/misc/iconmiscmergedold.gif" width="30"/>.
 
 The advanced vampire (merged or not) will contest other copies of the same
 vampire (advanced or not) in play, as usual.
@@ -243,7 +243,7 @@ requirements given on a minion card can play it, while only a Methuselah who
 controls a ready minion who meets the requirements of a master card can
 play it.
 
-![iconmiscburnoption](http://www.vekn.net/images/stories/icons/misc/iconmiscburnoption.gif)
+<img src="http://www.vekn.net/images/stories/icons/misc/iconmiscburnoption.gif" width="30"/>
 
 Some cards that have a requirement also have a burn option icon. This icon
 means that a Methuselah who doesn't control a minion that meets the
@@ -362,24 +362,19 @@ being in play (like "the vampire with this card" effects).
 
 The general types of minion cards are as follows:
 
-   ![icontypeaction](http://www.vekn.net/images/stories/icons/cardtypes/icontypeaction.gif)
-
-1. **Action cards**: A minion can play an action card to take an action other
+1. <img src="http://www.vekn.net/images/stories/icons/cardtype/icontypeaction.gif" width="30"/> **Action cards**:
+   A minion can play an action card to take an action other
    than the default actions like "hunt". Only one action card can be played for
    the action; action cards cannot be used to modify other actions.
 
-   ![icontypemodifier](http://www.vekn.net/images/stories/icons/cardtypes/icontypemodifier.gif)
-
-1. **Action modifier cards**: The acting minion can play these cards to modify
+1. <img src="http://www.vekn.net/images/stories/icons/cardtype/icontypemodifier.gif" width="30"/> **Action modifier cards**:
+   The acting minion can play these cards to modify
    his action. For example, some action modifiers increase the acting minion's
    stealth or bleed amount or give him more votes. A minion cannot play the same
    action modifier more than once during a single action.
 
-   ![icontypeally](http://www.vekn.net/images/stories/icons/cardtypes/icontypeally.gif)
-   ![icontypeequipment](http://www.vekn.net/images/stories/icons/cardtypes/icontypeequipment.gif)
-   ![icontyperetainer](http://www.vekn.net/images/stories/icons/cardtypes/icontyperetainer.gif)
-
-1. **Ally, equipment and retainer cards**: These action cards represent things
+1. <img src="http://www.vekn.net/images/stories/icons/cardtype/icontypeally.gif" width="30"/> <img src="http://www.vekn.net/images/stories/icons/cardtype/icontypeequipment.gif" width="30"/> <img src="http://www.vekn.net/images/stories/icons/cardtype/icontyperetainer.gif" width="30"/> **Ally, equipment and retainer cards**:
+   These action cards represent things
    that a minion can bring into play by taking an action. It takes one action
    for each card. A minion cannot bring two equipment cards into play in a
    single action, for example. Equipment and retainer cards are played on the
@@ -387,38 +382,33 @@ The general types of minion cards are as follows:
    remain independent from the acting minion. Equipment and retainers are burned
    when the minion they are played on is burned.
 
-   ![icontypepolitical](http://www.vekn.net/images/stories/icons/cardtypes/icontypepolitical.gif)
-
-1. **Political cards**: A political action card can be played to call a
+1. <img src="http://www.vekn.net/images/stories/icons/cardtype/icontypepolitical.gif" width="30"/> **Political cards**:
+   A political action card can be played to call a
    referendum as an action, or it can be burned during a referendum to gain a
    vote.
 
-   ![icontypecombat](http://www.vekn.net/images/stories/icons/cardtypes/icontypecombat.gif)
-
-1. **Combat cards**: These are played by minions when in combat (see
+1. <img src="http://www.vekn.net/images/stories/icons/cardtype/icontypecombat.gif" width="30"/> **Combat cards**:
+   These are played by minions when in combat (see
    [Combat, sec. 6.4](#64-combat)).
 
-   ![icontypereaction](http://www.vekn.net/images/stories/icons/cardtypes/icontypereaction.gif)
-
-1. **Reaction cards**: A ready unlocked minion can play a reaction card in
+1. <img src="http://www.vekn.net/images/stories/icons/cardtype/icontypereaction.gif" width="30"/> **Reaction cards**:
+   A ready unlocked minion can play a reaction card in
    response to an action taken by another Methuselah's minion (an action taken
    by one of a Methuselah's minions cannot be reacted to by any of her own
    minions). A minion cannot play the same reaction card more than once during a
    single action. A reaction card does not lock the minion using it.
 
-   ![icontypereflex](http://www.vekn.net/images/stories/icons/cardtypes/icontypereflex.gif)
-
-1. **Reflex cards**: A minion can play a reflex card to cancel a specified kind
+1. <img src="http://www.vekn.net/images/stories/icons/cardtype/icontypereflex.gif" width="30"/> **Reflex cards**:
+   A minion can play a reflex card to cancel a specified kind
    of card played against him as it is played.
 
-   ![icontypepower](http://www.vekn.net/images/stories/icons/cardtypes/icontypepower.gif)
-
-1. **Powers**: These action cards are only playable by Imbueds (see
+1. <img src="http://www.vekn.net/images/stories/icons/cardtype/icontypepower.gif" width="30"/> **Powers**:
+   These action cards are only playable by Imbueds (see
    the [Imbued Rules appendix](#imbued-rules-appendix)).
 
 #### 1.6.4. Event Cards
 
-![icontypeevent](http://www.vekn.net/images/stories/icons/cardtypes/icontypeevent.gif)
+<img src="http://www.vekn.net/images/stories/icons/cardtype/icontypeevent.gif" width="30"/>
 
 Event cards are played to represent events that affect the World of Darkness as
 a whole. Once each discard phase, a Methuselah may use a discard phase action
@@ -1908,8 +1898,6 @@ to  (VTES NetRep).
 
 ## Appendix: Imbued Rules
 
-cardnor1_tn
-
 ### 1. Imbued
 
 Imbued are new crypt cards. An imbued is considered a mortal ally, not a
@@ -1921,8 +1909,6 @@ torpor) instead of being burned (see 5 below). Any "burn ally" effect will
 still burn an imbued, however.
 
 ### 2. Conviction
-
-cardnor2_tn
 
 Conviction is a new card type. It is played in the unlock phase, so it is an
 "unlock" card, not a master or minion or discard (event) card. During your
@@ -1939,8 +1925,6 @@ instead.
 Power is a new minion card type, only playable by imbued. An imbued may get a
 power as a +1 stealth action, like equipment or retainers.
 
-cardnor3_tn
-
 The imbued unlocks if the action is successful. An imbued may not have two
 copies of the same power. Some effects or powers are "always on". Others have a
 card type icon (action, combat, etc.) indicating when and how the effect can be
@@ -1955,26 +1939,24 @@ still on while the power card is locked.
 - **Monster**: any vampire or non-mortal, non-animal ally or retainer.
 
 **Creeds**
-![iconcreavenger](http://www.vekn.net/images/stories/icons/creeds/iconcreavenger.gif) Avenger
-![iconcredefender](http://www.vekn.net/images/stories/icons/creeds/iconcredefender.gif) Defender
-![iconcreinnocent](http://www.vekn.net/images/stories/icons/creeds/iconcreinnocent.gif) Innocent
-![iconcrejudge](http://www.vekn.net/images/stories/icons/creeds/iconcrejudge.gif) Judge
-![iconcremartyr](http://www.vekn.net/images/stories/icons/creeds/iconcremartyr.gif) Martyr
-![iconcreredeemer](http://www.vekn.net/images/stories/icons/creeds/iconcreredeemer.gif) Redeemer
-![iconcrevisionary](http://www.vekn.net/images/stories/icons/creeds/iconcrevisionary.gif) Visionary
+<img src="http://www.vekn.net/images/stories/icons/creeds/iconcreavenger.gif" width="30"/> Avenger
+<img src="http://www.vekn.net/images/stories/icons/creeds/iconcredefender.gif" width="30"/> Defender
+<img src="http://www.vekn.net/images/stories/icons/creeds/iconcreinnocent.gif" width="30"/> Innocent
+<img src="http://www.vekn.net/images/stories/icons/creeds/iconcrejudge.gif" width="30"/> Judge
+<img src="http://www.vekn.net/images/stories/icons/creeds/iconcremartyr.gif" width="30"/> Martyr
+<img src="http://www.vekn.net/images/stories/icons/creeds/iconcreredeemer.gif" width="30"/> Redeemer
+<img src="http://www.vekn.net/images/stories/icons/creeds/iconcrevisionary.gif" width="30"/> Visionary
 
 **Virtues**
-![iconvirtuevengeance](http://www.vekn.net/images/stories/icons/virtues/iconvirtuevengeance.gif) Vengeance
-![iconvirtuedefense](http://www.vekn.net/images/stories/icons/virtues/iconvirtuedefense.gif) Defense
-![iconvirtueinnocence](http://www.vekn.net/images/stories/icons/virtues/iconvirtueinnocence.gif) Innocence
-![iconvirtuejustice](http://www.vekn.net/images/stories/icons/virtues/iconvirtuejustice.gif) Justice
-![iconvirtuemartyrdom](http://www.vekn.net/images/stories/icons/virtues/iconvirtuemartyrdom.gif) Martyrdom
-![iconvirtueredemption](http://www.vekn.net/images/stories/icons/virtues/iconvirtueredemption.gif) Redemption
-![iconvirtuevision](http://www.vekn.net/images/stories/icons/virtues/iconvirtuevision.gif) Vision
+<img src="http://www.vekn.net/images/stories/icons/virtues/iconvirtuevengeance.gif" width="30"/> Vengeance
+<img src="http://www.vekn.net/images/stories/icons/virtues/iconvirtuedefense.gif" width="30"/> Defense
+<img src="http://www.vekn.net/images/stories/icons/virtues/iconvirtueinnocence.gif" width="30"/> Innocence
+<img src="http://www.vekn.net/images/stories/icons/virtues/iconvirtuejustice.gif" width="30"/> Justice
+<img src="http://www.vekn.net/images/stories/icons/virtues/iconvirtuemartyrdom.gif" width="30"/> Martyrdom
+<img src="http://www.vekn.net/images/stories/icons/virtues/iconvirtueredemption.gif" width="30"/> Redemption
+<img src="http://www.vekn.net/images/stories/icons/virtues/iconvirtuevision.gif" width="30"/> Vision
 
 ### 5. Incapacitated
-
-cardnor5_tn
 
 When an imbued has no life, he is placed in the incapacitated region
 (controlled but not ready). Effects which are not usable by an ally being
