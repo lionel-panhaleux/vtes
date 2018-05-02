@@ -111,13 +111,17 @@ below. Some advanced expansions include other types of crypt cards. Details for
 these types can be found on the web site. See
 [Special Terms, sec. 11](#11-special-terms).
 
-**Name**: The name of the vampire appears at the top of the card. Each crypt
+### 1.5.1. Name
+
+The name of the vampire appears at the top of the card. Each crypt
 card is unique, so only one copy of each can be in play at a time. A second
 Methuselah could contest control of the vampire (see
 [Contested Cards, sec. 4.1](#41-contested-cards)),
 which means that the Methuselahs are struggling for control of him.
 
-**Blood capacity**: The number in the red circle in the lower right corner of
+### 1.5.2. Blood Capacity
+
+The number in the red circle in the lower right corner of
 the card is the vampire's capacity. This number reflects many things at once:
 the vampire's relative age (larger numbers represent older vampires), the amount
 of influence (in pool) a Methuselah must invest in him in order to bring him
@@ -139,7 +143,9 @@ to influence him on his card to serve as his blood (see
 Ⓡ A vampire's capacity can never be reduced below one, even by the effects of
 `Violet Tremain` or `Mind of a Child`.
 
-**Clan**: Each vampire belongs to a clan, identified by the symbol at the top of
+### 1.5.3. Clan
+
+Each vampire belongs to a clan, identified by the symbol at the top of
 the attribute bar (the marble stripe on the left side of the card). See the
 reference pages in the center of the rules booklet for a list of the clan
 symbols. Some library cards require a member of a particular vampire clan to
@@ -147,12 +153,14 @@ play, while other library cards may affect only vampires of a particular clan.
 The clans are grouped into sects (see
 [Vampire Sects, sec. 10](#10-vampire-sects)).
 
-**Disciplines**: These are supernatural powers that vampires possess. The
-Disciplines possessed by the vampire are represented by the group of symbols at
-the bottom of the attribute bar. The vampire's Disciplines determine which
-library cards he can play. If a library card requires a Discipline (noted by a
-Discipline symbol on the attribute bar of the library card), then only vampires
-who have that Discipline can play it.
+### 1.5.4. Disciplines
+
+These are supernatural powers that vampires possess. The Disciplines possessed
+by the vampire are represented by the group of symbols at the bottom of the
+attribute bar. The vampire's Disciplines determine which library cards he can
+play. If a library card requires a Discipline (noted by a Discipline symbol
+on the attribute bar of the library card), then only vampires who have that
+Discipline can play it.
 Each of a vampire's Discipline symbols is in the shape of either a square or a
 diamond. A square-shaped Discipline symbol means that the vampire has one level
 of that Discipline, the basic level; he can use only the basic (plain text)
@@ -167,7 +175,9 @@ while other effects require another listed Discipline, and some effects require
 the vampire to possess several Disciplines. Each effect shows the icon(s) of
 the Discipline(s) required.
 
-**Group**: Each vampire belongs to a specific group, identified by a number
+### 1.5.5. Group
+
+Each vampire belongs to a specific group, identified by a number
 above the upper left corner of the text box. A player's crypt must be built
 using vampires from a single group or from two consecutive groups. This does not
 restrict a Methuselah from stealing vampires from other groups through play,
@@ -175,9 +185,12 @@ however. Cards from some older sets do not have this designation. For those
 cards, the ones with an expansion set symbol (an icon in the upper right corner
 of the card) are treated as Group 2 vampires; the others are Group 1.
 
-**Advancement**: An advancement card is a type of vampire card for your crypt.
+### 1.5.6. Advancement
+
+An advancement card is a type of vampire card for your crypt.
 An advancement card looks just like a regular crypt card except that it has an
-Advancement icon under the clan icon <img src="http://www.vekn.net/images/stories/icons/misc/iconmiscadvanced.gif" width="30"/>.
+Advancement icon under the clan icon
+<img src="http://www.vekn.net/images/stories/icons/misc/iconmiscadvanced.gif" width="30"/>.
 
 The advancement card is a vampire card in all respects, so it can be influenced
 in the normal manner. In addition, if you already control the advancement or
@@ -212,7 +225,9 @@ to the vampire in play. Only the crypt card is moved to the vampire in play.
 
 #### 1.6.1. General
 
-**Playing Cards**. There are four main types of library cards: convictions,
+#### 1.6.1.1. Playing Cards
+
+There are four main types of library cards: convictions,
 master cards, minion cards and event cards. Convictions are put in play during
 the unlock phase (see details in the
 [Imbued Rules appendix](#imbued-rules-appendix)); master cards are
@@ -249,14 +264,16 @@ played "as" another one is played are the ones the players have in their hands
 at the time. You cannot use `The Barrens` after a master card is played,
 for example, to attempt to draw into a `Sudden Reversal` to cancel it.
 
-**Drawing Cards**. Whenever you play a library card from your hand, you
-immediately draw another from your library to replace it (unless card text says
-otherwise, of course). If your library is empty, then you do not draw to
-replenish your hand, but you continue to play. The number of cards in your hand
-should always match your hand size (cards that are replaced later reduce your
-hand size for the duration of the effect). Whenever they don't match (when an
-effect changes your hand size or adds or removes cards from your hand, for
-example), immediately discard down to or draw up to your hand size.
+#### 1.6.1.2. Drawing Cards**
+
+Whenever you play a library card from your hand, you immediately draw another
+from your library to replace it (unless card text says otherwise, of course).
+If your library is empty, then you do not draw to replenish your hand, but you
+continue to play. The number of cards in your hand should always match your hand
+size (cards that are replaced later reduce your hand size for the duration of
+the effect). Whenever they don't match (when an effect changes your hand size or
+adds or removes cards from your hand, for example), immediately discard down to
+or draw up to your hand size.
 
 Ⓡ If you hold fewer cards in hand than your hand size because your library is
 empty and then one or more cards are returned to your library, immediately draw
@@ -267,14 +284,16 @@ the cards into your hand (stopping if your reach your hand size).
 Ⓡ If an effect causes you to search your library or crypt, shuffle that deck
 afterward.
 
-**Requirements for Playing Cards**. Each library card has symbols on the
-attribute bar (the marble stripe on the left side) for the card type (except
-for master cards), the clan or Discipline (if any) required to play the card and
-the cost (if any) of playing that card. Some cards will have other requirements
-(such as capacity or title) stated in the card text. Only a minion who meets the
-requirements given on a minion card can play it, while only a Methuselah who
-controls a ready minion who meets the requirements of a master card can
-play it.
+#### 1.6.1.3. Requirements for Playing Cards
+
+Each library card has symbols on the attribute bar
+(the marble stripe on the left side) for the card type
+(except for master cards), the clan or Discipline (if any) required to play the
+card and the cost (if any) of playing that card. Some cards will have other
+requirements (such as capacity or title) stated in the card text.
+Only a minion who meets the requirements given on a minion card can play it,
+while only a Methuselah who controls a ready minion who meets the requirements
+of a master card can play it.
 
 Ⓡ A card with a clan symbol only requires a ready member of that clan
 *when played*. You don't need a clan member to gain control of the card
@@ -296,22 +315,28 @@ must be burned to play the card. A number in a red drop represents blood cost
 (the amount of blood the vampire must burn). A number in a white diamond with a
 skull represents pool cost (the amount of pool the Methuselah must burn).
 
-**Targets**. If a card is played on another card, or selects or chooses or
+#### 1.6.1.4. Targets
+
+If a card is played on another card, or selects or chooses or
 otherwise targets another card, the target card must be in play (i.e.,
 controlled). Vampires in the torpor region are eligible targets by default, but
 vampires in the uncontrolled region and contested cards are not.
 
-**Sequencing**. If two or more players want to play a card or effect, the acting
-Methuselah plays first. At every stage, the acting player always has the
-opportunity to play the next card or effect. So after playing one effect, she
-may play another and another. Once she is finished, the opportunity passes to
-the defending Methuselah (in the cases of directed actions and combat), then to
-the rest of the Methuselahs in clockwise order from the acting Methuselah. Note
-that if any Methuselah uses a card or effect, the acting Methuselah again gets
-the opportunity to play the next effect.
+#### 1.6.1.5. Sequencing
 
-**Draft Effects**. Some cards have a special booster-pack version that also
-lists, in a gray box identified as "DRAFT:", an additional way to use the card.
+If two or more players want to play a card or effect, the acting Methuselah
+plays first. At every stage, the acting player always has the opportunity to
+play the next card or effect. So after playing one effect, she may play another
+and another. Once she is finished, the opportunity passes to the defending
+Methuselah (in the cases of directed actions and combat), then to the rest of
+the Methuselahs in clockwise order from the acting Methuselah. Note that if any
+Methuselah uses a card or effect, the acting Methuselah again gets the
+opportunity to play the next effect.
+
+#### 1.6.1.6. Draft Effects
+
+Some cards have a special booster-pack version that also lists, in a gray box
+identified as "DRAFT:", an additional way to use the card.
 This effect can only be used in a draft or sealed deck tournament. Any bold
 text, like "+1 stealth action", in bold at the top of the regular text applies
 to the whole card, including the draft effect. Card cost applies as normal to
@@ -949,21 +974,24 @@ the action succeeds (see
 
 #### 6.2.2. Resolve Any Block Attempts
 
-**Who May Attempt to Block**: If the action targets one or more other
-Methuselahs (or things controlled by other Methuselahs), then the action is
-called directed, and only the Methuselahs who are targeted (or control the
-targets) may use their ready unlocked minions to attempt to block the action
-(going clockwise from the acting Methuselah, as usual). If the action is not
-directed at another Methuselah (or at something controlled by another
-Methuselah), then the action is called undirected and can be blocked by the
-acting Methuselah's prey or predator, with the prey getting the first
-opportunity to block. If one attempt to block fails, another can be made as
-often as the blocking Methuselah wishes. Once a Methuselah decides not to
-make any further attempts to block, that decision is final. As a convenience,
-when a card describes an action that is typically directed at another
-Methuselah, the card's text will usually include a Ⓓ symbol as a reminder
-that the action is typically directed. Remember, political actions are always
-undirected.
+#### 6.2.2.1. Who May Attempt to Block
+
+If the action targets one or more other Methuselahs (or things controlled by
+other Methuselahs), then the action is called directed, and only the Methuselahs
+who are targeted (or control the targets) may use their ready unlocked minions
+to attempt to block the action (going clockwise from the acting Methuselah,
+as usual).
+If the action is not directed at another Methuselah (or at something controlled
+by another Methuselah), then the action is called undirected and can be blocked
+by the acting Methuselah's prey or predator, with the prey getting the first
+opportunity to block.
+If one attempt to block fails, another can be made as often as the blocking
+Methuselah wishes. Once a Methuselah decides not to make any further attempts to
+block, that decision is final.
+As a convenience, when a card describes an action that is typically directed at
+another Methuselah, the card's text will usually include a Ⓓ symbol as a
+reminder that the action is typically directed.
+Remember, political actions are always undirected.
 
 Note that moving past the block attempts (when all Methuselahs have declined to
 block) is an effect and so allows the acting Methuselah (and others) to play
@@ -986,12 +1014,13 @@ undirected action, even if the action is marked with a (D) symbol.
 > fails, another can be made and so on until her prey declines to make any
 > further attempts, at which point her predator may begin attempting to block.
 
-**Stealth and Intercept**: Conceptually, stealth represents the measures
-that the acting minion is taking to conduct his business discreetly, to avoid
-attracting the attention of those who would oppose him. Intercept represents
-the blocking minion's efforts to discover the plans of the acting minion and
-to stalk or chase him in order to detain him (by fighting with him) before he
-can accomplish his goal.
+#### 6.2.2.2. Stealth and Intercept
+
+Conceptually, stealth represents the measures that the acting minion is taking
+to conduct his business discreetly, to avoid attracting the attention of those
+who would oppose him. Intercept represents the blocking minion's efforts to
+discover the plans of the acting minion and to stalk or chase him in order to
+detain him (by fighting with him) before he can accomplish his goal.
 
 To see if a block attempt succeeds, compare the acting minion's stealth to the
 blocking minion's intercept. The action is blocked if the blocker's intercept
@@ -1177,16 +1206,19 @@ other source must be cast in agreement as a group. Once cast, a vote or a
 ballot cannot be changed. Methuselahs can gain votes and ballots in the
 following ways:
 
-**Political Action Cards**: Each Methuselah may gain one vote by using a
-political action card. These cards say "worth 1 vote" to indicate this. If a
-political action card was used to call the referendum, that card provides a vote
-for the acting vampire's controller. Other political action cards used for votes
-are simply burned without regard to the text on the cards. Each Methuselah can
-gain no more than 1 vote from political action cards.
+#### 6.3.3.1. Political Action Cards
 
-**Titled Vampires**: For each ready titled vampire a Methuselah controls,
-she gains extra votes. The number of votes gained depends on the title.
-A Methuselah gains:
+Each Methuselah may gain one vote by using a political action card.
+These cards say "worth 1 vote" to indicate this. If a political action card was
+used to call the referendum, that card provides a vote for the acting vampire's
+controller. Other political action cards used for votes are simply burned
+without regard to the text on the cards. Each Methuselah can gain no more than
+1 vote from political action cards.
+
+#### 6.3.3.2. Titled Vampires
+
+For each ready titled vampire a Methuselah controls, she gains extra votes.
+The number of votes gained depends on the title. A Methuselah gains:
 
 - 1 vote for each ready primogen or bishop, and
 - 2 votes for each ready prince, archbishop, baron, kholo or magaji, and
@@ -1199,20 +1231,26 @@ used only when the minion is ready.
 
 Ⓡ Blood capacity gained by gaining a title will be lost if the title is lost
 
-**The Edge**: The Methuselah who has the Edge can burn it (return it,
-uncontrolled, to the center area) to gain 1 vote.
+#### 6.3.3.3. The Edge
 
-**The Prisci Block**: The prisci as a group have 3 votes. During a referendum,
-the prisci block of 3 votes is cast "for" or "against" the referendum according
-to the prisci subreferendum. Each ready priscus provides 1 ballot for this
-subreferendum, and votes may not be used in this subreferendum. Each ballot
-cast is either "for" or "against" the main referendum. Whichever side has the
-greater number of ballots in the subreferendum gains 3 votes in the main
-referendum. If the subreferendum is tied, the prisci block abstains from the
-main vote. As vampires cast their ballots in the subreferendum, the prisci
-block of 3 votes might shift between "for", "against", and "abstain" (as the
-majority in the subreferendum changes). A vampire must cast all of his votes
-and ballots in agreement.
+The Methuselah who has the Edge can burn it (return it, uncontrolled,
+to the center area) to gain 1 vote.
+
+#### 6.3.3.4. The Prisci Block
+
+The prisci as a group have 3 votes. During a referendum, the prisci block of
+3 votes is cast "for" or "against" the referendum according to the prisci
+subreferendum.
+Each ready priscus provides 1 ballot for this subreferendum, and votes may not
+be used in this subreferendum. Each ballot cast is either "for" or "against"
+the main referendum.
+Whichever side has the greater number of ballots in the subreferendum gains
+3 votes in the main referendum. If the subreferendum is tied, the prisci block
+abstains from the main vote.
+As vampires cast their ballots in the subreferendum, the prisci block of 3 votes
+might shift between "for", "against", and "abstain" (as the majority in the
+subreferendum changes). A vampire must cast all of his votes and ballots in
+agreement.
 
 Ⓡ Prisci in general have zero votes (for effects that operate based on the
 number of votes a vampire has).
@@ -1228,11 +1266,13 @@ abstained from) the main referendum based on how he cast his ballot(s) in the
 sub-referendum (and in the main referendum), regardless of the result of that
 sub-referendum.
 
-**Other Cards**: Action modifiers, reaction cards, cards in play, etc. that
-grant more votes or ballots can all be used subject to the normal rules of
-playing cards (e.g., only the acting minion can play action modifiers and only
-ready unlocked minions controlled by Methuselahs other than the acting minion's
-controller can play reaction cards).
+#### 6.3.3.5. Other Cards
+
+Action modifiers, reaction cards, cards in play, etc. that grant more votes or
+ballots can all be used subject to the normal rules of playing cards
+(e.g., only the acting minion can play action modifiers and only ready unlocked
+minions controlled by Methuselahs other than the acting minion's controller can
+play reaction cards).
 
 ### 6.4. Combat
 
@@ -1325,9 +1365,11 @@ During each pair of strikes, the minions first choose their respective strikes
 resolved. Strike resolution occurs simultaneously, except for a few special
 cases (see [Strike Effects, sec. 6.4.5](#645-strike-effects)).
 
-**Choose Strike**: Each minion chooses his strike. The strike can be from a
-combat card, from a weapon the minion possesses, (the default) from a
-hand strike, or can be from any other card providing this minion a strike.
+#### 6.4.3.1. Choose Strike
+
+Each minion chooses his strike. The strike can be from a combat card,
+from a weapon the minion possesses, (the default) from a hand strike,
+or can be from any other card providing this minion a strike.
 If a minion has used a maneuver from a strike (either a strike card or a weapon)
 this round, then he cannot choose any other strike for his initial strike of the
 round. For additional strikes, any strike can be chosen, even if a maneuver has
@@ -1336,11 +1378,14 @@ been used.
 Ⓡ Only maneuvering with a weapon commits you to striking with that weapon.
 Other effects can be used without striking with the weapon.
 
-**Resolve Strike**: The effects of the strikes from both minions are resolved
-simultaneously. Most strikes are effective only at close range. Unless the
-strike is identified as ranged or does "R" damage (or is a defensive strike
-such as dodge or combat ends), it is only effective at close range. Ranged
-strikes and strikes that do "R" damage can be used at any range, close or long.
+#### 6.4.3.2. Resolve Strike
+
+The effects of the strikes from both minions are resolved simultaneously.
+Most strikes are effective only at close range. Unless the strike is identified
+as ranged or does "R" damage (or is a defensive strike such as dodge or combat
+ends), it is only effective at close range.
+Ranged strikes and strikes that do "R" damage can be used at any range,
+close or long.
 When a minion or retainer takes damage (either from a strike or from other
 means), he must burn blood or lose life, as appropriate (see
 [Damage Resolution, sec. 6.4.6](#646-damage-resolution)). Note that the effects
@@ -1353,10 +1398,12 @@ much damage, for instance), then the round and the combat end immediately (no
 further strikes, no presses, etc.). This is true at any point during combat,
 not just during strike resolution.
 
-**Additional Strikes**: Some cards and effects allow a minion to make additional
-strikes during the current round of combat. Additional strikes are announced
-(gained) and performed (used) only after the first pair of strikes are
-completed. The acting minion decides whether or not to gain additional strikes
+#### 6.4.3.3. Additional Strikes
+
+Some cards and effects allow a minion to make additional strikes during the
+current round of combat. Additional strikes are announced (gained) and
+performed (used) only after the first pair of strikes are completed.
+The acting minion decides whether or not to gain additional strikes
 before the opposing minion, as usual. Additional strikes are handled by having
 another choose strike phase and resolve strike phase in which only the minions
 with additional strikes may play strike cards. All additional strikes take
@@ -1407,28 +1454,35 @@ a pending combat queued.
 
 #### 6.4.5. Strike Effects
 
-**Hand Strike**: The default strike is a hand strike. When a minion strikes with
-a hand strike at close range, he does an amount of damage equal to his strength
-to the opposing minion. Minions have a default strength of 1.
+#### 6.4.5.1. Hand Strike
+
+The default strike is a hand strike. When a minion strikes with a hand strike
+at close range, he does an amount of damage equal to his strength to the
+opposing minion. Minions have a default strength of 1.
 
 Ⓡ Any non-ranged, non-weapon strike that deals damage based on the striking
 minion's strength, or any minion's non-ranged damage-dealing innate strike is a
 "hand strike".
 
-**Destroy Equipment**: This effect will burn an equipment card of the opposing
-minion. If there is more than one piece of equipment on the opposing minion,
-the striking minion chooses which one is burned. The equipment can still be
-used up to the point at which the destroy equipment strike resolves. The effect
-may specify destroy weapon instead of equipment, in which case a weapon must be
-chosen.
+#### 6.4.5.2. Destroy Equipment
 
-**Steal Equipment**: This effect is like destroy equipment, except that instead
-of being burned, the equipment card is moved to the striking minion. The stolen
-equipment may not be used by bearer during the current round of combat. The
-equipment is retained by the stealing minion after combat ends.
+This effect will burn an equipment card of the opposing minion. If there is more
+than one piece of equipment on the opposing minion, the striking minion chooses
+which one is burned. The equipment can still be used up to the point at which
+the destroy equipment strike resolves. The effect may specify destroy weapon
+instead of equipment, in which case a weapon must be chosen.
 
-**First Strike**: A strike done with first strike is resolved before a normal
-strike. Thus, if the opposing minion is burned or sent to torpor by a strike
+#### 6.4.5.3. Steal Equipment
+
+This effect is like destroy equipment, except that instead of being burned,
+the equipment card is moved to the striking minion. The stolen equipment may not
+be used by bearer during the current round of combat. The equipment is retained
+by the stealing minion after combat ends.
+
+#### 6.4.5.4. First Strike
+
+A strike done with first strike is resolved before a normal strike.
+Thus, if the opposing minion is burned or sent to torpor by a strike
 done with first strike, his strike will not be resolved at all. If the opposing
 minion was striking with a weapon that is stolen or destroyed with first
 strike, then the opposing minion simply loses his strike altogether. If both
@@ -1437,19 +1491,22 @@ A strike done with first strike will still not resolve before a combat ends
 effect (which always resolves first), and a dodge still cancels the effects of
 a strike done with first strike (see below).
 
-**Dodge**: A dodge strike deals no damage, but it protects the dodging minion
-and his possessions (cards on him) from the effects of the opposing strike.
+#### 6.4.5.5. Dodge
+
+A dodge strike deals no damage, but it protects the dodging minion and his
+possessions (cards on him) from the effects of the opposing strike.
 Retainers are not protected, however. A dodge is effective at any range. A
 dodge protects even from the effects of a strike done with first strike. (A
 dodge is a strike, even though it is solely defensive. It represents the
 activity of the minion during that pair of strikes.)
 
-**Combat Ends**: This effect ends combat immediately. This type of strike is
-always the first to resolve, even before a strike done with first strike, and it
-ends combat before other strikes or other strike resolution effects are
-resolved. Combat ends is effective at any range. Combat ends is not affected by
-a dodge, since dodge only cancels effects that are directed at the dodging
-minion.
+#### 6.4.5.6. Combat Ends
+
+This effect ends combat immediately. This type of strike is always the first to
+resolve, even before a strike done with first strike, and it ends combat before
+other strikes or other strike resolution effects are resolved.
+Combat ends is effective at any range. Combat ends is not affected by a dodge,
+since dodge only cancels effects that are directed at the dodging minion.
 
 Ⓡ If the strike does something in addition to ending combat, that something
 takes place just after the combat ends, unless it is an untap effect, in which
@@ -1458,9 +1515,11 @@ case it takes place before the end of combat.
 Ⓡ Combat effects played at the end of a round/combat can be played when the
 round ends via "Combat Ends" or similar.
 
-**Steal Blood**: This effect moves blood counters (or life counters) from the
-target to the striking minion. This does not count as damage, so the effect
-cannot be prevented with damage prevention effects. This effect occurs before
+#### 6.4.5.7. Steal Blood
+
+This effect moves blood counters (or life counters) from the target to the
+striking minion. This does not count as damage, so the effect cannot be
+prevented with damage prevention effects. This effect occurs before
 the "heal damage" step of damage resolution, so the stolen blood can be used to
 heal damage even if the damage is inflicted simultaneously. If the stolen blood
 causes the striking vampire to have more blood than his capacity, the excess
@@ -1764,13 +1823,13 @@ Like master phase actions, transfers can be spent for different effects, and
 transfers that have not been spent are lost when proceeding to the next phase.
 These effects are:
 
-- Spend 1 transfer: move one blood counter from her pool to a vampire in her
+- **Spend 1 transfer**: move one blood counter from her pool to a vampire in her
   uncontrolled region
-- Spend 2 transfers: move one blood counter from a vampire in her uncontrolled
-  region to her pool
-- Spend 4 transfers and pay 1 pool: draw a crypt card.
-- Spend 4 transfers and pay 1 pool: merge a base and an advanced version of a
-  vampire.
+- **Spend 2 transfers**: move one blood counter from a vampire in her
+  uncontrolled region to her pool
+- **Spend 4 transfers and pay 1 pool**: draw a crypt card.
+- **Spend 4 transfers and pay 1 pool**: merge a base and an advanced version of
+  a vampire.
 
 Some cards allow spending transfers to produce other effects. Some cards also
 grant additional transfers. At any time during this phase, if a vampire has at
@@ -1781,7 +1840,7 @@ his blood. Blood counters in excess to his capacity are burned (see
 If the vampire grants additional transfers, those can’t be used on this turn
 because transfers are gained at the start of the influence phase.
 
-Ⓡ You can not self-contest a unique vampire or imbued, the crypt card has to
+Ⓡ You can not self-contest a unique Vampire or Imbued, the crypt card has to
 stay in the uncontrolled region.
 
 > Nora comes to her influence phase. She has four transfers to spend, but only 2
@@ -1796,7 +1855,8 @@ stay in the uncontrolled region.
 > vampire with the blood capacity of 10 and moves that vampire to the ready
 > region.
 
-For Imbued crypt cards, refer to the Imbued Rules Appendix.
+For Imbued crypt cards, refer to the
+[Imbued Rules Appendix](appendix-imbued-rules).
 
 ## 8. Discard Phase
 
