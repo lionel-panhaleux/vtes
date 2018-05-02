@@ -131,13 +131,15 @@ excess is always moved to the blood bank immediately.
 An uncontrolled vampire (see [Play Area, sec. 2.3](#23-play-area)) will have
 blood counters stacked on it representing the amount of influence that has been
 invested in him. When that stack equals his blood capacity at the end of the
-influence phase, you reveal the vampire and place him in the ready region (see
-[Play Area, sec. 2.3](#23-play-area)). He retains the blood counters used to
-influence him on his card to serve as his blood (see
+influence phase, you may reveal the vampire and place him in the ready region
+(see [Play Area, sec. 2.3](#23-play-area)). He retains the blood counters used
+to influence him on his card to serve as his blood (see
 [Influence Phase, sec. 7](#7-influence-phase)).
 
-**Clan**
-Each vampire belongs to a clan, identified by the symbol at the top of
+Ⓡ A vampire's capacity can never be reduced below one, even by the effects of
+`Violet Tremain` or `Mind of a Child`.
+
+**Clan**: Each vampire belongs to a clan, identified by the symbol at the top of
 the attribute bar (the marble stripe on the left side of the card). See the
 reference pages in the center of the rules booklet for a list of the clan
 symbols. Some library cards require a member of a particular vampire clan to
@@ -185,8 +187,6 @@ the vampire card from your uncontrolled region to the controlled vampire card
 (place the advancement card on top of the base card). The two cards effectively
 merge to form a single vampire.
 
-
-
 The particulars of this merge are as follows. The counters and cards on the
 vampire remain. The advancement and the base card are treated as a single
 vampire card, even if sent to the uncontrolled region somehow, until the
@@ -203,6 +203,10 @@ Such an effect is identified in the card text by a "merged" icon
 
 The advanced vampire (merged or not) will contest other copies of the same
 vampire (advanced or not) in play, as usual.
+
+Ⓡ Any blood counters (or other cards, if the vampire had been `Banished`, for
+example) on the uncontrolled card being merged are burned. They do not transfer
+to the vampire in play. Only the crypt card is moved to the vampire in play.
 
 ### 1.6. Overview of Library Cards
 
@@ -225,6 +229,26 @@ as wake effects (see [Special Terms, sec. 11](#11-special-terms)) are the only
 effects allowed during the "as played" time period of another card.
 Even drawing to replace cards comes after this time period.
 
+Ⓡ Cards that go into an ash heap, hand, or library always go into their owner's
+ash heap, hand, or library.
+
+Ⓡ If a card targets (chooses, selects, is played on, etc.) some target, then
+the card can only be played if an appropriate target is available.
+Examples: "*Strike: Steal/Destroy Equipment/Weapon*" cannot be used if the
+opposing minion doesn't have a suitable Equipment/Weapon to be destroyed/stolen.
+Note "Stealing blood" effects target a minion, not its blood (or life) counters.
+
+Ⓡ You cannot play a card whose cost cannot be paid. If, between the time an
+action card is played (or an action is attempted) and the time the cost of the
+action is paid, you no longer can pay the cost, then you pay as much as you can
+and the card is burned without effect (or the action has no effect).
+
+Ⓡ A card can be canceled "*as it is played*" (with `Sudden Reversal`,
+`Direct Intervention`, etc.) only as it is played. The only cards that can be
+played "as" another one is played are the ones the players have in their hands
+at the time. You cannot use `The Barrens` after a master card is played,
+for example, to attempt to draw into a `Sudden Reversal` to cancel it.
+
 **Drawing Cards**. Whenever you play a library card from your hand, you
 immediately draw another from your library to replace it (unless card text says
 otherwise, of course). If your library is empty, then you do not draw to
@@ -234,6 +258,15 @@ hand size for the duration of the effect). Whenever they don't match (when an
 effect changes your hand size or adds or removes cards from your hand, for
 example), immediately discard down to or draw up to your hand size.
 
+Ⓡ If you hold fewer cards in hand than your hand size because your library is
+empty and then one or more cards are returned to your library, immediately draw
+the cards into your hand (stopping if your reach your hand size).
+
+Ⓡ The cards that you are currently not replacing count against your hand size.
+
+Ⓡ If an effect causes you to search your library or crypt, shuffle that deck
+afterward.
+
 **Requirements for Playing Cards**. Each library card has symbols on the
 attribute bar (the marble stripe on the left side) for the card type (except
 for master cards), the clan or Discipline (if any) required to play the card and
@@ -242,6 +275,14 @@ the cost (if any) of playing that card. Some cards will have other requirements
 requirements given on a minion card can play it, while only a Methuselah who
 controls a ready minion who meets the requirements of a master card can
 play it.
+
+Ⓡ A card with a clan symbol only requires a ready member of that clan
+*when played*. You don't need a clan member to gain control of the card
+(via `Far Mastery`, `Disputed Territory`, etc.) once it's in play.
+
+Ⓡ An effect that allows a minion to play a card that requires a Discipline he
+doesn't have (e.g., `Infernal Familiar`, `Ian Forestal`) can be used to meet one
+(not both) of the normal Discipline requirements of a multi-Discipline card.
 
 Some cards that have a requirement also have a burn option icon.
 <img src="http://www.vekn.net/images/stories/icons/misc/iconmiscburnoption.gif" width="30"/>
@@ -306,7 +347,9 @@ The general types of master cards are as follows:
   from basic to superior). The vampire also gains an additional blood capacity
   (the "+1" in the red circle in the bottom right corner of the card indicates
   this) along with the Discipline granted, but he does not automatically gain an
-  extra blood to fill the new capacity.
+  extra blood to fill the new capacity. You cannot play a Discipline card on a
+  vampire who already has the superior version of the discipline
+
 - **Trophy**: A trophy may be put into play using a master phase action
   (or can be retrieved as listed under "Red List" in section 11). It has no
   effect until it is moved to a vampire. When any vampire burns a Red List
@@ -330,6 +373,19 @@ The general types of master cards are as follows:
 - **Other master cards**: Any master cards not explained here have their effects
   described on them. These master cards are discarded when they are played
   unless the card says to put it into play or to play it on some other card.
+
+Ⓡ Changing the controller of a location has no other effect, unless specified
+by card text. **Exception**: A location "on" another controlled card is moved
+onto an appropriate card controlled by the new controller of the location.
+(so you can retarget a `Tomb of Ramses`, for example, but the amount of blood on
+a powerbase doesn't change).
+
+Ⓡ The effect of the Master Card is completely defined when the card is played
+(any targets must be named).
+
+Ⓡ The Master: Discipline card increases the vampire's level of the Discipline
+by 1 while it is on the vampire. Discipline levels: 0 (none), 1 (normal),
+and 2 (superior).
 
 #### 1.6.3. Minion Cards
 
@@ -404,6 +460,16 @@ The general types of minion cards are as follows:
 1. <img src="http://www.vekn.net/images/stories/icons/cardtype/icontypepower.gif" width="30"/> **Powers**:
    These action cards are only playable by Imbueds (see
    the [Imbued Rules appendix](#imbued-rules-appendix)).
+
+Ⓡ When played, a split Discipline card counts as requiring the Discipline being
+used (for effects that enhance or restrict cards that require certain
+Disciplines). In the hand (or library or ash heap), the card can be considered
+to require either Discipline (for effects that retrieve cards that require
+certain Disciplines).
+
+Ⓡ A Discipline-based card that is put into play is put into play at either
+basic or superior level. Once in play, you can't change which level it was
+played at, even if you give the vampire that played it a better ability.
 
 #### 1.6.4. Event Cards
 
@@ -492,6 +558,12 @@ add it to your pool.
 For each card and title you are contesting, you must choose to yield or to pay
 to contest it (see below).
 
+Ⓡ Having other effects that cause an *infernal* minion not to unlock as normal
+during the unlock phase are redundant with being *infernal*. If the vampire
+doesn't unlock because of being infernal and because he has a
+`Sensory Deprivation`, for example, his controller may still burn a pool to
+unlock the vampire.
+
 ### 4.1. Contested Cards
 
 Some of the cards in the game represent unique resources, such as specific
@@ -517,6 +589,21 @@ contest cards with yourself (if some effect would force you to contest a card
 with yourself, then you simply burn the incoming copy of the unique card). On
 the other hand, you may wish to have a second copy handy in case the first is
 burned.
+
+Ⓡ Unique cards on contested cards are out of the game except with respect to
+being contested. They are contested as normal, should the need arise.
+
+Ⓡ Incoming copies of contested cards do not enter play prior to being
+contested. Any effect the new copy of the contested has for being in play is not
+activated prior to the contest.
+
+Ⓡ Temporary control effects are ended if the vampire is contested, as normal,
+so the vampire would be placed facedown in front of his previous (permanent)
+controller.
+
+Ⓡ If an ally would enter play and contest, and if all other copies are yielded,
+that ally returns into play in the ready area where that ally was placed
+when entering contest. That ally can't act on that turn.
 
 ### 4.2. Contested Titles
 
@@ -579,8 +666,9 @@ actions if any of your ready unlocked minions have mandatory actions yet to
 perform. If you have two or more minions with mandatory actions, they may be
 done in the order you choose. A minion with a mandatory action to perform
 cannot perform any other action. If a single minion has two or more different
-mandatory actions, then he is "stuck" and cannot take any action (this doesn't
-prevent your other minions from taking non-mandatory actions, however).
+mandatory actions, or cannot take a mandatory action for whatever reason,
+then he is "stuck" and cannot take any action (this doesn't prevent your other
+minions from taking non-mandatory actions, however).
 
 ### 6.1. Types of Actions
 
@@ -642,6 +730,12 @@ default +1 stealth (see
 Note that a ready vampire with no blood must hunt (and cannot take any action
 except the hunt action).
 
+Ⓡ Any hunt modification (`Aaron's Razor`, `Hesha`, etc.) is allowed on special
+hunts (`Legacy of Cain`, `Week of Nightmares`, etc.), following card text.
+Note that card text on `Festivo dello Estinto` and `Inbase Discotek` explicitly
+move the additional blood from the blood bank (rather than from the new,
+non-default, target of the hunt).
+
 #### 6.1.3. Equip (+1 stealth)
 
 Equipment cards are action cards that give minions special abilities. The equip
@@ -659,6 +753,24 @@ minions, lock the acting minion (the minion who is attempting to get the
 equipment) and announce the equipment card he is getting. More than one
 equipment card can be taken from a minion in a single action. If the action is
 unsuccessful, the equipment remains where it is.
+
+Ⓡ Any action which retrieves an equipment card and says to 'equip' the acting
+minion with that card is considered an "Equip" action.
+
+Ⓡ Equipment is not optional, unless indicated by card text. Using a weapon as a
+strike is optional.
+
+Ⓡ Equipments which are also a location don't count as equipment while it is in
+play.
+
+Ⓡ Equipments which are also a location may be put on any minion if moved in an
+ambiguous fashion (by `Disputed Territory`, e.g.). If the new controller has no
+minions, the equipment is burned. (Note: currently all moves are ambiguous)
+
+Ⓡ Transferring Equipments which are also a location via `Disputed Territory` to
+the *same* Methuselah that currently controls the equipment results in no
+effect - the equipment cannot be moved to a different minion of the same
+Methuselah.
 
 #### 6.1.4. Employ Retainer (+1 stealth)
 
@@ -678,6 +790,15 @@ bank to represent its life (listed on the retainer's card). When a retainer
 loses its last life counter, it is burned (see
 [Retainers and Combat, sec. 6.4.7](#647-retainers-and-combat)).
 
+Ⓡ If a retainer which requires a Discipline to be employed is brought into play
+by a means other than "Employ Retainer", treat it as if it were brought into
+play with the basic version of the Discipline.
+
+Ⓡ Any reference to the employing vampire should be a reference to the employing
+minion, unless the retainer's ability clearly only applies to a vampire
+(i.e., unless the ability affects blood, disciplines, clan, sect, capacity,
+titles, or votes).
+
 #### 6.1.5. Recruit Ally (+1 stealth)
 
 Allies are action cards that become minions in their own right, capable of
@@ -685,21 +806,23 @@ acting and blocking independently of the minion that recruits them. The recruit
 ally action has a default +1 stealth.
 
 To recruit an ally from your hand, play the card and lock the acting minion. If
-the action is successful, the ally is placed in your uncontrolled region, even
-though it is controlled, to indicate that it cannot act this turn (and the
-cost, if any, is paid). If the action is unsuccessful, the card is burned (see
-[Resolve the Action, sec. 6.2.3](#623-resolve-the-action)). Only one ally card
-can be recruited per action. Note that allies brought into play by other means
-are able to act on the same turn, by default.
-
-At the end of the turn, any allies that were placed in your uncontrolled region
-(to indicate that they cannot act) are moved to your ready region.
+the action is successful, the ally is placed in your ready region
+(and the cost, if any, is paid). If the action is unsuccessful, the
+card is burned (see [Resolve the Action, sec. 6.2.3](#623-resolve-the-action)).
+Only one ally card can be recruited per action. Recruited allies can not act the
+turn  they were recruited. Note that allies brought into play by other means are
+able to act on the same turn, by default.
 
 When an ally is brought into play (by any means), he receives blood counters
 from the blood bank to represent his life (listed on the ally's card). When an
 ally loses his last life counter, he is burned. If recruiting the ally requires
 a Discipline and the ally is put into play by some means other than recruiting,
 use the normal version of the ally, if it is different than the superior.
+
+Ⓡ An ally ginore all "burn blood" effects entirely.
+
+Ⓡ There is no limit to an Ally's life (if some effect gives an Ally more life
+than it started with, the excess does not drain off).
 
 #### 6.1.6. Action Card (or Card in Play)
 
@@ -731,6 +854,16 @@ turn, even if he unlocks.  A minion cannot perform each action via the same
 card in play (including from the minion's own card text) more than once each
 turn, even if he unlocks.
 
+Ⓡ "Same Action" means: 1) The same inherent (cardless) action taken against the
+same target. 2) The action taken with the same card played from hand,
+regardless of target. 3) The same action provided by the same copy of a card in
+play. (Each action provided by a card in play is a distinct action (and doesn't
+count as the "same action").
+
+Ⓡ Any "same action" is the "same type of action" - so a superior
+`Govern the Unaligned` is a Govern action type just as a inferior
+`Govern the Unaligned` is (and the inferior is also a bleed action type).
+
 #### 6.1.7. Political Action (+1 stealth)
 
 A political action is an action that is used to call a referendum. It has a
@@ -756,6 +889,18 @@ modifier or reaction card more than once (see
 [Minion Cards, sec. 1.6.3](#163-minion-cards)), and following the same
 sequencing strictures of all effects (see
 [Sequencing, sec. 1.6.1](#161-general)).
+
+Ⓡ Action Modifiers that can be played by minions other than the acting minion
+(`Hidden Lurker`, `Mask of a Thousand Faces`, superior `Cloak the Gathering`)
+can only be played by the controller of the acting minion.
+
+Ⓡ Action modifiers cannot be played by a vampire in torpor unless that vampire
+is the acting minion.
+
+Ⓡ Between the time the action card (including ally, equipment, retainer,
+and political action cards) is played and the action completely resolved,
+the action card is neither in play nor in the ash heap, it is in limbo.
+When the action is resolved, the card is burned or put in play, as appropriate.
 
 #### Summary of the Course of an Action
 
@@ -785,7 +930,8 @@ action.
 All details of the action are declared when the action is announced, including
 the target(s), the cost, the effects, etc. Any card required for the action is
 played (face up) at this time. Lock the acting minion (only ready unlocked
-minions can take actions).
+minions can take actions). Note the cost is not paid until the action is
+successfuly resolved.
 
 **EXCEPTION**: Any decisions to be made for a referendum are not declared until
 the action succeeds (see
@@ -794,12 +940,12 @@ the action succeeds (see
 > During Sarah's minion phase, she decides that one of her unlocked minions,
 > Krid, will take an action to bleed her prey, Alexis. Sarah locks Krid and
 > says, "Krid attempts to bleed Alexis for 1 pool."
-
-After resolving that action (successful or not), Sarah decides that another of
-her unlocked minions, Pug, will recruit an ally, the Loyal Street Gang, from
-her hand. She locks Pug and plays the Loyal Street Gang, declaring "Pug
-attempts to recruit the Loyal Street Gang at +1 stealth, costing me one pool."
-(The pool isn't paid until the action succeeds.)
+>
+> After resolving that action (successful or not), Sarah decides that another of
+> her unlocked minions, Pug, will recruit an ally, the Loyal Street Gang, from
+> her hand. She locks Pug and plays the Loyal Street Gang, declaring "Pug
+> attempts to recruit the Loyal Street Gang at +1 stealth, costing me one pool."
+> (The pool isn't paid until the action succeeds.)
 
 #### 6.2.2. Resolve Any Block Attempts
 
@@ -822,6 +968,13 @@ undirected.
 Note that moving past the block attempts (when all Methuselahs have declined to
 block) is an effect and so allows the acting Methuselah (and others) to play
 more cards and effects."
+
+Ⓡ Actions which target another player's hand, uncontrolled region, crypt,
+or library (or cards therein) are directed at that player. (Actions which target
+another player's ash heap are undirected by default).
+
+Ⓡ An action you take directed only at yourself (or something you control) is an
+undirected action, even if the action is marked with a (D) symbol.
 
 > Krid's action to bleed Alexis is directed at Alexis, so only Alexis's ready
 > unlocked minions can attempt to block. If one block attempt fails, another can
@@ -880,6 +1033,12 @@ allows the acting Methuselah (and others) to play more cards and effects.
 > block?" Alexis decides not to block, so then Sarah plays Confusion (an action
 > modifier that adds 1 to the bleed). Alexis is bled for 2 pool.
 
+Ⓡ If the target of a directed action is reset, a new "choose blockers"
+opportunity results.
+
+Ⓡ Combat occurs as part of the block - not after the block. (So `Cats' Guidance`
+and `Freak Drive` are played after the combat, not before).
+
 #### 6.2.3. Resolve the Action
 
 If the action is successful (all block attempts were unsuccessful), then the
@@ -891,6 +1050,44 @@ action do not take place when the action is blocked. Note that the action's
 cost, if any, is only paid if the action succeeds; the cost is not paid if the
 action is blocked. The costs of action modifiers and reaction cards are always
 paid when the cards are played, regardless of the success of the action.
+
+Ⓡ If a minion cannot pay the entire cost of an action when the action resolves,
+what cost can be paid is paid, and the action continues with no effect
+("fizzles"). It is considered successful.
+
+Ⓡ If the Methuselah loses control of the acting minion before the resolution of
+the action, then the action ends.
+
+Ⓡ Cards and abilities that are usable only after a successful action are used
+after the action is completed, including any oustings.
+
+Ⓡ Equipment only applies while in possession. If needed for an action,
+the action will fizzle if the acting minion doesn't possess the equipment when
+the action resolves.
+
+#### 6.2.4. Action Continues As If Unblocked
+
+Ⓡ If an effect continues a blocked action "*as if unblocked*", then all action
+modifiers and reaction cards, including stealth and `Dawn Operation` or
+`Wake with Evening's Freshness`, are still in effect.
+
+Ⓡ An action cannot continue "*as if unblocked*" after a combat resulting from a
+successful action.
+
+Ⓡ Any effect that starts a new combat after the combat that was ended by
+(or continues the combat that was ended by) a
+"*combat ends and the action continues as if unblocked*" will nullify the
+"continue action" part. This includes `Psyche` (superior), `Fast Reaction`,
+`Hidden Lurker`, and `Telepathic Tracking`.
+
+Ⓡ Performing diablerie (via `Amaranth`) at the end of the combat that is ended
+by a "*combat ends and the action continues as if unblocked*" effect will
+nullify the "continue action" part.
+
+Ⓡ "*continue as if unblocked*" inherently moves the action card from the ash
+heap (where it went when the action was blocked) to limbo (where it should be if
+the action is not blocked). If the action card is not in the ash heap, then the
+action cannot be continued (like `Swarm` or `Reinforcements`).
 
 ### 6.3. Politics
 
@@ -940,6 +1137,34 @@ votes and ballots) and resolving the referendum.
    take place. Otherwise, the referendum fails and has no effect.
    Tied referendums fail.
 
+Ⓡ If an effect causes a minion to be unable to cast votes or ballots during a
+referendum is played or used, that minion is forced to abstain, whether he or
+she had already cast votes or ballots.
+
+Ⓡ All votes and ballots from a single source must be cast in agreement.
+A single source is a minion or a single non-minion source
+(like `Ventrue Headquarters`). All the votes a single vampire casts must be cast
+in agreement. All the votes and ballots from a given non-minion source must be
+cast in agreement (you cannot tap the `Ventrue Headquarters` and cast 2 in favor
+and 1 against).
+
+Ⓡ If a referendum will pass automatically (e.g., `Cryptic Rider`,
+`Charming Lobby`, `Malkavian Rider Clause`, `Día de los Muertos`), then no
+casting votes or ballots occurs during the automatic referendum, and most
+"*during a political action*" and "*during a referendum*" effects cannot be
+used. E.g., `Delaying Tactics` cannot be used to cancel the referendum.
+Any effects that operate on the number of votes that the referendum passed by
+have no effect.
+
+Ⓡ An effect that cancels a referendum (`Telepathic Vote Counting`,
+`Gangrel Conspiracy`, etc.) may be played at any time during the voting
+process - before, during, or after votes and ballots have been cast.
+
+Ⓡ An effect that cancels a minion's votes and/or ballots
+(`Telepathic Vote Counting`, `Pulling Strings`, etc.) may be played at any time
+during the voting process - before or after that minion casts his votes
+and/or ballots.
+
 #### 6.3.3. Gaining Votes
 
 Methuselahs have no inherent votes nor ballots — votes and ballots must be
@@ -972,6 +1197,8 @@ Other minions may have votes or ballots (as listed on card text) without
 holding one of the titles listed above. A minion's votes and ballots can be
 used only when the minion is ready.
 
+Ⓡ Blood capacity gained by gaining a title will be lost if the title is lost
+
 **The Edge**: The Methuselah who has the Edge can burn it (return it,
 uncontrolled, to the center area) to gain 1 vote.
 
@@ -986,6 +1213,20 @@ main vote. As vampires cast their ballots in the subreferendum, the prisci
 block of 3 votes might shift between "for", "against", and "abstain" (as the
 majority in the subreferendum changes). A vampire must cast all of his votes
 and ballots in agreement.
+
+Ⓡ Prisci in general have zero votes (for effects that operate based on the
+number of votes a vampire has).
+
+Ⓡ If a Priscus is forced to abstain or to change his votes, then this includes
+his ballots as well as his votes (if any) in the main referendum.
+
+Ⓡ An individual Priscus is not tainted by the result of the Prisci
+sub-referendum. (This only matters for cards like `Bribes` and `Scorn of Adonis`
+that care which way individual minions cast their votes.) A Priscus is
+considered to have cast ballots (and votes) "for" or "against" (or to have
+abstained from) the main referendum based on how he cast his ballot(s) in the
+sub-referendum (and in the main referendum), regardless of the result of that
+sub-referendum.
 
 **Other Cards**: Action modifiers, reaction cards, cards in play, etc. that
 grant more votes or ballots can all be used subject to the normal rules of
@@ -1018,6 +1259,9 @@ steps:
 As usual, the acting minion always gets first opportunity to use a card or
 effect before the opposing minion at every stage of combat.
 
+Ⓡ By default, combat cards only apply to the round in which they are played.
+Explicit card text is needed to overcome this default.
+
 #### 6.4.2. Determine Range
 
 Each round of combat is fought at either close range or long range. Close range
@@ -1032,9 +1276,12 @@ combatants can continue playing maneuvers (to keep offsetting the effects of
 their opponent's last maneuver) for as long as they wish. A minion cannot play
 two maneuvers in a row (which would effectively cancel each other).
 
-**Note**: Effects that are played "before range is determined" must be played
+**Note**: Effects that are played "*before range is determined*" must be played
 before the acting minion decides whether or not to play a maneuver at the start
 of this phase.
+
+Ⓡ If an effect "sets" the range of a round (and therefore skips the maneuver
+phase), no other effect can be used to reset the range.
 
 A minion has no maneuvers by default; he must use a card or other effect to
 gain a maneuver. The ability to maneuver can come from combat cards or weapons
@@ -1046,7 +1293,7 @@ card or weapon to maneuver again in the same round.
 
 If a combat card played by a minion has a maneuver as part of an effect, the
 maneuver must be used that round of combat. If a combat card played by a minion
-has an "optional maneuver" as part of the effect, then the minion may decline
+has an "*optional maneuver*" as part of the effect, then the minion may decline
 to use the maneuver.
 
 Typically, a minion that can attack at long range will want to maneuver to long
@@ -1085,6 +1332,9 @@ If a minion has used a maneuver from a strike (either a strike card or a weapon)
 this round, then he cannot choose any other strike for his initial strike of the
 round. For additional strikes, any strike can be chosen, even if a maneuver has
 been used.
+
+Ⓡ Only maneuvering with a weapon commits you to striking with that weapon.
+Other effects can be used without striking with the weapon.
 
 **Resolve Strike**: The effects of the strikes from both minions are resolved
 simultaneously. Most strikes are effective only at close range. Unless the
@@ -1128,6 +1378,13 @@ more than one card or effect to gain additional strikes per round of combat.
 > strike because he had only one additional strike. Kurt suffers one more
 > damage.
 
+Ⓡ If you have any pending (additional) strikes, wait until those strikes are
+resolved before gaining further additional strikes (if you are allowed to use
+more than one additional-strike-gaining effect in a round).
+
+Ⓡ You can gain additional strikes even if you cannot strike.
+You still cannot strike with the additional strike, however.
+
 #### 6.4.4. Press
 
 At the end of a round of combat (if both combatants are still ready), the
@@ -1140,11 +1397,23 @@ long as they wish. A minion cannot play two presses in a row (which would
 effectively cancel each other). If there is an uncanceled press to continue,
 then another round of combat begins.
 
+Ⓡ Things that are played "*at the end of round*" (`Disarm`, `Taste of Vitae`,
+`Psyche!`, etc.) are played after all presses for the round are handled
+(if the round makes it that far; they can be played if the round ends
+prematurely, as normal).
+
+Ⓡ An effect which would cause (a new) combat cannot be used if there is already
+a pending combat queued.
+
 #### 6.4.5. Strike Effects
 
 **Hand Strike**: The default strike is a hand strike. When a minion strikes with
 a hand strike at close range, he does an amount of damage equal to his strength
 to the opposing minion. Minions have a default strength of 1.
+
+Ⓡ Any non-ranged, non-weapon strike that deals damage based on the striking
+minion's strength, or any minion's non-ranged damage-dealing innate strike is a
+"hand strike".
 
 **Destroy Equipment**: This effect will burn an equipment card of the opposing
 minion. If there is more than one piece of equipment on the opposing minion,
@@ -1182,6 +1451,13 @@ resolved. Combat ends is effective at any range. Combat ends is not affected by
 a dodge, since dodge only cancels effects that are directed at the dodging
 minion.
 
+Ⓡ If the strike does something in addition to ending combat, that something
+takes place just after the combat ends, unless it is an untap effect, in which
+case it takes place before the end of combat.
+
+Ⓡ Combat effects played at the end of a round/combat can be played when the
+round ends via "Combat Ends" or similar.
+
 **Steal Blood**: This effect moves blood counters (or life counters) from the
 target to the striking minion. This does not count as damage, so the effect
 cannot be prevented with damage prevention effects. This effect occurs before
@@ -1189,6 +1465,10 @@ the "heal damage" step of damage resolution, so the stolen blood can be used to
 heal damage even if the damage is inflicted simultaneously. If the stolen blood
 causes the striking vampire to have more blood than his capacity, the excess
 drains off immediately (as usual).
+
+Ⓡ You can use an effect that will steal/burn more blood (or life) than the
+target minion has - you steal/burn what he has. The effect targets the minion,
+not the counters.
 
 > Cohn Rose enters combat with a mage ally. Cohn has a capacity of 5 and has 4
 > blood. The mage has 2 life. After determining range, Cohn steals 3 blood as
@@ -1198,6 +1478,11 @@ drains off immediately (as usual).
 > life counters remaining, so he is burned. Cohn has 2 damage to deal with and
 > doesn't prevent any, so he burns 2 blood to heal the damage, leaving him with
 > 3 blood.
+
+Ⓡ If a strike has additional effects like a press (e.g., `Thrown Sewer Lid`,
+`Kraken's Kiss`, `Wind Dance`), and that strike is canceled (e.g., with
+`Primal Instincts` or with `The Jones`), then the rest of the effect is also
+canceled.
 
 #### 6.4.6. Damage Resolution
 
@@ -1245,6 +1530,14 @@ vampire is wounded, he goes to torpor after all the damage is handled (see
 [Torpor, sec. 6.5](#65-torpor)). If aggravated damage burns him, he goes
 directly to the ash heap. He doesn't go through torpor first.
 
+Ⓡ Cards which are not usable by vampires going to Torpor are not usable by
+vampires burned in combat, either.
+
+Ⓡ Cards which are not usable by vampires going to Torpor only check to see if
+the vampire is currently going to torpor, not if the vampire will be going to
+Torpor later. E.g., A vampire with `Undead Persistence` can still play these
+types of cards.
+
 > Krid is ready and has 1 blood when he receives 1 point of aggravated damage.
 > He cannot heal this damage, so he is wounded and goes to torpor with 1 blood.
 >
@@ -1264,6 +1557,56 @@ each point of damage (normal or aggravated) successfully inflicted on an ally
 or retainer, he burns one life counter. An ally or retainer who loses all of
 his life counters is burned.
 
+Ⓡ Damage is only considered to have come from a minion if the damage is from a
+strike or if an effect specifically states that the damage is dealt by the
+minion. Damage from other effects is considered "environmental," and has no
+particular source.
+
+Ⓡ Resolving multiple points of (simultaneous) damage is done all at once -
+you cannot interrupt the process to play some other effect (like tapping the
+`Vagabond Mystic`).
+
+Ⓡ The damage modifier must be played before the end of the "Choose Strike"
+phase in order to affect the current strike.
+
+Ⓡ Ammo cards are played before any strikes take effect regardless of whether
+those strikes deal damage or not. Thus, if a vampire who is getting shot with
+`Dragon's Breath Rounds` is targeted by `Rötschreck`, the combat will end before
+either strike does anything.
+
+Ⓡ Adding damage to strikes which are not damage dealing strikes will not deal
+damage (e.g., using `Lucky Blow` and choosing your `Rowan Ring` melee weapon
+won't deal damage)
+
+Ⓡ Additional damage inherits all of the properties of the base damage
+(So the +1 damage from `Lucky Blow` is aggravated for `Basilia`).
+
+Ⓡ The base damage does not inherit the properties of the additional damage
+(So a `Saturday Night Special` with `Dragon's Breath Rounds` does 1 normal plus
+2 aggravated damage).
+
+Ⓡ Effects that increase the damage provided by strike cards affect those cards
+rather than the striking minion (so the added damage is the same type as the
+strike's damage, not the base damage).
+
+Ⓡ "*Damage from a strike*" only includes damage done to the opposing target.
+Side effect damage is not counted as "damage from a strike". Therefore,
+self-inflicted damage from `Zip Gun`, `Grenade`, `Burst of Sunlight`,
+`Body of Sun`, etc. is side effect damage and is not preventable by
+"*prevent damage from a strike*" effects like `Skin of Steel`, `Leather Jacket`,
+etc.
+
+Ⓡ Damage done to an uncontrolled vampire is ignored.
+
+Ⓡ Cards that prevent damage are only usable if at least one non-unpreventable
+damage remains unprevented.
+
+Ⓡ A card can prevent more damage than the remaining unprevented damage.
+
+Ⓡ A weapon's "current damage" is the amount of damage that the weapon would
+inflict if used as a strike by bearer against a generic opponent.
+(This affects `Machine Blitz`).
+
 #### 6.4.7. Retainers and Combat
 
 A retainer is not normally harmed in combat (unless the minion employing it is
@@ -1274,6 +1617,9 @@ distractions) and, thus, only with strikes that are effective at long range
 (see [Strike, sec. 6.4.3](#643-strike)). To target a retainer with a ranged
 strike, the striking minion must announce his intended target when the strike is
 announced.
+
+Ⓡ Damage done to retainers is not "unpreventable" nor "undodgable", although
+there are few effects that allow a retainer to prevent damage or dodge strikes.
 
 ### 6.5. Torpor
 
@@ -1303,6 +1649,9 @@ the vampire stay with the vampire when he goes into torpor.
 A vampire in torpor can take no action except the "leave torpor" action (see
 below) and cannot block or play reaction cards. He can play action modifiers
 during his actions.
+
+Ⓡ If an event both burns and torporizes a vampire, the controller decides
+whether the vampire will go into torpor before being burned.
 
 #### 6.5.2. Leave Torpor Action (+1 stealth)
 
@@ -1389,6 +1738,10 @@ is not an action, so it cannot be blocked, and action modifiers and reaction
 cards cannot be played. Otherwise, this referendum is handled just like any
 other.
 
+Ⓡ If a blood hunt cannot be called (`Muaziz`,
+`The Diablerist of March Halcyon`, etc.), then no referendum to call one is
+conducted.
+
 ## 7. Influence Phase
 
 Methuselahs vehemently strive to dominate vampire society, but most younger
@@ -1404,30 +1757,32 @@ region. The activities conducted in this phase are administered through a type
 of "influence phase action" called a transfer. Transfers, like master phase
 actions, are not represented by counters and cannot be saved for later use.
 
-Each Methuselah normally receives four transfers at the start of her influence
-phase. To balance the advantage of going first, however, Methuselahs do not
-receive the full allotment of transfers during the first three turns. Instead,
-the Methuselah who has the first turn receives only one transfer on her first
-influence phase. The Methuselah who plays second gets two transfers on her
-turn, and the Methuselah who takes the third turn gets three transfers.
-Thereafter, each Methuselah receives the standard four transfers during her
-influence phase.
+At the start of her influence phase, the player gets 4 transfers, except the
+first three turns of the game, where players get one, two, and three transfers
+on the first, second, and third turn, respectively.
+Like master phase actions, transfers can be spent for different effects, and
+transfers that have not been spent are lost when proceeding to the next phase.
+These effects are:
 
-During your influence phase you may spend transfers as follows:
+- Spend 1 transfer: move one blood counter from her pool to a vampire in her
+  uncontrolled region
+- Spend 2 transfers: move one blood counter from a vampire in her uncontrolled
+  region to her pool
+- Spend 4 transfers and pay 1 pool: draw a crypt card.
+- Spend 4 transfers and pay 1 pool: merge a base and an advanced version of a
+  vampire.
 
-- Spend one transfer to move 1 blood counter from your pool to a minion in your
-  uncontrolled region.
-- Spend two transfers to move 1 blood counter from a minion in your uncontrolled
-  region to your pool.
-- Spend four transfers and burn a pool to move a vampire from your crypt to your
-  uncontrolled region (drawing from the top, as always).
+Some cards allow spending transfers to produce other effects. Some cards also
+grant additional transfers. At any time during this phase, if a vampire has at
+least as many blood counters as his capacity, the player can move that vampire
+to the ready region. The blood counters on the vampire stay on him and become
+his blood. Blood counters in excess to his capacity are burned (see
+[Overview of Crypt Cards, sec. 1.5](#15-overview-of-crypt-cards)).
+If the vampire grants additional transfers, those can’t be used on this turn
+because transfers are gained at the start of the influence phase.
 
-At the end of your influence phase, any vampire in your uncontrolled region
-with a number of blood counters on him equal to (or more than) his capacity
-becomes controlled. The vampire is turned face up and moved to the ready
-region, unlocked. The counters are kept on him to represent his blood (counters
-in excess of his capacity drain off immediately as usual). Other types of crypt
-cards are handled similarly.
+Ⓡ You can not self-contest a unique vampire or imbued, the crypt card has to
+stay in the uncontrolled region.
 
 > Nora comes to her influence phase. She has four transfers to spend, but only 2
 > pool. She sees that she has built up 8 blood counters on a vampire with a
@@ -1484,6 +1839,12 @@ Methuselah's prey) becomes your new prey, and you become her new predator.
 > additional victory point. The final score is tied between Lisa and Richard,
 > with 2 victory points each.
 
+Note Master cards you put on another Methuselah's card are still controlled
+by you, they are removed from the game when you are ousted.
+
+Ⓡ If control of a card is returned to a player who has been ousted, the card
+is burned.
+
 ### 9.2. Withdrawing from the Game
 
 If you have exhausted your library and begin your turn with less than a full
@@ -1531,8 +1892,8 @@ the old title.
 
 One of the major sects is the Camarilla, which is composed of six clans:
 Brujah, Malkavian, Nosferatu, Toreador, Tremere and Ventrue, as well as the
-Caitiff, who are technically clanless. Some vampire cards from older sets do
-not have any sect designation — these vampires are all Camarilla vampires.
+Caitiff. Some vampire cards from older sets do not have any sect designation —
+these vampires are all Camarilla vampires.
 
 Only Camarilla vampires can hold the Camarilla titles primogen, prince,
 justicar and Inner Circle member. Additionally, each clan's justicar and Inner
@@ -1627,6 +1988,11 @@ becomes anarch again, as usual for titles.
 - **Scarce**: When a Methuselah moves a scarce vampire from her uncontrolled
   region to her ready region during her influence phase, she must burn 3 pool
   for every other vampire of the same clan already in play.
+  Ⓡ If you fill up two uncontrolled scarce vampires of the same clan during
+  your influence phase, you move one into the controlled region and then the
+  other - burning an additional 3 pool for the second because of the first.
+  Ⓡ If you contest a scarce vampire, you pay the 3-pool-per-same-clan penalty
+  when putting the card into play (before contesting begins).
 - **Slave**: Some minions are identified as slaves to a specified clan. A slave
   cannot take a directed action if his controller doesn't control a ready member
   of the specified clan. Also, if a member of the specified clan controlled by
@@ -1922,6 +2288,11 @@ whatever cost the effect requires). Standard rules for using such effects apply
 (e.g., a reacting minion must be ready and unlocked). "Always on" effects are
 still on while the power card is locked.
 
+Ⓡ A Power's reaction effect can be used only when reactions can be used.
+`On the Qui Vive` can be used to enable a tapped Imbued to use the reaction
+effect. Similarly, `Blind Spot` would prevent an Imbued from using the reaction
+effect.
+
 ### 4. Terms and Icons
 
 - **Imbued**: a new minion type which counts as a mortal ally.
@@ -2016,3 +2387,544 @@ The following effects are not imbued-compatible:
 **Note**: *Heaven's Gate* text applies in full — an imbued can be moved to the
 uncontrolled region, controlled but not ready, and will eventually be moved to
 the ready region just as a "normal" ally would be.
+
+## Appendix: Card Rulings
+
+- `AK-47`: The AK-47 provides the bearer one optional maneuver "each combat".
+- `Ablative Skin`: Cannot be used to prevent damage that cannot be prevented by cards that require Fortitude (e.g., Blood Rage and Blood Fury).
+- `Absilmilard's Army`: The card used to represent the ally brought into play by Absilmilard's Army is face up (that is, the other players know which card it is). Although the name on that card is ignored (if something goes looking for a card by name, for instance).
+- `Abyssal Hunter`: If ranged aggravated damage is inflicted at close range against him, it will burn the Hunter.
+- `Aching Beauty`: If an Aching Beauty vampire is blocked and the combat is canceled (via Change of Target or Obedience, for example), the blocker's controller still loses a pool.
+- `Aeron`: The damage from Aeron's special is environmental (not inflicted by Aeron).
+- `Agent of Power`: If the Agent of Power skill card is used as a placeholder to represent something else (e.g., Shock Troops, Legion), then its text doesn't apply (including the "unique" part). So the Shock Troops vampire would simply be a 1-cap Sabbat with no clan and no Disciplines. Similarly for the fledging Legion (clanned, appropriately sected).
+- `Al-Ashrad, Amr of Alamut`: Al-Ashrad has +1 bleed.
+- `Alastor`: If the weapon given costs blood, the target Alastor pays the cost.
+- `Alexandra`: Can use her untap ability at any point during the turn, including during a political action.
+  If Alexandra taps a Toreador who was attempting to block, then that block will fail, since tapped minions cannot block.
+- `Amaranth`: Only vampires who can commit diablerie can use Amaranth. If a vampire is prohibited from commiting diablerie, he can't use Amaranth to overcome the restriction.
+- `Anathema`: Burns the target vampire when the target is reduced to zero blood in combat, regardless of the source of the loss of blood (card text). Still won't burn a vampire just for entering a combat with zero blood, however - there must be an actual "reduction" in blood.
+  Multiple Anathemas don't multy the pool gain. Once one Anathema resolves (burning the vampire), the others are burned (before they get to resolve).
+- `Anesthetic Touch`: Doesn't end combat as a strike; it ends combat after strike resolution. Dog Pack doesn't restrict this effect.
+  A dodge won't prevent combat from ending after strike resolution.
+  Doesn't end combat until after strike resolution, so the damage can be prevented or healed as normal.
+- `Angel of Berlin`: May be played after a block is successful before combat begins.
+- `Angelica, The Canonicus`: Can only use her ability once each action (when attempting to block).
+- `Ankara Citadel`: Multiplication and divisions are applied first, followed by addition and substraction.
+- `Annabelle Triabell`: Her ability applies to all Toreadors, not just ones in play at the time the action resolved.
+- `Antoinette DuChamp`: She is group 2 and has capacity of 1.
+- `Archon Investigation`: Declaring that one is not blocking is implicit in playing Archon Investigation. That is, Archon Investigation (like bleed bounce cards) is played after blocks are declined.
+- `Archon`: If a vampire blocks an Archon, he or she burns 1 blood regardless of which action the Archon was taking. (The use of the semi-colon in the V:TES text implies that the point of blood is burned only when the Archon is using his or her rush ability.)
+  The card remains in play. The referendum to remove the effect burns the card. The card's effects can be stacked with other Archons.
+- `Arika`: Arika's prey cannot end her untap phase if she controls a location that she hasn't burned a pool for, even if she gained control of that location sometime during her untap phase.
+- `Art of Memory, The`: The effect is applied after resolving the action (including after all combats).
+- `Ashes to Ashes`: The end of combat is triggered by the fact that the vampire is going to torpor - this can be interrupted by cards such as Undying Tenacity or Undead Persistence, but the vampire would still be wounded.
+- `Astrid Thomas`: Astrid's ability is "activated" when votes are tallied.
+  Tremere who have not yet voted can choose to abstain.
+  If Astrid's votes are canceled by an effect such as Pulled Strings, the other Tremere votes are unaffected.
+- `Aura of Invincibility`: If the initial referendum doesn't pass, then the card isn't put into play. The vampire playing it is not sent to torpor in that case.
+- `Awe`: The normal text should say just "This vampire gains X+1 votes". It doesn't double-cost. (errata to the CE edition, in which the X was changed to be the cost of the card rather than the cost of the effect, but ended up being printed as both)
+- `Backstab`: Backstab can be played at any time before strike resolution, including after both minions have selected their strikes.
+- `Baltimore Purge`: There is no time to use other effects between the choosing of the vampires and those vampires going to torpor. There is no response stack to interrupt that.
+- `Banishment`: A banished vampire will return to play when it again has blood >= capacity on it at the end of its Methuselah's influence phase.
+  A Banished vampire will remember all effects that had been applied to him, just as contested vampires do. This includes gained or lost titles, etc.
+  Note that "for the rest of the game" effects pointing at the Banished vampire (from some other source) will resume if/when the vampire comes back into play (e.g., Contract naming that Assamite).
+  Temporary control effects are ended if the vampire is Banished, as normal, so the vampire would be placed in his previous (permanent) controller's uncontrolled region.
+- `Bear-Baiting`: You can play Change of Target after Bear-Baiting (younger, older, or the same age).
+- `Bestial Vengeance`: Bestial Vengeance's damage is inflicted, whether or not the opposing minion's strike burns the retainer.
+- `Betrayer`: The affected Methuselah is named when the card is played.
+  Each of their turns, the person subjected to Betrayer can name a vampire. If the guess is correct, Betrayer is burned.
+  Is cumulative. A player can be damaged by multiple Betrayers each turn. A Methuselah targeted by more than one Betrayer would have to pay 1 pool for each Betrayer in order to burn them, even if the same vampire is the betrayer in each case.
+  If the vampire chosen for Betrayer is burned, so is Betrayer. If the vampire chosen for Betrayer becomes contested, Betrayer is nullified until the contention is resolved, at which time the Betrayer is reactivated. If a player takes control of the vampire that is the target of the betrayer, that player takes the pool loss.
+  You select an uncontrolled vampire when you play the card. If you have a choice (more than one of your uncontrolled vampires is controlled by the other Methuselah), you still have to choose just one of them to be the Betrayer.
+- `Bima`: Bima's "that Discipline" refers to the card on Bima. If the card is no longer there, then the effect cannot be used.
+- `Black Cat`: The lower pool cost is used for the "cost" of equipment on her.
+  If she is equipped with something and that equipment is transferred to another minion, then it regains its normal pool value. Conversely, if a piece of equipment moves onto her, its effective pool cost is lowered by 1.
+- `Blood Brother Ambush`: Blood Brother Ambush can be used by a BrujahAnti taking an action while in torpor. If this happens, the blocker loses the opportunity to commit diablerie.
+- `Blood Fury`: Blood Fury doesn't protect the target from taking damage from a weapon strike, since "inflict" has been ruled to mean "inflict on the opposing minion/retainer". So side-effect damage from a Bomb, Zip Gun, etc. is unaffected by Blood Fury.
+- `Blood of Acid`: The damage from Blood of Acid is environmental.
+- `Blood Rage`: Blood Rage doesn't protect the target from taking damage from a weapon strike, since "inflict" has been ruled to mean "inflict on the opposing minion/retainer". So side-effect damage from a Bomb, Zip Gun, etc. is unaffected by Blood Rage.
+- `Blood of Acid`: Environmental Damage (Weather Control, etc.) isn't counted by Blood of Acid.
+- `Blood of the Cobra`: If the strike is one that says to make a hand strike or make a melee weapon strike, then the strike is ranged, but the hand or melee weapon portion of the strike is still only effective at close range.
+- `Bloodbath`: If Bloodbath's target already has or subsequently gains a title, then he doesn't get an extra vote from the Bloodbath. If the target loses his title, then he again gets his extra vote from the Bloodbath.
+- `Bomb`: When taking the action to burn a location, the action will fail if the acting minion does not possess the bomb when the action resolves (if the Bomb was transferred or destroyed somehow).
+- `Bonding`: The superior form of Bonding cannot be used if you do not need the stealth at the time you play Bonding.
+- `Botched Move`: Can be played against any combat card, even cards like Psyche! and Coordinate Attacks, which are played after combat.
+- `Brachah`: Has superior Presence and no Potence (the CE version is misprinted).
+- `Brainwash`: Transfers may not be made to the vampire - neither to put blood on nor to move blood off.
+- `Brujah Debate`: If more than 1 Brujah shares the highest capacity amount, the controller chooses which of them to tap during her master phase.
+  Brujah Debate can tap a tapped Brujah.
+- `Brujah Frenzy - Master Out-of-Turn`: There is no time to play further action modifiers or reactions before combat begins.
+  Brujah Frenzy only causes the affected Brujah to enter combat with a second minion; that minion is not considered to be blocking the Brujah in any way.
+  Must select a "ready, untapped minion" to send the Brujah into combat with. If there are no such minions, Brujah Frenzy cannot be played.
+  Can only be played on a Ready acting Brujah.
+- `Bundi`: You cannot use Bundi with a strike card that would read: "Strike: make a handstrike." (but you can use it with a strike card that reads "strike: make a hand weapon strike")
+- `Business Pressure`: Each Methuselah must decide how much pool to burn for it during the resolution of the effect. It does not give an ability for the rest of the political action. However, there can be some give and take during the resolution of the effect. For example, each Methuselah can choose to burn one pool at a time as pool is burned for votes.
+- `Call the Great Beast`: The action to put a counter on the Call the Great Beast card is an action that requires Baali.
+- `Call the Wild Hunt`: At superior, you choose X and then discard that many animals form your hand (and cannot use any animals drawn to replace the ones you are discarding as further discards).
+  The damage inflicted by the superior is environmental damage.
+- `Callirus`: Callirus can burn 1 blood to remove a Bauble on him.
+- `Camarilla Vitae Slave`: The vampire keeps his chosen Discipline at superior until his controller's next untap phase even if the retainer is burned or stolen.
+- `Carlotta`: The card being retrieved is announced when the action is declared.
+- `Carrion Crows`: Carrion Crows does "1R each round" to the opposing minion (card text). The "during strike resolution" just tells you when that 1R per round is resolved. (2R for superior). This is akin to how retainer-based damage is handled.
+- `Catacombs`: Costs 1 blood, not 2 (errata to the FN version).
+- `Catatonic Fear`: If combat continues (via Telepathic Tracking, for example), then Catatonic Fear's damage is lost.
+  The damage from Catatonic Fear is dealt by the striking vampire (so would be reduced to zero by Memories of Mortality).
+- `Chain of Command`: Chain of Command cannot bring more than one copy of a unique vampire out, by the rule prohibiting self-contesting.
+- `Change of Target`: Is governed by the "same action" rulings.
+  Change of Target cannot be used if the action is blocked by some means other than by a blocking minion (e.g., Brujah Frenzy, Kiss of Ra).
+  Change of Target is played after a minion successfully blocks but before the blocker is tapped and combat begins.
+  Effects triggered when the action is blocked are still triggered (Truth of Blood, Unleash Hell's Fiury, ..)
+- `Charming Lobby`: A bloodhunt vote does not qualify.
+  The next referendum can be called by another Methuselah's vampire; if this is the case, then that referendum passes automatically.
+- `Charnas the Imp`: Does nothing to an empty vampire which untaps in torpor.
+  Cannot be damaged by host, but does not stop host from using effects which would normally damage it. For example, the host can use Body of Sun, but would not damage Charnas as a result.
+- `Church of the Order of St. Blaise`: The Church of the Order of St. Blaise can put counters on locations that use "blood" or "pool" counters, such as Alamut.
+- `Cleave`: The effect lasts until the end of the action.
+- `Clio's Kiss`: If your copy of the contested card is the last one left, it is moved to your controlled region (not your uncontrolled region).
+- `Clan Impersonation`: Changing clan with Clan Impersonation won't remove any slave status.
+- `Cloak the Gathering`: The superior ability can be used to aid another minion even while the modifying vampire is tapped.
+- `Compel the Spirit`: Compel the Spirit can only retrieve allies and retainers. Jake Washington, Death Pact, etc. that are not allies or retainers in the ash heap cannot be retrieved.
+- `Condemnation Mute`: Only affects votes, and not ballots.
+- `Contingency Planning`: The cost of the canceled card is not paid (instead of paid and then retrieved).
+- `Coordinate Attacks`: Is only usable by an untapped vampire.
+- `Coroner's Contact`: Shuffle your crypt afterward
+- `Corpse Minion`: Corpse Minion may be used any number of times during a single action.
+- `Corrupt Construction`: If the construction is recruited in the normal fashion, the card will have been replaced by the time the ally enters play. In other cases (e.g., Zhenga), however, it won't have been, and the Methuselah will have to work with only cards in hand (or ash heap) to add life to the Construction (before replacing).
+- `Creation Rites`: You may move a blood from the acting vampire to the new vampire (this sentence was omitted in Sabbat War).
+  If the Creation is moved to the Uncontrolled region (by Banishment, for example), it continues to be a vampire (and can be influenced).
+- `Crocodile's Tongue`: The canceled block isn't successful or unsuccessful. It is simply canceled.
+- `Cryptic Rider`: May only be used after a referendum is successful, not simply a successful political action (unblocked political action).
+- `Curse of Nitocris`: Curse only moves when a Methuselah gets the Edge who doesn't already have the Edge.
+- `Day Operation`: Can only be played when the action is announced or (at superior) when a block is attempted.
+- `Decapitate`: Decapitate cannot be played on a vampire under the effects of Undead Persistence.
+- `Deflection`: Cannot be used to direct a bleed to a Methuselah who would be an invalid target for a bleed (after Minor Boon, e.g.)
+  Declaring that one is not blocking is implicit in playing Deflection (unlike playing Telepathic Counter). That is, Deflection (and other bleed bounce cards) are played after blocks are declined.
+- `Delaying Tactics`: Cancels the political action, but the acting minion is still considered to have taken a political action (so cannot perform another in the same turn).
+  If played on a referendum called by a Charming Lobby, the political action card (if any) is retrieved, not the Charming Lobby card.
+  Will only retrieve a political action card played from the hand. It won't retrieve an in-play Rumors of Gehenna in the referendum to burn it, or a PA card burned via Echo of Harmonies, for example.
+  The political action card is returned to its owners hand. This is usually the same as the acting Methuselah's hand, but not always.
+- `Demdemeh`: The animal retainers turned into allies keep their current life counters and remember their original "starting life", for effects that notice "starting life". The retainers' special abilities are lost.
+- `Democritus`: Does not affect the cost to contest titles, since the cost to contest is paid in vampire blood, not pool.
+- `Denial of Aphrodite's Favor`: The cost of the canceled card is not paid (instead of paid and then retrieved).
+- `Depravity`: The +1 strength is always in effect, not just during diablerie attempts.
+- `Derange`: Derange cannot be moved to a Malkavian nor to a Malkavian antitribu vampire.
+  When removing the Derange, a vampire returns to the former clan, and the default sect of that clan (Group1 Gangrels return as Independent).
+- `Descent into Darkness`: Descent into Darkness breaks any temporary control effects (Temptation, Malkavian Dementia, etc.), so the vampire is given, face down and out of play, to his permanent controller, with the Descent into Darkness card (which, as a minion card, is then controlled by that permanent controller).
+- `Detect Authority`: Detect Authority ends the action. Action modifiers (Freak Drive, for instance) can't be played afterwards.
+- `Diamond Thunderbolt`: The cost of the change of control effect is still paid. Any bids made are paid. Any counters burned are still burned.
+  Will not extend temporary change of control effects when they expire.
+- `Direct Intervention`: If the canceled card had a "Do Not Replace Until" clause on it, that clause is canceled as well (and the card is replaced normally, subject to other effects: Visit from the Capuchin, etc.)
+  Since the NRA rule is applied to the acting minion when the action resolves (is blocked or is successful), the minion whose action card is canceled by Direct Intervention is free to attempt the same type of action again, even with (another copy of) the same card.
+  Can only burn minion cards played from the hand in the normal fashion (not weapons played via Disguised Weapon or equipment played via Pier 13, for example).
+  The cost of the canceled card is not paid (instead of paid and then retrieved).
+- `Dirty Little Secrets`: If the Methuselah you are bleeding doesn't burn any pool (if she calls in a Major Boon, for example), then she doesn't burn any cards from her library for Dirty Little Secrets, either.
+- `Disarming Presence`: Tapping is a side effect, not a cost; tapped vampires can still vote.
+  Vampires are tapped when they cast their votes.
+- `Disguised Weapon`: If Disguised Weapon is used to equip and contest a unique weapon possessed by the opposing minion, neither weapon is available for use during the combat. If the opposing minion had already chosen that weapon as his strike, then the strike fizzles.
+- `Diversity`: Have vampires of just 1 clan means you gain 1 pool for that 1 clan.
+- `Domain Challenge`: Tapped minions are counted after the referendum is completed.
+- `Domain of Evernight`: The restriction of "one per turn" only applies to the superior version of Domain of Evernight.
+- `Dominique`: If a location costs X blood, it would take X vandal counters to burn it.
+- `Donal O'Connor`: An empty blocking vampire may still block (and will simply try and fail to burn a blood if the block is successful).
+  The blocking vampire burns 1 blood immediately upon successfully blocking Donal, regardless of whether combat begins.
+- `Dr. Morrow, The Skindoctor`: Multiple graft counters may be placed on the same minion, but they have no additional effect. A minion with any (one or more) graft counters gets -1 stealth (not -X stealth).
+- `Draba`: If the action is masked, treat the previously-used Draba as a -X stealth modifier, where X is the amount of stealth reduced by the Draba at the time it was used.
+- `Dragos`: If Dragos's opponent plays superior Terror Frenzy, Dragos has to burn one blood for each combat card he plays in that combat.
+- `Dreams of the Sphinx`: Can't move blood to Imbued in the uncontrolled region.
+  If another player plays Dreams of the Sphinx to contest yours, you can't tap it "right before it enters contest".
+- `Dual Form`: If one of the pair leaves the ready region, the other is burned, and that's it for the pair. That burning of the other won't cause the first to burn.
+  The reduction in capacity is permanent, even if the Dual Form is burned.
+- `Eagle's Sight`: Only affects the rule restricting who gets to block an action. The vampire must still meet all other requirements to block (intercept, etc.) In particular, Blood Bond, Day Operation, and Seduction are not circumvented.
+  Can be used to overcome the restrictions on blocking (allowing a non-target Methuselah to block a directed action or a non-adjacent Methuselah to block an undirected action). It won't overcome any other restrictions on blocking (like stealth, Seduction, Day Operation, or a prior "I don't block" decision).
+- `Echo of Harmonies`: The referendum retained by the superior version can only be called if the vampire meets the requirements (Title, Clan, etc.) given on the card.
+  Echo can only retrieve Political Action cards from the ash heap that were played to call the current referendum. If the card is put into play, Echo cannot be used. If the card wasn't played (e.g., calling a referendum to burn Rumors of Gehenna), Echo cannot be used.
+- `Edith Blount`: Edith may burn a blood to give Enid stealth multiple times each action.
+- `Elder Intervention`: Can be used during any bleed attempt made against you, not just ones declared against you.
+- `Elena Gutierrez`: Elena's group number was omitted. Elena is a group 3 vampire.
+- `The Eldest Command the Undeath`: If you play Voter Captivation on the referendum, you can move up to 2 counters to your pool, and 0 to your vampire.
+- `Elephant Guardian`: If the minion with Elephant successfully played an inferior Deep Song action, the target minion would take Elephant Guardian’s damage in the resulting combat if range is close.
+- `Embrace, The`: If the Embrace is moved to the Uncontrolled region (by Banishment, for example), it continues to be a vampire (and can be influenced).
+- `Enticement`: Is directed at your prey.
+- `Erosion`: Erosion resets a minion's base strength. Any modifiers (including inherent modifiers) are applied to the new base. If another effect (like Torn Signpost) later resets the base damage again, then the new amount wins out.
+- `Eternal Mask, The`: You cannot use the effect to burn the card and the vampire if the vamp is no longer in play to be burned.
+- `Ethan Locke`: Ethan's (D) action is directed at the controller of the skill card, not the controller of the vampire.
+  When Ethan steals a master Discipline card, his controller becomes the controller of the Discipline card.
+- `Ex Nihilo`: The vampire with Ex Nihilo can't burn due to Ex Nihilo's cardtext if he or she can burn the blood during the untap phase.
+- `Extortion`: Extortion is usable by a tapped vampire
+- `Falcon's Eye`: Playing Falcon's Eye won't overcome any stealth, unblockability, sequencing, or previous "I don't block" decisions. It only allows a non-target Methuselah to block a (D) action or a non-adjacent Methuselah to block an undirected action.
+- `Fall of the Camarilla`: Fall of the is a temporary effect. Once the card is out of play (by ousting the controller, for instance), the underlying sect of the vampires is again "active".
+- `Fall of the Sabbat`: Fall of the is a temporary effect. Once the card is out of play (by ousting the controller, for instance), the underlying sect of the vampires is again "active".
+- `Feral Spirit`: Feral Spirit increases the vampire's level of the chosen Discipline by 1 while it is on the vampire. Discipline levels: 0 (none), 1 (normal), and 2 (superior).
+- `Fida'i`: The Fida'i's ability to untap (costing a blood from an Assamite with capacity 7+) can only be used "during his untap phase", and only once in that untap phase.
+- `Fiendish Tongue`: The blood to untap is burned (if desired) during the discard phase.
+- `Filchware's Pawn Shop`: Filchware's cannot be used to replay Flaming Candle.
+- `Fire Dance`: Fire Dance's target vampire is chosen when the action is announced.
+- `Flesh of Marble`: Prevents all damage *that was not prevented* in excess of one point.
+- `Fleshcraft`: The action to burn fleshcraft suffers the -1 stealth penalty as well, so is usually at zero stealth to start (or -1 stealth if superior).
+- `Follow the Blood`: If played on a vampire who successfully hunts with a Perfectionist, Perfectionist ahs granted the blood before Follow the Blood gets played.
+- `Force of Will`: If the Force of Will action is canceled (by Psychomachia, for example) before the aggravated damage is done, then the damage is not done (it is lost). If it is merely ended (by Change of Target), the the damage occurs as normal.
+  Mask of a Thousand Faces cannot be used to take over a Force of Will action, since the former requires an untapped vampire and the latter requires a tapped one.
+- `Forced Awakening`: The vampire burns a blood (if he fails to block) when the action begins to resolve (successfully or not).
+- `Foreshadowing Destruction`: If played at superior against a target with 10 or more pool, it will only have a lingering effect (+3 bleed if the target happens to have 9 or less, and no additional +bleed cards).
+  The superior doesn't increase the bleed amount if the target is at 10 or more pool - you could play it after Conditioning against such a target (and it would still activate when deflected to someone with 9 or less pool).
+- `Forest of Shadows`: May be used anytime it is untapped, even if it has been used previously during the same action (it must be untapped by some method, of course).
+- `Form of Mist`: The blood for the superior effect is paid after combat ends. If the effect is interrupted (via Telepathic Tracking or whatever), then the blood is not paid.
+  The superior form cannot be used to add stealth unless the acting vampire needs the stealth.
+- `Fractured Armament`: The inferior version of Fractured Armament is not a damage-dealing strike; the superior version is (so Increased Strength will affect the superior, but not the inferior, for example).
+- `Freak Drive`: Is played after resolution, but still during the action. It cannot be played on an action that was made unpreventable by Concoction of Vitality, for example.
+  The acting vampire cannot play Freak Drive before all of the combats of the action are handled. So Psyche!, Hidden Lurker, Coordinate Attacks, etc. would all be played (and resolve) before Freak Drive can be played.
+  The inferior can be played is the action resolves unblocked, even if it fizzles (due to lack of a suitable target, for example).
+- `Free States Rant`: If there are insuffient targets to which to allocate all of the points allowed, then the card cannot be played.
+- `Frenzy - Master: Out-of-Turn`: Only prevents the use of equipment after it is played - it will not cancel the effects of equipment used before it is played.
+- `Frondator`: You can’t have the rescued vampire pay a cost of 2 blood when Frondator rescues him or her.
+- `Gambit Accepted`: If the controller of a Gambit Accepted in play withdraws, his or her predator gets a VP from the Gambit Accepted (the Methuselah who withdraws still gets a VP for withdrawing, of course).
+- `Gangrel Atavism`: Doesn't require control of a ready Gangrel.
+- `Gargoyle Slave`: Doesn't count as a "slave" (in the Bloodlines sense), nor as a Gargoyle (for game purposes). He's just an ally.
+- `Gather, The`: Is only usable to move the target vampire from your uncontrolled region to your ready region. It cannot rescue a vampire from torpor.
+- `Gemini's Mirror`: Gemini's Mirror doesn't protect the minion's equipment, retainers, or any other cards on him. Just him (and his blood).
+- `Ghoul Retainer`: The Ghoul is never the "bearer" of the weapon that it uses. Any side-effect of using the weapon (e.g. Zip Gun, Grenade) is applied to the employing minion, as normal.
+- `Ghouled`: The ally is recruited as a mortal, with the normal starting life, and is then changed to a ghoul and gains a life. His "starting life" is still the base (mortal) amount, however.
+- `Glaser Rounds`: Must wait until the second time a given gun is used in a given combat.
+- `Goodnight, Sweet Prince`: You may kiss your own Crypt goodnight.
+- `Goth Band`: The counter moved to your master card by Goth Band is transformed into the type of counter normally used by the target master card.
+  Your Goth Band cannot move a counter from a card you control.
+- `Grandest Trick, The`: The vampire as an ally has no "starting life" trait. Vagabond Mystic cannot help him, therefore.
+  If the vampire who plays Grandest Trick has an ability to play Discipline-requiring cards "as if" he has that Discipline (Ian Forestal, for example), then the vampire may use that ability even while he is treated as an ally. In that case, he is treated just as an ally with that ability would be treated (spends life for blood costs, for example). Similarly for Mata Hari's ability.
+- `Greta Kircher`: Greta may only use her special once per action.
+- `Groundfighting`: Can cancel Drawing Out the Beast (or other "target cannot use equipment" card) if the target has a weapon.
+  Can cancel superior Thoughts Betrayed and Shape Mastery (when the latter is used to cancel a strike)
+  Cannot cancel maneuvering, setting range, burning blood, Scorpion Sting (or other "cannot be dodged" strikes, since the opposing minion is still free to attempt to dodge), Weakness, destroy/steal equipment/weapon effects, Withering, Fata Amria,
+  Cannot cancel restricting the ability to strike and/or gain additional strikes (e.g., Rigor Mortis, Lapse)
+- `Hagar Stone`: The "do not replace" effect Hagar applies stacks with whatever "do not replace" clause the card itself has (so that the longest one wins out).
+- `Hector Sosa`: V:TES version should have superior Potence, as in Jyhad.
+- `Heidelberg Castle, Germany`: Heidelberg Castle may not be tapped "in response" to any instant effect (because all effects in V:TES are instantaneous except for actions and certain combat effects).
+  May not be tapped "during" paying some cost - must be tapped before or after.
+- `Hellhound`: Only regenerates if it has fewer than 2 life.
+- `Herald of Topeth`: The Herald can use Charming Lobby to call a referendum "as a vampire".
+- `Hidden Strength`: The 'X' on Hidden Strength is the cost of the card.
+- `High Stakes`: The last two sentences are talking to each player, not just the player playing High Stakes.
+- `Horatio Ballard`: Horatio cannot use his special ability to become a Prince if he has changed sect and is no longer Camarilla.
+- `Horrid Reality`: If no weapon can be found, the two blood (cost) is simply burned.
+  If the weapon retrieved has requirements (clan/Discipline) that the vampire doesn't meet, then it is burned with no cost.
+  If a copy of a unique card already in play is retrieved, then the weapon is contested until the end of combat. It becomes uncontested during the next appropriate untap phase.
+- `Hostile Takeover`: The bidding is conducted in an open format. The player who played the Hostile Takeover conducts the auction.
+- `Horde, The`: The Horde can use its capacity when unlocked and in Torpor, this is not an action.
+- `Hrothulf`: Only burns the edge if the action is successful.
+- `Hukros`: He can accumulate as many cards as he likes with his special, at the rate of one each untap.
+- `Illusions of the Kindred`: Illusions of the Kindred cannot be played when your crypt is empty.
+  There is no room to play Psyche! (superior) between the time Illusions of the Kindred ends combat and when the new combat begins. So, when you play Illusions of the Kindred, Psyche! cannot be played.
+  If the vampire retrieved by Illusions of the Kindred doesn't enter combat (because the opposing minion was himself an Illusion or was a Blood Brother Ambush, for example), then the Illusion will be removed from the game at the end of the current action.
+  If the illusionary vampire is burned in combat (ending combat), the acting Methuselah chooses whether he is sent to the ash heap or removed from the game.
+  If the card drawn is an imbued, the imbued would briefly come into play, become incapacitated, and then be removed from the game.
+  If the Illusions of the Kindred is burned via blood hunt referendum (because it played Amaranth) in the combat, it goes to the ash heap and cannot be removed from the game.
+- `Immortal Grapple`: If a minion is committed to using a strike other than a hand strike (e.g., used a maneuver from a gun), then he gets no strike.
+- `Imogen`: Imogen's ability cannot be used to move a burned vampire (crypt card) to the target's hand. Only library cards can be exchanged by Imogen's ability.
+  Imogen is a 9 capacity vampire (errata to the Black Hand printing).
+- `Improvised Flamethrower`: The flamethrower doesn't notice if the bearer is immune to the incoming ranged damage. If any ranged damage is inflicted at long range (prevented, ignored, or otherwise), the flamethrower will burn and inflict damage.
+- `Improvised Tactics`: The  effect's strike is a strike that requires Potence, so would be enhanced by Increased Strength.
+- `Incriminating Videotape`: If the tape is stolen, then the chosen minion is unable to block the new possessor of the tape (and can now block whoever used to have it). If the tape is removed from play, its effect ends.
+- `Infernal Pursuit`: The card you discard (with superior) need not be one of the cards that you just drew.
+- `Inscription`: The vampire receiving the card must meet all of the requirements of the card other than the Thaumaturgy requirement. The vampire playing the Inscription need not meet any of the requirements (other than the Thaumaturgy needed to play Inscription in the first place).
+- `Internal Recursion`: Internal Recursion is played before the block combat begins.
+- `Iron Heart`: The cost of the canceled card is not paid (instead of paid and then retrieved).
+- `Jar the Soul`: Jar the Soul's effect doesn't damage vampires; an empty vampire will simply attempt to burn blood and fail.
+  If an Ally is targeted, it will only be tapped - it will not lose a blood (life) even if the superior version is used.
+- `Jimmy Dunn`: If a second Jimmy Dunn is brought out during an action (with Possession, e.g.), and the first Jimmy (if he has Vicissitude) plays Reform Body, the first Jimmy will go to torpor (from Reform Body), but will then be burned anyhow, since he cannot be contested.
+  If a second Jimmy Dunn is brought out during an action (with Possession, e.g.), the acting vampire isn't considered to be "burning" the first Jimmy, so he cannot play Soul Stealing, for instance.
+  If a non-contesting second copy of Jimmy enters play (via Illusions of the Kindred, for example), the first Jimmy won't burn himself.
+  Seeds of Corruption (if played on two Jimmys who are each Banished and then return to play) won't save him from burning.
+- `Jones, The`: The cost of the canceled card is not paid (instead of paid and then retrieved).
+- `Justicar Retribution`: Counts the bleed amount that each vampire would have when attempting to bleed his prey.
+- `Kemintiri`: If merged Keminitiri plays Closed Session as a Justicar, it will prevent her from casting votes (assuming she's still independent).
+  Merged Kemintiri doesn't enable you to play master cards, it only enables her to play certain minion cards.
+- `Kerrie`: The damage done from the ranged strike is damage from the weapon, so it can be modified by effects that modify melee weapon damage, like Sword of the Righteous or Baal's Bloody Talons.
+- `Kestrelle Hayes`: Kestrelle is group 5. The promo version is misprinted as being group 4 (in addition to being printed with an upside-down back, like the Third Edition cards). The Sword of Caine printing is correct.
+- `Khobar Towers`: X is the pool cost or the blood cost of the ally, as appropriate.
+- `Kindred Coercion`: Despite the name of the card, the inferior may cancel the votes of Allies (as well as vampires) not older than the acting vampire/minion. The superior version may change the votes of Allies (as well as vampires) not older than the acting vampire/minion.
+  Kindred Coercion cannot 'change' the votes of vampires who haven't voted yet, but it can cancel the votes of vampires who haven't voted yet (and change the votes of vampires who have voted).
+- `Kindred Segregation`: Kindred Segregation only requires that the pool cost be paid in order to keep the ally. Blood costs (if any) need not be repaid to keep an ally. Explicit in the CE printing.
+  Kindred Segregation can be called even if there are no allies in play.
+- `Kindred Society Games`: The last sentence is vague. Replace it with "If the vampire doesn't untap but instead moves the Society Games on, but there is no tapped younger vampire to move it to, Society Games is burned instead."
+  If a vampire has two copies of Kindred Society Games played on it, each copy exerts its own effect on the vampire. Thus, untapping the vampire normally would require the vampire to burn a total of 2 blood. If the vampire does not untap normally, then both Games are moved to other vampire(s), although the vampire could burn 1 blood to prevent one of the Games from moving on.
+- `Kiss of Ra`: Kiss of Ra can be played by an acting vampire in torpor.
+- `Kpist m/45`: The Kpist m/45 provides the bearer one optional maneuver "each combat".
+- `Kyoko Shinsegawa`: Treat her text as a prohibition against taking the usual hunt action and a additional of a special hunt action. If other additional hunt actions are also granted, then she may choose from among those options (e.g., Restricted Vitae or Legacy of Caine).
+- `Lazar Dobrescu`: Cannot use his special ability if his controller has no vampires in her uncontrolled region.
+- `Leandro`: The victim Methuselah decides (during her untap) whether to lose a pool or all transfers.
+  The victim Methuselah must choose. There is no default choice. If the players all forget about Leandor's effect until later, the situation must be remedied, but forcing one choice or the other on the victim is not a suitable remedy.
+- `Learjet`: When replacing a card with delayed replacement (Mirror Walk) played by a vampire with a Learjet, you may draw Learjet's additional card.
+- `Legacy of Caine`: If the vampire with Legacy of Cain hunts, he must still take the action directed at a vampire, even if there are no vampires with blood to steal.
+  When hunting on a target that has no blood to steal, a successful Legacy of Cain hunt action will simply have no effect (stealing zero blood).
+  If there are no targets (vampires) at all, then the vampire with Legacy of Cain cannot hunt.
+  If the vampire with the card "cannot gain blood", then the stolen blood is simply moved to the blood bank when he hunts.
+- `Legacy of Power`: Legacy of Power may be used if one of your vampires is in combat with an ally. In this case, your vampire goes into torpor, and the ally is unaffected.
+- `Life Boon - Master: Out-of-Turn`: If a player is saved more than once by Life Boon, the various Boons reserve a series of victory points, rather than competing with each other for a single victory point.
+  If a player has gone to negative pool, the Life Boon player must give her enough pool to compensate for that.
+  If a player who has received a Boon receives a half of a VP (in a V:EKN tournament, e.g.), then the Methuselah who played the Boon receives the 1/2 VP. The Boon is not burned until a total of one VP has been awarded.
+- `Liquidation`: Not playable if you have less than 7 cards in your library.
+- `Loner`: Loner ony considers the minions you control during your influence phase. It doesn't care if minions you no longer control (but have since been burned, removed from play, stolen, contested, or returned to the uncontrolled region) acted this turn.
+- `Loyalist`: If the Loyalist vampire's votes are changed to be in favor, the Loyalist's 3 votes will be silenced (not cast).
+- `Lubomira Hradok`: If Lubomira bleeds a Methuselah who controls a ready titled vampire, Lubomira is the one not to untap as normal.
+- `Lucian`: Lucian cannot attempt to steal a piece of equipment that he is prohibited from having (a second vehicle, Laptop, or Leather Jacket, for example).
+- `Lunatic Eruption`: The mandatory attack action must be taken before any non-mandatory actions.
+- `Machine Blitz`: Machine Blitz inflicts an amount of ranged damage equal to (or 1 greater than) the amount the chosen weapon would inflict if it were chosen as a strike (against a generic opponent at the appropriate range). This amount is set when Machine Blitz is announced.
+- `Madness Network`: Malkavians do not have to be Ready to take an action via the Network. (i.e., a Torpored Malk could rescue himself from Torpor)
+  Malkavians may block *in addition* to the normally eligible blockers.
+  A non-Malkavian cannot use Mask of a Thousand Faces to assume the action of a Malkavian on someone else's turn, since he is not capable of taking the action in the first place at that time.
+  Madness Network's "another Methuselah" means "other than the controller of the Malkavian in question", not "other than the controller of the Madness Network".
+  If a Malkavian is empty during another Methuselah's turn while Madness Network is in play, the Malkavian can declare an action, but if he does so, that action has to be a hunt action.
+- `Madrigal`: When played at superior Melpominee level, will have no effect if the acting vampire abstains (including if the acting vampire is forced to Abstain by, for example, Pulling Strings). If the acting vampire's votes are changed, the effect operates on the final disposition of the vampire's votes (at the time the votes are tallied).
+- `Magdelena Schaefer`: Magdelena's effect is tied to the card play, not the strike resolution. When she plays a strike card that requires Thaumaturgy, she burns a blood.
+- `Magic of the Smith`: You do not search your library until the action is successful.
+- `Major Boon`: The bleed may be modified after the Boon is burned.
+  May only be played on a successful bleed (bleed for 1 or more pool). Only action modifiers and reaction cards that modify the bleed amount may be played after the Boon - general action modifiers and reaction cards cannot be played (e.g., Telepathic Counter and Threats may be played, but not Deflection)
+  Cannot be played in succession. The loss from the play of a Major Boon is due to a card effect, not a bleed. So a second cannot be played to Boon the first.
+  Multiple Major Boons in play cannot be burned on the same bleed action - after the first is burned, "you" are no longer the Methuselah burning pool.
+- `Malkavian Dementia`: Doesn't require control of a ready Malkavian.
+  You lose control of that Malkavian when you start your untap phase. This is not an untap effect that you order among your other untap effects; it happens when the phase begins. You do not untap the Malkavian
+- `Malleable Visage`: Doesn't change the acting minion (for purposes of the "No Repeat Actions" rule, among other things) and may be played by a minion who isn't capable of taking the action.
+  Requires a ready, untapped vampire.
+- `Mariel, Lady Thunder`: If she taps to end combat, the damage is applied just after the combat ends.
+- `Maris Streck`: Maris can use her ability multiple times each action.
+- `Marthe Dizier`: Her special can only move cards "from the ash heap" that were "played" in the normal manner. If the card wound up in play (or otherwise not in your ash heap), or was "played" some other way (via Disguised Weapon, for example), it cannot be retrieved by her special.
+- `Mask of a Thousand Faces`: The action remains the same (same level, superior or inferior, same parameters, etc.). All action modifiers remain in effect, but inherent modifiers (a minion's inherent +1 bleed or +1 bleed from a Laptop, e.g.) do not. Other effects applied to the action (e.g., Backways, Deflection) also carry over to the new (masking) vampire.
+  Mask cannot be used to mask an action if the Masking vampire is not capable of taking that action, nor if any action modifiers, reactions, or other effects (including inherent stealth) have been played on this action that could not have been played/used if the Masking vampire were the acting minion. (Not counting blood that has already been spent.)
+  Mask of a Thousand Faces cannot be used to take over a Force of Will action, since the former requires an untapped vampire and the latter requires a tapped one.
+  Mask cannot be played during the resolution of an action (like during the referendum of a political action or during combat).
+  A minion attempting to block before the Mask was played is still attempting to block after the Mask is played. If the Masking vampire is an Aching Beauty, the controller of the minion attempting to block would have to pay a pool for the block, if it is successful, for example.
+- `Masquerade Endangered - Master: Out-of-Turn`: Multiple copies may be played (by different Meth.s) after a single action, but all would be burned during the vampire's next untap phase.
+- `Masquerade Enforcement`: Doesn't affect merging (base with advanced vampire cards).
+- `Mata Hari`: Orun and Aye cards cannot be placed on Mata Hari as long as she's not a Laibon.
+- `Maxwell`: Maxwell cannot use his special ability to become a Prince if he has changed sect and is no longer Camarilla.
+- `Meddling of Semsith`: Will stay in play (uselessly) when the target is burned.
+- `Mehemet of the Ahl-i-Batin`: If the Discipline card is controlled by a Methuselah other than the controller of the vampire it is on, Mehemet's action to burn it and a blood from the vampire is undirected.
+- `Melange`: Melange works on any minion, not just on vampires.
+- `Meld with the Land`: The untap effect of the "combat ends and untap" effect occurs when the strike resolves. It is not delayed until after combat.
+- `Memory's Fading Glimpse`: Any cards on the target vampire (e.g., Brainwash, or cards on a Banished vampire) are burned.
+- `Merill Molitor`: The damage he treats as normal is handled before any agg damage that is being treated as agg damage.
+- `Michael Luther`: Michael's ability is only usable once each referendum, even if he untaps somehow during the referendum.
+- `Mind Rape`: The card can be burned to take control of the target at any point during the the appropriate minion phase. It doesn't have to be done at the start of that minion phase.
+- `Mob Rule`: Each Methuselah must decide how much his or her vampires' blood to burn for it during the resolution of the effect. It does not give an ability for the rest of the political action. However, there can be some give and take during the resolution of the effect. For example, each Methuselah can choose to burn one blood at a time and wait to see what the others do in response.
+  Each Methuselah must decide how much blood her minions burn for it during the resolution of the effect. It does not give an ability for the rest of the political action. However, there can be some give and take during the resolution of the effect. For example, each Methuselah can choose to burn one blood at a time as blood is burned for votes.
+- `Muaziz, Archon of Ulugh Beg`: Muaziz's ability does not apply to the Blood Hunt card, since it is not a referendum, and only referendums are "called".
+- `Mummify`: The mummified vampire cannot take a "leave torpor" action, if Mummify was played at inferior.
+- `Murder of Crows`: Follows all Wolf Companion rulings, except that the damage can happen when the combat is at long range.
+  Costs 1 blood (CE version is misprinted).
+- `Nakhthorheb`: He can untap at any time during his controller's minion phase, including during an action.
+- `Name Forgotten, The`: Each Methuselah must find as many copies of the vampire as possible when searching.
+- `Nephandus (Mage)`: Each strike or other damaging effect made against Nephandus by the opposing minion is at -1 damage.
+- `Nightmares upon Nightmares`: Mortal allies are not affected, and vampires with capacity above the number of Gehenna cards in play are not affected.
+- `Obedience`: Is governed by the "same action" rulings.
+  Obedience can be played (by an untapped older vampire) to avoid the new combat started by superior Psyche!.
+- `Octopod`: Octopod counts as the combatant's source of additional strikes in that round.
+- `Ossian`: The Auspex special applies to whatever the current action is, not just to his special enter combat action.
+- `Orun`: A vampire with Oruns will only burn 1 Orun if he successfully bleeds for 2 or more.
+- `Owain Evans, The Wanderer`: Owain's ability can only be used once each untap, even if control of Owain changes during that untap phase.
+- `Paris Opera House, The`: Costs 2 pool, not 2 blood.
+- `Peace Treaty`: Peace Treaty only requires that the pool cost be paid in order to keep the weapon. Blood costs (if any) need not be repaid to keep a weapon.
+  Peace Treaty can be called even if there are no weapons in play.
+- `Pentex(TM) Loves You!`: Pentex's +bleed ability is treated as an action modifier (it can be done at any time during the action).
+- `Pere Lachaise, France`: The vampire retrieved by Pere Lachaise need only be in your ash heap. It doesn't have to be a vampire that you had first controlled.
+  The crypt card on Pere Lachaise is out of play (and should be face down).
+- `Perfectionist`: Perfectionist's effect is thwarted even if the reaction card is canceled as it is played, since it is still played.
+- `Philippe Rigaud`: If Philippe cannot commit diablerie (because of Humanitas or some other effect), then his card text doesn't force him to (he is not "stuck" or anything like that -- he is free to take any legal action).
+- `Political Seizure`: If you yield the Political Seizure, the location it was contesting doesn't come into play under your control. The Seizure is not a copy of the location, so yielding it won't trigger the "When the last copy of that location is yielded" clause.
+- `Political Struggle`: The acting vampire gains X votes if the vampire with this card is burned, no matter how that vampire is burned.
+  If the victim of Political Struggle is burned by diablerie, the votes gained from Political Struggle are gained before the blood hunt referendum (and can be cast in that referendum).
+- `Portrait`: If a Toreador has already performed a bleed action this turn and then preforms a Portrait action and the revealed vampire is between 7 and 10 capacity, the Toreador simply untaps. It cannot bleed again the same turn, so the remainder of the effect (the bleed action) is lost.
+- `Power Structure`: Requires Lasombra (the Sabbat War card omitted the Lasombra symbol).
+- `Powerbase: Barranquilla`: Church of the Order of St. Blaise may be used to add a counter to it before it burns if it has zero counters.
+- `Powerbase: Berlin`: Blood moved to Powerbase: Berlin by a Ventrue action comes from the Ventrue.
+- `Powerbase: New York`: The action to steal the blood from your powerbase cannot be attempted by your own vampires.
+- `Precognition`: The damage prevention can only be used if the block is successful, and only in the resulting (block-induced) combat.
+- `Projectile`: A vampire who maneuvers with a gun may still use Projectile to shoot with that gun as his initial strike that round.
+  Cannot be used to strike with a weapon that isn't ranged (that is, with a weapon whose strike isn't ranged).
+- `Protected Resources`: All cards which modify the bleed amount (Telepathic Counter, Threats, etc.) are applied before Protected Resources's effect.
+  Protected Resources doesn't alter the bleed amount. It merely limits the maximum amount of pool the target of the bleed burns for the successful bleed.
+  If you perform a bleed action that resolves as a bleed for 0 (Spying Mission, Telepathic Counter, ..), you don't burn your Protected Resources.
+- `Proxy Kissed`: Can be played on a vampire who already has a Proxy Kissed (and was subsequently Banished and re-influenced).
+- `Psyche!`: The superior will cancel any "continue action" effect produced during the preceding combat (e.g. Form of Mist)
+  The superior is played after combat ends, even though the card is a combat card.
+  Is played before superior Freak Drive or inferior Cats' Guidance can be played to untap one of the combatants. (The combatants will have to wait until after the next combat ends to play those cards.)
+  No new cost need be paid for the block (Archon, Aching Beauty, Donal, etc.)
+  The superior can be played before or after replacing any "Do Not Replace Until After Combat" cards.
+  Superior cannot be played if there is already a combat queued (with, for example, Blissful Agony)
+- `Psychomachia`: Is played before the successful blocker taps for blocking (i.e., the same time that Obedience or Change of Target would be played). The blocker is not tapped.
+- `Pulled Fangs`: Counts up damage successfully inflicted during the round by the minions (retainers, etc. don't count).
+- `Putrefaction`: The target minion may choose not to untap as normal and burn this card during his or her untap phase (rather than "instead" of untapping as normal -- that is, it can still be burned even if the vampire is already prevented from untapping as normal).
+- `Rabbat, The Sewer Goddess`: Her hunt for pool special may be used even when she is full. The blood goes to your pool instead of to Rabbat, so there's no need to worry if it exceeds her capacity.
+- `Rachel Brandywine`: When using Rachel's special, make all discards (and redraws) first, then shuffle the discards back into the library.
+- `Rack, The`: May not select a new target just for falling out of contention.
+  Chooses a vampire *card* - will not automatically target a new copy of that vampire (if the original is burned or yielded).
+- `Raphael Catarari`: Untapping is the first thing to do, so if he's odd, gaining one from a Hunting Ground or other method later in the untap phase won't get him to "untap as normal" in that phase.
+- `Rapid Healing`: Rapid Healing is a type of "leave torpor" action.
+- `Rastacourere`: Doesn't affect the prisci sub-referendum.
+- `Ravnos Cache`: The blood on the Ravnos Cache may be used in place of pool or blood, as appropriate to the cost of the equipment.
+- `Ravnos Carnival`: A Ravnos can attempt an action that he cannot pay for himself if the cost can be paid with the Ravnos Carnival's help.
+- `React with Conviction`: If React with Conviction is used to cancel a Corruption action, then the action is canceled in its entirety. No Corruption counters are burned. The same applies when canceling a Venenation or similar effect. (Contrast with Diamond Thunderbolt, which cancels only the change of control rather than the whole effect.)
+- `Reform Body`: If the vampire playing Reform Body was being diablerized, but saved himself with Reform Body, the diablerie is considered unsuccessful. The diablerist gets nothing from the victim, and no Blood Hunt can be called.
+  Unlike other reaction cards, Reform Body may be played by a minion that is tapped.
+  Reform Body cannot be played by vampires who aren't controlled (burned with Goodnight Sweet Prince or Sabbat Inquisitor, e.g.)
+- `Reg Driscol`: Reg's ability is activated after he equips with the equipment. So if he gets an Eye of Hazimel, he cannot use his ability to move it, by the restriction given on the Eye.
+  You may move all or none the equipment Reg Driscol gets to just one minion, but you can't split.
+- `Regeneration`: Regenaration is usable by an untapped vampire with 0 blood in torpor.
+- `Regent`: Regent is a title card, so it is out of play if the title is contested (and the built-in rush is not usable when the card is not in play).
+- `Repulsion`: The superior Obeah effect can be used even if the stealth is not currently needed.
+- `Resilient Mind`: Resilient Mind can be used when a Form of Corruption is put into play to protect that vampire from that Form of Corruption.
+- `Resurrection`: Can only resurrect allies or retainers burned from play. Discards and blocked actions to employ/recruit don't qualify.
+- `Return to Innocence`: New card text: "Bleed. If you successfully bleed your prey for one or more, put this card on the acting vampire. Burn this card if this vampire loses any blood or goes to torpor, or if your prey is ousted. During your next untap, this vampire is removed from play and your prey burns X pool, where X is the capacity of this vampire."
+- `Revelation of Wrath`: Revelation of Wrath won't count environmental damage.
+- `Rewind Time`: Rewind Time cannot be used to cancel the action card after playing Special Report.
+  The cost of the canceled card is not paid (instead of paid and then retrieved).
+- `Riddle Phantastique`: If put into play with no counters, it burns immediately.
+- `Riposte`: The damage from Riposte is dealt just after the combat ends.
+  The damage is only dealt if the strike was resolved at close range.
+- `Rotschreck`: Can only be played when a minion attempts to make a strike to inflict aggravated damage against the opposing vampire.
+  Should be played as written - that is, played on the vampire whose opponent in combat attempts to use aggravated damage against him.
+  Cannot be played in response to aggravated damage done from "environmental" sources.
+  Cannot be played in response to an announcement of a strike that is not effective at the current range.
+  Rotschreck is played when the attempt to use aggravated damage is announced, during the strike announcement phase (before any damage prevention can be played). It can be played after the other strike is announced, however.
+  If combat is continued or a new combat started, then rest of the effect of Rotschreck is lost.
+  The vampire will be going to torpor after the combat has ended, which forbids cards such as Amaranth or Decapitate from being played.
+- `Rutor's Hand`: If the vampire is stolen before "your next turn", then Rutor's won't activate (allow the vampire an extra untap) until a Methuselah begins a turn with the vampire with Rutor's under her control.
+- `Sabbat Threat`: If the threat counters are lost during the untap phase, then no pool need be burned for the counters' effect.
+- `Sacrificial Lamb`: If the target of Sacrificial Lamb has a Soul Gem, the Gem function wins out.
+- `Sanguine Instruction`: Sanguine Instruction increases the vampire's level of the chosen Discipline by 1 while it is on the vampire. Discipline levels: 0 (none), 1 (normal), and 2 (superior).
+- `Sargon`: Sargon's controller gets the Edge after the effects of the successful action (whatever it is) are applied. If it is a referendum, the Methuselah with the Edge can burn it during the referendum for a vote. Sargon's controller doesn't get the edge until after the referendum is concluded (and the results applied, if it passed).
+- `Scalpel’s Tongue`: Unless a he or she gains votes (priscii only have ballots, by default), via Bewitching Oration, Dread Gaze or Legendary Vampire, Scalpel’s Tongue cannot be played on a priscus.
+- `Scorn of Adonis`: May be played at any time during the voting process, and will retroactively cause the loss of pool to Methuselahs voting 'no' before Scorn is played, as well as to Methuselahs voting 'no' after Scorn is played.
+  Each Scorn played may only cause the loss of one pool to a given Methuselah, regardless of how may 'no' votes that Methuselah casts.
+- `Scorpion’s Touch`: If Scorpion’s Touch is declared with first strike and if the opposing minion declared a strike based on strength, that minion’s strength is decreased by Scorpion’s Touch when it resolves.
+- `Seal of Veddartha`: The first counter adds one level of Dominate. If the bearer already had one level of Dominate (i.e., inferior Dominate), then he or she now has two levels of Dominate (i.e., superior). Likewise with the third counter and Fortitude.
+- `Seattle Committee`: Seattle Committee is put into play when played.
+- `Secret Horde`: If put into play with no counters (X=0), it burns immediately.
+- `Secure Haven`: All Methuselahs (including the target vampire's controller) must pay one extra pool when playing Master cards on the target minion.
+  Secure Haven adds one to the cost of the master card targetting the vampire.
+  Only directed actions targeting the minion are restricted. Actions that target retainers, equipment, or other cards on the minion (like Atonement) are allowable, as are actions that target card not on the minion, even if such cards have "named" or "chosen" that minion (like the Rack).
+  If it is contested, it will not be burned when the target (vampire) goes to torpor, nor will it be burned if it becomes re-controlled while the target vampire is still in torpor.
+- `Seeds of Corruption`: "Special ability" includes all text except terms (i.e., it doesn't include Clan, Sect, Title, Unique (or not), Blood Cursed, Circle, Flight, Infernal, Scarce, Slave, Sterile, Vulnerability, Anarch, Black Hand, Seraph, Red List). (note that this only restricts things that are possible only by special ability - things that a special ability makes impossible are still impossible.)
+  The vampire burns blood for Seeds of Corruption when the action is attempted.
+- `Seraph's Second`: Seraph's Second can be used to untap a vampire who has just successfully resolved an action to become Black Hand.
+- `Set's Call`: The acting vampire's controller is still the one playing the card, so she could choose not to remove a minion from his or her ash heap if the ally is a Shambling Hordes, or an ally/retainer for a War Ghoul, for example.
+- `Shackles of Enkindu`: "The shackled minion" refers to the minion the card is put upon (not the Gangrel the card is put upon with the equip action).
+  Once placed "on" a minion, the Shackles will harm the minion they are on.
+  An Ally does not suffer the "burn 2 blood" effect from being shackled.
+  Is controlled by the Methuselah who controls the vampire who used it; changing the controller of the vampire changes who controls the Shackles. (errata)
+- `Shadow Court Satyr`: Shadow Court Satyr cannot use a mutli-discipline effect (an effect that requires two Disciplines), although it can use any single discipline effect of a split discipline card.
+  Can only use the combat card when he is in combat.
+- `Shadow Feint`: Will not prohibit the opposing minion from choosing dodge as his strike, and, if chosen, the dodge will still resolve. The dodge simply has no effect on the Shadow Feinted strike.
+- `Shadow Step`: Superior Shadow Step has no cost. The two blood is the cost of using the range-setting effect. It cannot be ignored by Dragos, nor used by a vampire with less than two blood.
+- `Shadow of the Wolf`: The +1 damage only applies to the additional strike.
+- `Shambling Hordes`: The acting vampire's controller can choose not to remove a minion from his or her ash heap (and thus burn the Shambling Hordes), which she may want to do if, say, Set's Call is used.
+  The damage the strike from the Hordes does is determined when the strike resolution is begun -- before the Hordes loses life from any opposing "burn life" or "steal blood/life" effect (damage done earlier than strike resolution, like with First Strike or Weather Control will reduce the damage done by the Hordes, of course).
+- `Shilmulo Tarot`: There is no limit to the number of cards it can store.
+- `Sins of the Cauchemar`: Sins of the Cauchemar (superior) is simply placed on the acting vampire. It can be played even if no block attempt is made, and so several vampires can play it on the same action.
+- `Siphon`: It can target vampires with no blood.
+  You only choose which cards you move to your hand when the action is successful, and not as part of the terms of the action.
+  You cannot move the Siphon card of the current action to your hand (it's in the limbo when resolving).
+- `Sire's Index Finger`: Immunity to the frenzy card at the time it is played is the key. Losing the use of the Finger won't make the vampire vulnerable to a previously-played Frenzy card, and gaining it won't suddenly render him immune to a previously-played Frenzy card.
+- `Siren's Lure`: A second Siren's Lure at  or  cannot be played to queue a second combat after a combat is already set up for later (by the first Siren's Lure).
+- `Smiling Jack the Anarch`: Each other player must burn a pool or a vampire blood for each counter on Jack. Failing to burn a blood from an empty vampire will not lessen the obligation.
+- `Sonja Blue`: "block as an ally" only affects the "who can block this action" check. Sonja can play reaction cards that require Disicplines and still block "as an ally", since she is a vampire, and The Unmasking will not give her intercept, since she is not an ally.
+  When contesting Sonja Blue, the new copy provides 4 pool (for being played), then the old copy is removed from the game (for leaving play to be contested, by its own card text), and the new copy remains face down, out-of-play (it hasn't yet been in play), ready to be turned face up during her next untap phase, when the contest is won.
+- `Soul Burn`: Soul Burn doesn't protect the target from taking damage from a weapon strike, since "inflict" has been ruled to mean "inflict on the opposing minion/retainer". So side-effect damage from a Bomb, Zip Gun, etc. is unaffected by Soul Burn.
+- `Soul Gem of Etrius`: Functions even if the bearer (now burned) was prohibited from using equipment (via Drawing Out the Beast, for example).
+  If the drawn vampire (B) is younger and would be put into play with Gem but is burned instead (because of the self-contesting rule, for example), then the Gem activates again, drawing a new vampire (C) and comparing his capacity to B's capacity.
+  Can grab an imbued. In that case, the imbued is either placed in the uncontrolled region or placed empty into the incapacitated region with the Gem, as determined by his starting life.
+- `Soul Stealing`: Soul Stealing cannot be used if a vampire is burned as a result of a political action, such as Tradition Upheld.
+  A vampire diablerizing an older vampire can play Soul Stealing before or after getting a Discipline card, at his option, so long as he plays it before the Blood Hunt.
+- `Spell of Life`: The mummies put into play by Spell of Life are unique by card name. Which means that the name is "in play" for anything that cares. They will contest unique minions (vampire or allies) of the same name. If one is Nefertiti, then Aabbt Kindred will be able to take (D) actions. And so on.
+- `Spiridonas`: Spiridonas's special ability is treated as an action modifier as far as timing goes (it can be used after the block attempts are concluded).
+- `Spirit Marionette`: The mandatory bleed action must be performed before any non-mandatory actions, as usual.
+  If the bleed is canceled, the vampire still returns to its original controller (since the next action, the bleed, is over).
+  If the Marionette victim uses Daring the Dawn or Force of Will or Day Operation, he or she suffers the bad after effect of the card after the action resolves but before returning to his or her previous controller (important to things like Fame).
+- `Spiritual Protector`: Spiritual Protector will not restrict the opposing minion if no block occurred.
+  Spiritual Protector does not restrict the ability of retainers to use equipment.
+- `Spying Mission`: Is only played if you know the bleed is successful, i.e., after you would normally play action modifiers.
+  Is only played after all Reaction cards (as well as other Action Modifiers) have been played. In particular, Telepathic Counter no longer 'beats' Spying Mission unless it is played first (and the bleed is not boosted back to positive).
+  After successfully being played, it must be burned on the next unblocked bleed against the same Methuselah, provided the bleed is not reduced to zero by other modifiers.
+  The bleed it is played on is considered unsuccessful. Previous Spying Missions won't be cashed in during that action.
+  Archon Investigation cannot be played after a Spying Mission is burned (for +2 bleed), since the bleed is already resolved at that point.
+  You cannot play Mask of a Thousand Faces after playing a superior Spying Mission because Spying Mission is played "instead of removing pool", which means "when the action resolves" - further modifiers cannot be played, unless they are played after the action in general.
+  Spying Mission is played when a bleed would be successful, before resolution.
+- `Stanislava`: Minions only "oppose" each other during combat, so Stanislava's ability only applies then. e.g., Mr. Winthrop is unaffected.
+- `Static Virtue`: For a Laibon moved into the ready region in the last influence phase, Static Virtue must retrieve Aye and Orun in pairs -- the same number of Aye as Orun.
+- `Stranger Among Us, The`: Shuffle your crypt afterward
+- `Strike with Conviction`: If the action to bleed with Strike with Conviction is blocked, Strike with Conviction isn’t burned. The action it provides is to burn it and bleed (none of which happens if the action is blocked).
+- `Stutter-Step`: Stutter-Step is both a hand strike and a dodge. It cannot be used if only hand strikes (or only dodges) are allowed.
+- `Succubus Club`: Non-equipment, non-retainer, (non-location) minion cards (like Ablative skin) can be traded, but will remain on the original minion. Control of the card changes. Mostly this results in: "no effect" (until the controller is ousted, of course).
+  Trades cannot result in a player needing to draw cards (card text). So if player A trades a Elder Library to player B, player A must do something (like also trade away a card from her hand) such that player B doesn't end up needing to draw to fill her newly-increased hand size. A player who begins the trade with fewer cards than hand size (because of an empty library) is OK, since the trade will then not "result" in the problem.
+- `Sudden Reversal`: Can only burn master cards that are played from the hand in the normal fashion (not Elder Library via Bindusara's ability nor the skill card played when Creation Rites is successful, for example).
+- `Summon History`: If the card fetched at basic Temporis requires a discipline, it is put in play with the default level of the discipline.
+- `Summoning, The`: The superior version is not the same action as the recruitment of the ally. You could perform both actions in the same turn with the same vampire.
+- `Supernatural Resistance`: If Supernatural Resistance is used to cancel the opposing minion's strike, that minion must still choose a strike (and could play another Majesty, for instance).
+- `Swarm, The`: If grabbed by a "this vampire employs" effect (e.g., Zhenga, Pack Alpha), the vampire receiving the Swarm doesn't get to move the Swarm on to a new target.
+  If the action to employ the Swarm is blocked, the Swarm goes on the acting minion immediately (before combat, if any).
+- `Sword of the Righteous`: The  effect only applies to the vampire's strike with that weapon, as the  effect above does.
+- `Talaq, The Immortal`: While Talaq may play cards that require Disciplines (Quietus or Thaumaturgy), he doesn't actually have those Disciplines. He doesn't benefit from Tremere Convocation, for example. Similar to Ian Forestal's special ability.
+- `Talbot's Chainsaw`: The equipment inflicts the damage during the Untap phase (for matters such as Ambrosius or Mictlantecuhtli).
+- `Tangle Atropo's Hand`: The same vampire can perform that action again. "Cancelling" an action before resolution doesn't taint with NRA.
+- `Taste of Vitae`: Taste of Vitae is played in the "end of round" step, and can be played before or after any other cards playable in the "end of round" window (Disarm, Decapitate, ...).
+- `Taunt the Caged Beast`: Since neither minion is acting, the prey (the first player clockwise from the acting Methuselah) goes first (for meanuvering, choosing strikes, and so on) in the combat.
+- `Tegyrius, Vizier`: Allegiance counters continue to function even if Tegyrius leaves play.
+- `Telepathic Counter`: Is played before the bleed is considered successful, so would be played before cards like Spying Mission, which are only played on a successful bleed.
+- `Telepathic Tracking`: Superior Telepathic Tracking may interrupt the end of combat produced by Rotschreck, which will cause the rest of Rotschreck's effect to be lost (no torpor).
+- `Templar`: The card remains in play. The referendum to remove the effect burns the card. The card's effects can be stacked with other Templars.
+- `Temptation`: When stealing a vampire in combat, any damage yet to resolve will still resolve before the change of control.
+- `Tereza Rotas`: Tereza Rotas cannot steal the Edge if it is uncontrolled.
+  If the target of the action burns the Edge (to get rid of some Sabbat Threat counters, for example), her controller will still get the Edge if the action succeeds.
+  Burning two blood is the cost for her "steal Edge" action.
+- `Terror Frenzy`: Superior Terror Frenzy affects card costs.
+- `Thanks for the Donation`: If, by Democritus's special, your prey cannot afford to contest, she pays what she has (and is ousted as normal) and you still yield.
+- `Third Tradition: Progeny, The`: If the Progeny is moved to the Uncontrolled region (by Banishment, for example), it continues to be a vampire (and can be influenced).
+- `Toreador Grand Ball`: The same vampire can serve as the "second Toreador" for multiple Toreador Grand Balls.
+  The first Toreador chosen for the Toreador Grand Ball is unblockable on all actions except bleed actions. This remains true even after the vampire attempts a bleed.
+- `Tragic Love Affair`: Doesn't require control of a ready Toreador.
+- `Treachery`: In superior, the pool loss occurs when the votes are tallied, as in the normal version.
+- `Treatment, The`: The Treatment does nothing to the target Prince if the Prince is in Torpor with zero blood.
+  The Treatment will cease functioning if the vampire it is on loses his Prince title. It will resume working if the vampire again becomes a Prince.
+- `Tremere Convocation`: Second sentence of Tremere Convocation should read: "Vampires with basic Thaumaturgy may play combat cards requiring Thaumaturgy as if they had superior Thaumaturgy."
+- `Triole's Revenge`: The Ventrue is burned by Triole's Revenge only if the hunt isn't blocked - even if the benefit of the hunt is reduced to zero (a failed action).
+  If the victim of Triole's Revenge is prevented from hunting, he may take no action.
+- `Trochomancy`: The cards in the ash heap are chosen and burned when Trochomancy gets played - they are in the target's ash heap.
+- `Trophy: Chosen`: The recipient of the Trophy may choose to refuse it (causing it to be burned instead), by card text. If he does so, there is no other effect. He does not untap and does not gain the four blood.
+- `Trophy: Diablerie`: May be retrieved when diablerizing a Red List vampire (either in combat via Amaranth or as a (D) action) prior to the blood hunt referendum; it protects the vampire in that referendum. It (all copies, if more than one are on the diablerist) is then burned at the end of that action.
+- `Uncontrollable Rage`: All damage done by a hand strike under Uncontrollable Rage is aggravated.
+- `Undead Persistence`: If the end of combat is met with a Psyche!, then the go to torpor effect will be delayed until after that new combat. However, the vampire will no longer be propped up by the Undead Persistence in the new combat, so the new combat will end immediately with the vampire not ready (unless he plays a new Undead Persistence in the new combat).
+- `Unleash Hell's Fury`: The 1 aggravated damage will be inflicted even if the acting vampire plays Change of Target.
+- `Unlicensed Taxicab`: Offers the additional stealth on actions to equip it from another friendly minion as well (by itself or with other equipment in the same action).
+- `Ur-Shulgi`: Ur-Shulgi has +1 bleed.
+- `Uriah Winter`: Can still defect if in torpor, and will remain in torpor if he does so.
+- `Valerius Maior`: The "non-infernal and non-Red List" part of his merged text is treated as "term" text (i.e., it is not affected by Seeds of Corruption).
+- `Vast Wealth`: Grants the ability to take an action, namely: to search through the Library for an equipment card.
+  This action is considered an "equip" action.
+  You only search your library if the action is successful.
+  Paying for the equipment found is not optional. If paying the cost will oust the controlling Methuselah, then she is ousted.
+  If the equipment cannot be legally placed on the vampire, it is burned without cost.
+  Vast Wealth's ability is not usable if the Vampire does not share the same controller as Vast Wealth.
+- `Veil of Darkness`: The card that has no effect due to Veil of Darkness's text still counts as played (cannot play a second one if it was an action modifier or a reaction card, for instance).
+  The Veil has no effect on allies who play Discipline-requiring cards "as a vampire", since it sees them only as allies.
+- `Veiled Sight`: The strike option (steal blood) given by the superior version of Veiled Sight may be used once, on any round of the combat.
+  The strike given by the superior version of Veiled Sight is not ranged.
+- `Victoria`: Victoria's special ability can only be used during her controller's master phase.
+- `Vigilance`: The reaction effect (to untap) is usable by a tapped imbued.
+- `Voter Captivation`: Is played *after* the referendum is resolved. If the effect of the referendum ousts the acting Methuselah, there is no time to play Voter Captivation to prevent the ousting.
+  Is playable after Freak Drive or Forced March (they share the same window).
+- `Vox Senis`: When used as an out-of-turn master, Vox Senis may still be canceled by a Sudden Reversal.
+- `Wake with Evening's Freshness`: May be played by your tapped vampire if you are not the acting Minion's controller. The vampire need not attempt to block nor play further reaction cards; that is merely an option.
+- `Walker Grimes`: His special ability ownly affects the cost of masters played by his controller.
+- `War Ghoul`: If you have no other allies and no retainers in play when War Ghoul is recruited, then you burn War Ghoul to satisfy card text.
+- `Wash`: If Wash cancels an out-of-turn master, that Methuselah still cannot play another out-of-turn master against the same master phase (even though the first was canceled and won't count against that master phase).
+- `Wasserschloss Anif, Austria`: Wasserschloss Anif can only receive blood from one Tremere on any given turn.
+- `Wave of Lethargy`: Only the cost of playing the card is increased - if the card provides multiple maneuvers and presses, it is only increased by one. Maneuvers from other sources (in play) do not cost extra.
+- `Weather Control`: Weather Control's damage will occur even if combat is subsequently ended before range (by Mariel or Elysium: Arboretum, e.g.)
+- `Web of Knives Recruit`: The action to play Web of Knives Recruit is not an action to put a vampire in play, so isn't affected by, for example, Blood Cult Awareness Network.
+- `Winged Second`: Several Winged Second cards can be played for the same combat.
+- `Wolf Companion`: The damage is done during normal damage dealing, so a Combat Ends will stop it, as will sending its controller to torpor during first strike.
+  Does not gain any additional strikes of its controller.
+  As with any retainer, the number of lives is set when it is recruited, and will not change if its controller's level of Animalism changes.
+- `Wormwood`: Wormwood snags the vampire's actual capacity (complete with any effects that have changed that actual capacity) and clamps it to X. Orun will add to that X (or to the vampire's real capacity if it is less than X) for cards played by other players.
+- `Yawp Court`: If the acting minion is not ready after the Yawp Court combat, then the action ends (no referendum is conducted).
+- `Young Bloods`: Young Bloods may use their built-in action against a vampire with only 1 blood. If successful, the effect (burn 2 blood) will cause that vampire to burn his 1 blood.
+- `Zip Gun`: If used to maneuver, the bearer will take damage during strike resolution, even if the gun is destroyed with first strike.
+- `Zombie`: Follows all Wolf Companion rulings.
