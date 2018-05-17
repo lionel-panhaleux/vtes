@@ -25,16 +25,16 @@ class Analyzer(object):
     >>> A.refresh()
     >>> # Get the number of decks playing any given card
     >>> A.played["Fame"]
-    498
+    519
     >>> # Get affinity for cards given as argument to refresh
     >>> # The score is the number of TWD playing these cards together
     >>> A.refresh("Fame")
     >>> A.affinity["Fame"].most_common()[0]
-    ('Taste of Vitae', 276)
+    ('Taste of Vitae', 286)
     >>> # Use similarity of 1 to get all decks matching the full card list
     >>> A.refresh("Fame", "Bum's Rush", similarity=1)
     >>> len(A.examples)
-    143
+    147
     """
     def __init__(self):
         self.examples = None     # dict of example decks from TWDA

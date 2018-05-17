@@ -23,6 +23,7 @@ def patch(source, diff, target, reference):
         while not line_num:
             s_line = next(source)
             if s_line != reference[0]:
+                target.write(s_line)
                 continue
             line_num = reference[1]
         while True:

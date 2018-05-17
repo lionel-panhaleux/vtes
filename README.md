@@ -1,7 +1,7 @@
 # vtes
 
 This repository contains a compilation of rules with all registered rulings
-[V:TES Comprehensive Rules](vtes-comprehensive-rules).
+[V:TES Comprehensive Rules](vtes_comprehensive_rules.md).
 
 It also contains the ``fame`` application, a command-line python tool based on
 the TWDA archive and cards lists hosted by VEKN.

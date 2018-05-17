@@ -129,7 +129,10 @@ def deck_(args):
         args.full = True
     for twda_id, example in decks.items():
         if args.full:
-            print("[{:<15}]===================================================")
+            print(
+                "[{:<15}]==================================================="
+                .format(twda_id)
+            )
             print(vtes.VTES.deck_to_txt(example))
         else:
             print("[{}] {}".format(twda_id, example))
