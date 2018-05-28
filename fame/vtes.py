@@ -80,22 +80,31 @@ class _VTES(dict):
         >>> sorted(VTES.trait_choices('Banned'))
         ['1995', '1997', '1999', '2005', '2008', '2013']
         """
-        return {
-            card[trait] for card in self.values()
-            if card.get(trait) and '/' not in card[trait] and '&' not in card[trait]
-        }
+        def get_traits(trait_value):
+            if '/' in trait_value:
+                for value in trait_value.split('/'):
+                    yield value.strip()
+            elif '&' in trait_value:
+                yield 'Combo'
+            else:
+                yield trait_value
+
+        return set(itertools.chain.from_iterable(
+            get_traits(card[trait]) for card in self.values()
+            if trait in card
+        ))
 
     @property
     def disciplines(self):
-        return self.trait_choices("Discipline")
+        return sorted(self.trait_choices("Discipline"))
 
     @property
     def types(self):
-        return self.trait_choices("Type")
+        return sorted(self.trait_choices("Type"))
 
     @property
     def clans(self):
-        return self.trait_choices("Clan")
+        return sorted(self.trait_choices("Clan"))
 
     def load_csv(self, stream):
         for card in csv.DictReader(stream):
@@ -118,11 +127,12 @@ class _VTES(dict):
                 alternative = name.split(",")[0]
                 if len(alternative) > 6:  # e.g. Pier 13, Port of Baltimore
                     self[alternative] = card
-            if "(" in name:
+            if "(" in card['Name']:
                 alternative = name.split("(")[0].strip()
-                if len(alternative) > 6:  # e.g. Pentex(TM) Subversion
+                # e.g. Pentex(TM) Subversion
+                if len(alternative) > 6:
                     self[alternative] = card
-                self[alternative] = card
+
         # pickle this
         pickle.dump(VTES, open(config.VTES_FILE, 'wb'))
 
@@ -135,6 +145,8 @@ class _VTES(dict):
 
     # handle multi valued traits
     def is_disc(self, card, discipline):
+        if discipline == 'Combo':
+            return "&" in VTES[card].get("Discipline", "")
         return {discipline} & {
             disc.strip()
             for d in VTES[card].get("Discipline", "").split('/')

@@ -87,14 +87,18 @@ def affinity(args):
 
 
 def top(args):
-
     # build a condition matching options
     def condition(card):
         return (
-            (not args.clan or vtes.VTES.is_clan(card, args.clan)) and
-            (not args.type or vtes.VTES.is_type(card, args.type)) and
-            (not args.disc or vtes.VTES.is_disc(card, args.disc))
+            (args.clan is None or vtes.VTES.is_clan(card, args.clan)) and
+            (args.type is None or vtes.VTES.is_type(card, args.type)) and
+            (args.disc is None or vtes.VTES.is_disc(card, args.disc)) and
+            (
+                not args.exclude_type or
+                not vtes.VTES.is_type(card, args.exclude_type)
+            )
         )
+    twda.TWDA.configure(args.date_from, args.date_to)
     A = analyzer.Analyzer()
     A.refresh(condition=condition)
     for card_name, count in A.played.most_common()[:args.number]:
@@ -110,6 +114,7 @@ def build(args):
 
 
 def deck_(args):
+    twda.TWDA.configure(args.date_from, args.date_to)
     decks = {
         i: twda.TWDA[i]
         for i in args.cards_or_id if i in twda.TWDA
@@ -127,7 +132,7 @@ def deck_(args):
         decks.update(A.examples)
     if len(decks) == 1:
         args.full = True
-    for twda_id, example in decks.items():
+    for twda_id, example in sorted(decks.items(), key=lambda a: a[1].date):
         if args.full:
             print(
                 "[{:<15}]==================================================="
@@ -230,11 +235,14 @@ parser = subparsers.add_parser(
     help='display top cards (played in most TW decks)')
 parser.add_argument('-n', '--number', type=int, default=10,
                     help='Number of cards to print')
-parser.add_argument('--from', type=arrow.get, default=arrow.get(2008, 1, 1),
-                    help='do not consider decks that won before this date')
-parser.add_argument('--to', type=arrow.get, default=arrow.get(),
-                    help='do not consider decks that won after this date')
-parser.add_argument('-d', '--disc', choices=vtes.VTES.disciplines,
+parser.add_argument('--from', type=lambda s: arrow.get(s, 'YYYY'), default=arrow.get(2008, 1, 1),
+                    dest='date_from',
+                    help='do not consider decks that won before this year')
+parser.add_argument('--to', type=lambda s: arrow.get(s, 'YYYY'), default=arrow.get(),
+                    dest='date_to',
+                    help='do not consider decks that won after this year')
+parser.add_argument('-d', '--discipline', choices=vtes.VTES.disciplines,
+                    dest='disc',
                     metavar='DISC',
                     help='Filter by discipline ({})'.format(
                         ', '.join(vtes.VTES.disciplines)
@@ -245,6 +253,10 @@ parser.add_argument('-c', '--clan', choices=vtes.VTES.clans,
                     ))
 parser.add_argument('-t', '--type', choices=vtes.VTES.types,
                     metavar='TYPE', help='Filter by type ({})'.format(
+                        ', '.join(vtes.VTES.types)
+                    ))
+parser.add_argument('-e', '--exclude-type', choices=vtes.VTES.types,
+                    metavar='TYPE', help='Exclude given type ({})'.format(
                         ', '.join(vtes.VTES.types)
                     ))
 parser.add_argument('-f', '--full', action='store_true',
@@ -269,6 +281,12 @@ parser.add_argument('-f', '--full', action='store_true',
                     help='display each deck content')
 parser.add_argument('cards_or_id', metavar='TXT', nargs='+',
                     help='list TWDA decks from ID or cards')
+parser.add_argument('--from', type=lambda s: arrow.get(s, 'YYYY'), default=arrow.get(2008, 1, 1),
+                    dest='date_from',
+                    help='do not consider decks that won before this year')
+parser.add_argument('--to', type=lambda s: arrow.get(s, 'YYYY'), default=arrow.get(),
+                    dest='date_to',
+                    help='do not consider decks that won after this year')
 parser.set_defaults(func=deck_)
 # ######################################################################### card
 parser = subparsers.add_parser(

@@ -52,9 +52,21 @@ class _TWDA(collections.OrderedDict):
         logger.info("TWDA loaded")
         pickle.dump(TWDA, open(config.TWDA_FILE, 'wb'))
 
-    def configure(self):
+    def configure(self, date_from=None, date_to=None):
         """Compute `self.spoilers`: cards played in over 25% of decks
         """
+        if date_from:
+            for key in [
+                    key for key, value in self.items()
+                    if value.date < date_from
+            ]:
+                del self[key]
+        if date_to:
+            for key in [
+                    key for key, value in self.items()
+                    if value.date >= date_to
+            ]:
+                del self[key]
         self.spoilers = {
             name
             for name, count in collections.Counter(
