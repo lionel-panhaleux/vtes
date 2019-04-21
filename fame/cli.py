@@ -12,7 +12,6 @@ import requests
 
 from . import analyzer
 from . import config
-from . import patch
 from . import twda
 from . import vtes
 from . import deck
@@ -22,7 +21,7 @@ logger = logging.getLogger()
 
 def init(args):
     if args.vtes:
-        vtes.VTES.load_csv(open(args.file, encoding="utf_8_sig"))
+        vtes.VTES.load_csv(args.file)
     elif args.twda:
         if not vtes.VTES:
             logger.critical(
@@ -30,7 +29,7 @@ def init(args):
             )
             exit(1)
         vtes.VTES.configure()
-        twda.TWDA.load_html(open(args.file))
+        twda.TWDA.load_html(args.file)
     else:
         try:
             with tempfile.NamedTemporaryFile("wb", suffix=".zip") as f:
@@ -43,16 +42,8 @@ def init(args):
                 with z.open(config.VEKN_VTES_CRYPT_FILENAME) as c:
                     vtes.VTES.load_csv(io.TextIOWrapper(c, encoding="utf_8_sig"))
                 vtes.VTES.configure()
-            with tempfile.NamedTemporaryFile("wb", suffix=".html") as f:
-                r = requests.request("GET", config.VEKN_TWDA_URL)
-                patch.patch(
-                    io.BytesIO(r.content),
-                    open(config.TWDA_PATCH_FILE, "rb"),
-                    f,
-                    config.TWDA_PATCH_REFERENCE,
-                )
-                f.flush()
-                twda.TWDA.load_html(open(f.name))
+            r = requests.request("GET", config.VEKN_TWDA_URL)
+            twda.TWDA.load_html(io.BytesIO(r.content))
         except requests.exceptions.ConnectionError as e:
             logger.critical(
                 "failed to connect to {}"
@@ -60,12 +51,6 @@ def init(args):
                     e.request.url
                 )
             )
-            exit(1)
-        except patch.PatchError as e:
-            import ipdb
-
-            ipdb.set_trace()
-            logger.critical("failed to apply patch to TWDA.html: {}".format(e))
             exit(1)
 
 
