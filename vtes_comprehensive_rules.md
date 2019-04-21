@@ -844,7 +844,7 @@ ally loses his last life counter, he is burned. If recruiting the ally requires
 a Discipline and the ally is put into play by some means other than recruiting,
 use the normal version of the ally, if it is different than the superior.
 
-Ⓡ An ally ginore all "burn blood" effects entirely.
+Ⓡ An ally ignore all "burn blood" effects entirely.
 
 Ⓡ There is no limit to an Ally's life (if some effect gives an Ally more life
 than it started with, the excess does not drain off).
