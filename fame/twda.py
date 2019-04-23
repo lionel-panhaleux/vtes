@@ -271,7 +271,7 @@ def _get_card(line):
     >>> _get_card('2x anvil			6   cel pot dom pre tha	 primogen  brujah:1')
     ('anvil', 2)
     >>> # names beginning with an 'x' and parenthesied '(adv)' must be correctly matched
-    >>> _get_card('2x xaviar (adv)		10  abo ani for pro aus cel pot	 justicar	gangrel:3')
+    >>> _get_card('2x xaviar (adv)		10  abo ani for pro aus cel pot	 gangrel:3')
     ('xaviar (adv)', 2)
     >>> # names beginning with a number are hard
     >>> _get_card('2nd tradition')
