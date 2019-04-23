@@ -20,8 +20,9 @@ class Deck(collections.Counter):
         - players_count: Count of players at the event
         - player: Player who played the deck
     """
+
     def __init__(self, *args, **kwargs):
-        self.author = kwargs.pop('author', None)
+        self.author = kwargs.pop("author", None)
         super().__init__(*args, **kwargs)
         self.event = None
         self.place = None
@@ -30,41 +31,41 @@ class Deck(collections.Counter):
         self.players_count = 0
         self.player = None
         self.name = None
-        self.comments = ''
+        self.comments = ""
 
     def __getstate__(self):
         """For pickle serialization: Deck inherits dict and their special
         handling of pickle.
         """
         return {
-            'cards': collections.OrderedDict(self.cards()),
-            'author': self.author,
-            'event': self.event,
-            'place': self.place,
-            'date': self.date.format('MMMM Do YYYY') if self.date else None,
-            'score': self.score,
-            'players_count': self.players_count,
-            'player': self.player,
-            'name': self.name,
-            'comments': self.comments,
+            "cards": collections.OrderedDict(self.cards()),
+            "author": self.author,
+            "event": self.event,
+            "place": self.place,
+            "date": self.date.format("MMMM Do YYYY") if self.date else None,
+            "score": self.score,
+            "players_count": self.players_count,
+            "player": self.player,
+            "name": self.name,
+            "comments": self.comments,
         }
 
     def __setstate__(self, state):
         """For pickle deserialization.
         """
-        self.author = state.get('author')
-        self.event = state.get('event')
-        self.place = state.get('place')
+        self.author = state.get("author")
+        self.event = state.get("event")
+        self.place = state.get("place")
         try:
-            self.date = arrow.get(state.get('date'), 'MMMM Do YYYY')
+            self.date = arrow.get(state.get("date"), "MMMM Do YYYY")
         except arrow.parser.ParserError:
             pass
-        self.score = state.get('score')
-        self.players_count = int(state.get('players_count', 0))
-        self.player = state.get('player')
-        self.name = state.get('name')
-        self.comments = state.get('comments', '')
-        self.update(state.get('cards', {}))
+        self.score = state.get("score")
+        self.players_count = int(state.get("players_count", 0))
+        self.player = state.get("player")
+        self.name = state.get("name")
+        self.comments = state.get("comments", "")
+        self.update(state.get("cards", {}))
 
     def __reduce__(self):
         """For pickle.

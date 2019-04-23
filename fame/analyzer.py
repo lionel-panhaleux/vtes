@@ -36,13 +36,14 @@ class Analyzer(object):
     >>> len(A.examples)
     147
     """
+
     def __init__(self):
-        self.examples = None     # dict of example decks from TWDA
-        self.played = None       # number of decks playing each card
-        self.average = None      # average number of exemplaries played
-        self.affinity = None     # affinity score of cards relative to each card
+        self.examples = None  # dict of example decks from TWDA
+        self.played = None  # number of decks playing each card
+        self.average = None  # average number of exemplaries played
+        self.affinity = None  # affinity score of cards relative to each card
         self.refresh_cursor = 0  # when to refresh next
-        self.deck = None         # deck being build
+        self.deck = None  # deck being build
 
     def build_deck(self, *args):
         """Build a deck, using optional card names as reference.
@@ -52,13 +53,14 @@ class Analyzer(object):
 
         If no card name is given, a random first-tier card is chosen for seed.
         """
-        self.deck = deck.Deck(author='Fame')
+        self.deck = deck.Deck(author="Fame")
         self.refresh(*args, condition=vtes.VTES.is_crypt)
         if not args:
             # do not consider spoilers when choosing the seed
             args = [
                 [
-                    c for c, _ in self.played.most_common()
+                    c
+                    for c, _ in self.played.most_common()
                     if c not in twda.TWDA.spoilers
                 ][randrange(100)]
             ]
@@ -106,9 +108,9 @@ class Analyzer(object):
             self.examples = {
                 twda_id: example
                 for twda_id, example in twda.TWDA.items()
-                if len(
-                    set(reference) & set(example.card_names(twda.TWDA.no_spoil))
-                ) / len(reference) >= similarity
+                if len(set(reference) & set(example.card_names(twda.TWDA.no_spoil)))
+                / len(reference)
+                >= similarity
             }
         else:
             self.examples = twda.TWDA
@@ -127,16 +129,18 @@ class Analyzer(object):
             # compute average number played for each card
             self.average = collections.Counter()
             for example in self.examples.values():
-                self.average.update({
-                    card: count / self.played[card]
-                    for card, count in example.cards(condition)
-                })
+                self.average.update(
+                    {
+                        card: count / self.played[card]
+                        for card, count in example.cards(condition)
+                    }
+                )
             # compute number of cards left to find for this deck
             self.cards_left = round(
                 sum(
-                    example.cards_count(condition)
-                    for example in self.examples.values()
-                ) / len(self.examples)
+                    example.cards_count(condition) for example in self.examples.values()
+                )
+                / len(self.examples)
             )
             # make sure cards_left count respects rules
             if condition == vtes.VTES.is_library:
@@ -157,9 +161,7 @@ class Analyzer(object):
             if card not in example:
                 continue
             self.affinity[card].update(
-                friend
-                for friend, _ in example.cards(condition)
-                if friend != card
+                friend for friend, _ in example.cards(condition) if friend != card
             )
 
     def candidates(self, *args):
@@ -168,11 +170,13 @@ class Analyzer(object):
         # score candidates by affinity
         candidates = collections.Counter()
         for card in args:
-            candidates.update({
-                candidate: score
-                for candidate, score in self.affinity.get(card, {}).items()
-                if not (candidate in config.BANNED or candidate in args)
-            })
+            candidates.update(
+                {
+                    candidate: score
+                    for candidate, score in self.affinity.get(card, {}).items()
+                    if not (candidate in config.BANNED or candidate in args)
+                }
+            )
         return candidates.most_common()
 
     def build_deck_part(self, *args, condition=None):
