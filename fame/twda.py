@@ -77,6 +77,8 @@ class _TWDA(collections.OrderedDict):
                 if count > len(self) / 4
             }
             logger.debug("Spoilers: {}".format(self.spoilers))
+        else:
+            self.spoilers = {}
 
     def _get_decks_html(self, source, binary):
         """Get lines for each deck, using HTML tags as separators.
@@ -240,7 +242,7 @@ class _TWDA(collections.OrderedDict):
         return current
 
     def no_spoil(self, card):
-        return card not in self.spoilers
+        return not getattr(self, "spoilers", None) or card not in self.spoilers
 
 
 def _get_card(line):

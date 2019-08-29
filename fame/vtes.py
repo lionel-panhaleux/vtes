@@ -97,7 +97,7 @@ class _VTES(dict):
 
         return set(
             itertools.chain.from_iterable(
-                get_traits(card[trait]) for card in self.values() if trait in card
+                get_traits(card[trait]) for card in self.values() if card.get(trait)
             )
         )
 
