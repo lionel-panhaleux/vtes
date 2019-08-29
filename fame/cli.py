@@ -55,15 +55,17 @@ def init(args):
 
 
 def affinity(args):
-    kwargs = {}
-    if args.identity:
-        kwargs["types"] = [vtes.VTES[card]["Type"] for card in args.cards]
-    if args.crypt:
-        kwargs["crypt"] = True
-    if args.library:
-        kwargs["crypt"] = False
+    # build a condition matching options
+    def condition(card):
+        return (
+            (args.spoilers or twda.TWDA.no_spoil(card))
+            and (not args.crypt or vtes.VTES.is_crypt(card))
+            and (not args.library or vtes.VTES.is_library(card))
+        )
+
+    twda.TWDA.configure(args.date_from, args.date_to)
     A = analyzer.Analyzer()
-    A.refresh(*args.cards, **kwargs)
+    A.refresh(*args.cards, condition=condition)
     for candidate in A.candidates(*args.cards)[: args.number]:
         print("{0[0]:<30} (score: {0[1]:.2f})".format(candidate))
 
@@ -72,9 +74,9 @@ def top(args):
     # build a condition matching options
     def condition(card):
         return (
-            (args.clan is None or vtes.VTES.is_clan(card, args.clan))
-            and (args.type is None or vtes.VTES.is_type(card, args.type))
-            and (args.disc is None or vtes.VTES.is_disc(card, args.disc))
+            (not args.clan or vtes.VTES.is_clan(card, args.clan))
+            and (not args.type or vtes.VTES.is_type(card, args.type))
+            and (not args.disc or vtes.VTES.is_disc(card, args.disc))
             and (
                 not args.exclude_type or not vtes.VTES.is_type(card, args.exclude_type)
             )
@@ -204,7 +206,24 @@ parser.add_argument(
     "-n", "--number", type=int, default=10, metavar="N", help="Number of cards to print"
 )
 parser.add_argument(
-    "-i", "--identity", action="store_true", help="Display cards of identical type only"
+    "--from",
+    type=lambda s: arrow.get(s, "YYYY"),
+    default=arrow.get(2008, 1, 1),
+    dest="date_from",
+    help="do not consider decks that won before this year",
+)
+parser.add_argument(
+    "--to",
+    type=lambda s: arrow.get(s, "YYYY"),
+    default=arrow.get(),
+    dest="date_to",
+    help="do not consider decks that won after this year",
+)
+parser.add_argument(
+    "-s",
+    "--spoilers",
+    action="store_true",
+    help="Display spoiler cards in affinity list",
 )
 parser.add_argument("-c", "--crypt", action="store_true", help="Only crypt cards")
 parser.add_argument("-l", "--library", action="store_true", help="Only library cards")
