@@ -52,7 +52,7 @@ class _TWDA(collections.OrderedDict):
         logger.info("TWDA loaded")
         pickle.dump(TWDA, open(config.TWDA_FILE, "wb"))
 
-    def configure(self, date_from=None, date_to=None):
+    def configure(self, date_from=None, date_to=None, min_players=0):
         """Compute `self.spoilers`: cards played in over 25% of decks
         """
         if date_from:
@@ -61,14 +61,22 @@ class _TWDA(collections.OrderedDict):
         if date_to:
             for key in [key for key, value in self.items() if value.date >= date_to]:
                 del self[key]
-        self.spoilers = {
-            name
-            for name, count in collections.Counter(
-                itertools.chain.from_iterable(d.keys() for d in self.values())
-            ).items()
-            if count > len(self) / 4
-        }
-        logger.debug("Spoilers: {}".format(self.spoilers))
+        if min_players:
+            for key in [
+                key
+                for key, value in self.items()
+                if value.players_count and value.players_count < min_players
+            ]:
+                del self[key]
+        if len(self) > 50:
+            self.spoilers = {
+                name
+                for name, count in collections.Counter(
+                    itertools.chain.from_iterable(d.keys() for d in self.values())
+                ).items()
+                if count > len(self) / 4
+            }
+            logger.debug("Spoilers: {}".format(self.spoilers))
 
     def _get_decks_html(self, source, binary):
         """Get lines for each deck, using HTML tags as separators.

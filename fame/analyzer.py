@@ -98,7 +98,7 @@ class Analyzer(object):
         """
         reference = []
         if args:
-            reference += [a for a in args if twda.TWDA.no_spoil(a)]
+            reference += [a for a in args]
         if self.deck:
             reference += list(self.deck.card_names(twda.TWDA.no_spoil))
         self.refresh_cursor = len(reference) * len(reference)

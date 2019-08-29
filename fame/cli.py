@@ -96,10 +96,10 @@ def build(args):
 
 
 def deck_(args):
-    twda.TWDA.configure(args.date_from, args.date_to)
+    twda.TWDA.configure(args.date_from, args.date_to, min_players=args.players)
     decks = {i: twda.TWDA[i] for i in args.cards_or_id if i in twda.TWDA}
     cards = [vtes.VTES[c]["Name"] for c in args.cards_or_id if c not in twda.TWDA]
-    if cards:
+    if not decks:
         A = analyzer.Analyzer()
         try:
             A.refresh(*cards, similarity=1)
@@ -291,7 +291,7 @@ parser.add_argument(
     "-f", "--full", action="store_true", help="display each deck content"
 )
 parser.add_argument(
-    "cards_or_id", metavar="TXT", nargs="+", help="list TWDA decks from ID or cards"
+    "cards_or_id", metavar="TXT", nargs="*", help="list TWDA decks from ID or cards"
 )
 parser.add_argument(
     "--from",
@@ -306,6 +306,13 @@ parser.add_argument(
     default=arrow.get(),
     dest="date_to",
     help="do not consider decks that won after this year",
+)
+parser.add_argument(
+    "-p",
+    "--players",
+    type=int,
+    default=0,
+    help="minimum number of players in tournament to consider this deck",
 )
 parser.set_defaults(func=deck_)
 # ######################################################################### card
