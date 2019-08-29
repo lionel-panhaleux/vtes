@@ -43,7 +43,7 @@ def init(args):
                     vtes.VTES.load_csv(io.TextIOWrapper(c, encoding="utf_8_sig"))
                 vtes.VTES.configure()
             r = requests.request("GET", config.VEKN_TWDA_URL)
-            twda.TWDA.load_html(io.BytesIO(r.content))
+            twda.TWDA.load_html(io.BytesIO(r.content), binary=True)
         except requests.exceptions.ConnectionError as e:
             logger.critical(
                 "failed to connect to {}"

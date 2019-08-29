@@ -41,10 +41,10 @@ class _TWDA(collections.OrderedDict):
     """ An OrderedDict of the TWDA. Parsing TWDA.html is the hard part.
     """
 
-    def load_html(self, source):
+    def load_html(self, source, binary=False):
         """Load from TWDA.html
         """
-        for lines, twda_id in self._get_decks_html(source):
+        for lines, twda_id in self._get_decks_html(source, binary):
             try:
                 self[twda_id] = self._load_deck_html(lines, twda_id)
             except ParserError as e:
@@ -70,11 +70,13 @@ class _TWDA(collections.OrderedDict):
         }
         logger.debug("Spoilers: {}".format(self.spoilers))
 
-    def _get_decks_html(self, source):
+    def _get_decks_html(self, source, binary):
         """Get lines for each deck, using HTML tags as separators.
         """
         lines = []
         for line_num, line in enumerate(source.readlines(), start=1):
+            if binary:
+                line = line.decode("utf-8")
             try:
                 twda_id = re.match(r"^<a id=([^\s]*)\s", line).group(1)
             except AttributeError:
