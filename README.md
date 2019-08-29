@@ -4,7 +4,8 @@ This repository contains a compilation of rules with all registered rulings
 [V:TES Comprehensive Rules](vtes_comprehensive_rules.md).
 
 It also contains the ``fame`` application, a command-line python tool based on
-the TWDA archive and cards lists hosted by VEKN.
+the VEKN [official card texts](http://www.vekn.net/card-lists)
+and [Tournament Winning Deck Archive (TWDA)](http://www.vekn.fr/decks/twd.htm)
 
 ## Installation
 
@@ -20,6 +21,10 @@ Then initialize the tool using the ``init`` subcommand:
 fame init
 ```
 
+Note the initialization process usually displays a long list of lines mismatch.
+This is not an issue: many old decks in the TWDA are hard to parse,
+and these errors are usually of no consequence.
+
 ## Usage
 
 Use the help command for a full documentation of the tool:
@@ -27,6 +32,15 @@ Use the help command for a full documentation of the tool:
 ```shell
 fame --help
 ```
+
+And also extensive help on each sub-command:
+
+```shell
+fame [COMMAND] --help
+```
+
+Note most commands only take decks from 2008 on in consideration.
+You can use the `--from` and `--to` parameters to control the date range.
 
 ## Examples
 
@@ -115,42 +129,53 @@ played (untested) at the German Nationals 03.12.2016, Bochum
 1  Mr. Winthrop
 ```
 
+Display all decks that won a tournament of 50 players or more in 2018:
+
+```shell
+$> fame deck --players 50 --from 2018 --to 2019
+[2018igpadhs] (No Name)
+[2018eclcqwp] Dear diary, today I feel like a wraith.. Liquidation
+[2018ecday1wp] MMA.MPA (EC 2018)
+[2018ecday2wp] EC 2018 win
+[2018pncwp] Deadly kittens
+```
+
 List cards most associated with a given card in TWD:
 
 ```shell
-fame affinity "Fame"
-Taste of Vitae                 (score: 276.00)
-On the Qui Vive                (score: 250.00)
-Blood Doll                     (score: 247.00)
-Dreams of the Sphinx           (score: 208.00)
-Pentex(TM) Subversion          (score: 202.00)
-Direct Intervention            (score: 176.00)
-Dragonbound                    (score: 164.00)
-Delaying Tactics               (score: 163.00)
-Giant's Blood                  (score: 162.00)
-Deflection                     (score: 155.00)
+$> fame affinity "Fame"
+Taste of Vitae                 (score: 237.00)
+Dragonbound                    (score: 153.00)
+Powerbase: Montreal            (score: 131.00)
+Target Vitals                  (score: 119.00)
+Carrion Crows                  (score: 119.00)
+Carlton Van Wyk                (score: 118.00)
+Haven Uncovered                (score: 115.00)
+Ashur Tablets                  (score: 111.00)
+Archon Investigation           (score: 106.00)
+Deep Song                      (score: 103.00)
 ```
 
 List most played cards of a given type, clan or discipline:
 
 ```shell
-fame top -d Animalism
-Carrion Crows                  (played in 301 decks)
-Cats' Guidance                 (played in 284 decks)
-Raven Spy                      (played in 244 decks)
-Canine Horde                   (played in 214 decks)
-Army of Rats                   (played in 187 decks)
-Aid from Bats                  (played in 179 decks)
-Deep Song                      (played in 159 decks)
-Sense the Savage Way           (played in 129 decks)
-Guard Dogs                     (played in 99 decks)
-Owl Companion                  (played in 81 decks)
+$> fame top -d Animalism
+Carrion Crows                  (played in 240 decks)
+Cats' Guidance                 (played in 211 decks)
+Canine Horde                   (played in 187 decks)
+Deep Song                      (played in 180 decks)
+Raven Spy                      (played in 176 decks)
+Sense the Savage Way           (played in 156 decks)
+Aid from Bats                  (played in 144 decks)
+Army of Rats                   (played in 131 decks)
+Guard Dogs                     (played in 72 decks)
+Terror Frenzy                  (played in 70 decks)
 ```
 
 Build a deck from any given cards based on TWDA:
 
 ```shell
-fame build "Fame" "Carrion Crows"
+$> fame build "Fame" "Carrion Crows"
 
 Created by: Fame
 Description:

@@ -94,6 +94,7 @@ def top(args):
 
 
 def build(args):
+    twda.TWDA.configure()
     print(vtes.VTES.deck_to_txt(analyzer.Analyzer().build_deck(*args.cards)))
 
 
@@ -203,14 +204,19 @@ parser = subparsers.add_parser(
     "affinity", help="display cards with the most affinity to given cards"
 )
 parser.add_argument(
-    "-n", "--number", type=int, default=10, metavar="N", help="Number of cards to print"
+    "-n",
+    "--number",
+    type=int,
+    default=10,
+    metavar="N",
+    help="Number of cards to print (default 10)",
 )
 parser.add_argument(
     "--from",
     type=lambda s: arrow.get(s, "YYYY"),
     default=arrow.get(2008, 1, 1),
     dest="date_from",
-    help="do not consider decks that won before this year",
+    help="do not consider decks that won before this year (default 2008-01-01)",
 )
 parser.add_argument(
     "--to",
@@ -223,7 +229,7 @@ parser.add_argument(
     "-s",
     "--spoilers",
     action="store_true",
-    help="Display spoiler cards in affinity list",
+    help="Display spoiler cards in affinity list (not included by default)",
 )
 parser.add_argument("-c", "--crypt", action="store_true", help="Only crypt cards")
 parser.add_argument("-l", "--library", action="store_true", help="Only library cards")
@@ -240,14 +246,14 @@ parser = subparsers.add_parser(
     "top", help="display top cards (played in most TW decks)"
 )
 parser.add_argument(
-    "-n", "--number", type=int, default=10, help="Number of cards to print"
+    "-n", "--number", type=int, default=10, help="Number of cards to print (default 10)"
 )
 parser.add_argument(
     "--from",
     type=lambda s: arrow.get(s, "YYYY"),
     default=arrow.get(2008, 1, 1),
     dest="date_from",
-    help="do not consider decks that won before this year",
+    help="do not consider decks that won before this year (default 2008-01-01)",
 )
 parser.add_argument(
     "--to",
@@ -294,7 +300,7 @@ parser.add_argument(
     "--date",
     type=arrow.get,
     default=arrow.get(2008, 1, 1),
-    help="do not consider decks that won before this date",
+    help="do not consider decks that won before this date (default 2008-01-01)",
 )
 parser.add_argument(
     "cards",
@@ -317,7 +323,7 @@ parser.add_argument(
     type=lambda s: arrow.get(s, "YYYY"),
     default=arrow.get(2008, 1, 1),
     dest="date_from",
-    help="do not consider decks that won before this year",
+    help="do not consider decks that won before this year (default 2008-01-01)",
 )
 parser.add_argument(
     "--to",
