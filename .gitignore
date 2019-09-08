@@ -1,16 +1,3 @@
-# Temporary files
-.*.swp
-*.pyc
-*.pyo
-*.mo
-__pycache__/
-
-# Build-related files
-venv/
-*.egg-info/
-dist/
-*.pkl
-
 # OS / editors
 .DS_Store
 .vscode/
