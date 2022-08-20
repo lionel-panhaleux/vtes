@@ -432,6 +432,8 @@ The cards you start the game with are referred to as “owned”. Your cards can
 At the end of the game, the cards you own are returned to you.
 If you are ousted before the end of the game, any cards that you own that other Methuselahs control remain in play until burned as normal.
 
+When an effect moves a card in the ash heap, library or hand, it always goes in its owner's ash heap, library or hand, whoever the controller is.
+
 ##### The Golden Rule for Cards
 
 Whenever the cards contradict the rules, the cards take precedence.
