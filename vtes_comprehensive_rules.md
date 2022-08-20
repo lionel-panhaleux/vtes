@@ -82,6 +82,8 @@ An uncontrolled vampire will have blood counters stacked on them representing th
 During the influence phase, if that stack equals or exceeds their blood capacity, you can reveal the vampire and place them in the ready region.
 They retain the pool counters used to influence them on their card to serve as their blood, any blood counters in excess of the capacity drain back to the blood bank (see Influence Phase).
 
+Some cards can augment or reduce a vampire's capacity; there is no maximum, but it can never be reduced below one.
+
 ##### Clan
 
 Each vampire belongs to a clan, identified by the symbol at the top of the attribute bar (the marble stripe on the left side of the card).
