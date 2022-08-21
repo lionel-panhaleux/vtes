@@ -170,6 +170,7 @@ Event cards are put into play during the discard phase to represent events that 
 
 A card is played by announcing its effects, showing the card and placing it from the hand in the ash heap.
 Sometimes a card will state to put it into play, you should announce its effects and place the card in the play area.
+
 Some effects can cancel a card “as it is played.” These effects, as well as wake effects, are the only effects allowed during the “as played” time period of another card.
 Even drawing to replace cards, comes after this time period.
 
@@ -190,15 +191,17 @@ or Discipline (if any) required to play the card, and the cost (if any) of playi
 
 Some cards will have other requirements (such as capacity or title) stated in the card text.
 Only a minion who meets the requirements given on a minion card can play it, whereas only a Methuselah who controls a ready minion who meets the requirements of a master card can play it.
+Requirements need only be met when a card is played. Once it is in play, actions or effects that change the controller of the card ignore requirements.
 
 Some of the effects listed on cards may require one of the Disciplines listed, while other effects require another listed Discipline,
 and some effects may require the vampire to possess several Disciplines.
 Each effect shows the icon(s) of the Discipline(s) required.
+An effect that allows a minion to play a card that requires a Discipline he does not have can be used to meet one (not more) of the Discipline requirements.
 
 A number in a red drop represents blood cost (the amount of blood the vampire must burn).
-Only a vampire with enough blood on them can play a card with a blood cost.
 A number in a white diamond with a skull represents pool cost (the amount of pool the Methuselah must burn).
-Only a Methuselah with enough pool can play a card with a pool cost.
+Cards with a cost can only be played if the cost can be paid by the Methuselah or minion playing it,
+taking into account all effects modifying the cost or contributing to the paiement.
 
 <img src="https://www.vekn.net/images/stories/rulebook/16_costs.png" width="300">
 
@@ -206,6 +209,8 @@ Only a Methuselah with enough pool can play a card with a pool cost.
 
 If a card is played on another card, or targets another card, the target card must be in play (that is, controlled).
 Vampires in the torpor region are eligible targets by default, but vampires in the uncontrolled region and contested cards are not.
+
+If a card needs a target (chooses, selects, is played on, etc.), then it can only be played if an appropriate target is available.
 
 ##### Sequencing
 
@@ -650,6 +655,7 @@ A hunt can be made with an action card or through the basic hunt action.
 - **Effect when equipping from another minion you control:** Equip with an equipment card currently possessed by one of your other minions. 
   More than one equipment card can be taken from a minion in a single action, but the equipment you wish to take must be announced as the action is announced.
   If the action is unsuccessful, the equipment remains where it is.
+  Requirements from the equipment card (eg. clan requirement) do not apply when equipping from another minion, only when equipping from your hand.
 
 <img src="https://www.vekn.net/images/stories/rulebook/35_equip.png" width="400">
 
