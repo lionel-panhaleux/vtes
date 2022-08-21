@@ -529,7 +529,7 @@ If all other vampires contesting a title with your vampire have yielded the cont
 
 The vampire yielding the title will now have no title and loses the benefits of the title for the remainder of the game.
 
-### 2. MASTER PHASE
+### 2. Master Phase
 
 You receive master phase actions during your master phase. A master phase action represents your personal activity during the turn as a Methuselah.
 By default, you receive only one master phase action, but some cards may change this amount.
@@ -542,7 +542,7 @@ It is not compulsory to use your master phase actions. However, you cannot save 
 You can use a master phase action to mark a Red List minion (see [Red List](#red-list)).
 If you’ve played an out-of-turn master card against this master phase (even if it was cancelled), then you gain one fewer master phase actions than normal (see [Master Cards](#master-cards)).
 
-### 3. MINION PHASE
+### 3. Minion Phase
 
 Most of the activity in the game occurs in the minion phase. During your minion phase, you may have your minions perform actions.
 Only ready unlocked minions can perform actions, and taking an action locks the acting minion.
@@ -1262,7 +1262,7 @@ If the referendum passes, a blood hunt is called, and the diablerist is burned.
 This referendum is not an action, so it cannot be blocked, and action modifiers and reaction cards cannot be played.
 Otherwise, this referendum is handled just like any other.
 
-### 4. INFLUENCE PHASE
+### 4. Influence Phase
 
 Methuselahs vehemently strive to dominate vampire society, but most younger vampires are reluctant to defer to the whims of the ancients.
 Methuselahs must apply their resources skilfully to entice their younger brethren to do their bidding (often with the vampires not even realising that they are being manipulated).
@@ -1325,7 +1325,7 @@ Such an effect is identified in the card text by a merged icon.
 
 The advanced vampire (merged or not) will contest other copies of the same vampire (advanced or not) in play, as usual.
 
-### 5. DISCARD PHASE
+### 5. Discard Phase
 
 In your discard phase you receive by default one discard phase action. You can use a discard phase action to discard a card from your hand and draw to replace it.
 Discard phase actions not used are lost; they cannot be saved for later.
