@@ -930,8 +930,9 @@ In those, the action has no effect (it is still considered successful).
 
 If the action is blocked, then any card played to perform the action is burned and the block is resolved with these two simultaneous consequences:
 the blocking minion is locked and enters combat with the acting minion (see [Combat](#combat)).
-If an effect ends the action before the block resolution or one of these two consequences (such as entering combat), neither consequence occurs.
+If an effect ends the action before the block resolution, neither consequence occurs.
 The effects of the action do not take place when the action is blocked and its cost is not paid.
+The combat is part of the action resolution. Action modifiers and reactions that are played after the action resolution are played after the combat.
 
 Between the time the action card is played and the action resolved,
 the action card is neither in play nor in the ash heap, it is in limbo.
