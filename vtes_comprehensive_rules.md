@@ -315,7 +315,7 @@ A minion cannot play the same action modifier card more than once during a singl
 
 <img src="https://www.vekn.net/images/stories/rulebook/21_action_modifier.png" width="200">
 
-Some action modifier cards are played by minions “other than the acting minion”. Only minions controlled by the same Methuselah can play those cards.
+Some action modifier cards are played by minions “other than the acting minion”. Only ready minions controlled by the same Methuselah can play those cards.
 
 ##### Ally cards
 
@@ -927,6 +927,13 @@ If the action is blocked, then any card played to perform the action is burned a
 the blocking minion is locked and enters combat with the acting minion (see [Combat](#combat)).
 If an effect ends the action before the block resolution or one of these two consequences (such as entering combat), neither consequence occurs.
 The effects of the action do not take place when the action is blocked and its cost is not paid.
+
+Between the time the action card is played and the action resolved,
+the action card is neither in play nor in the ash heap, it is in limbo.
+When the action is resolved (blocked or successful), the card is burned or put in play, as appropriate.
+
+Combat cards that allow an action to continue as if unblocked need to bring the action card (if any) from the ash heap to limbo.
+If the action card is not in the ash heap at that point, the action cannot continue.
 
 ### Politics
 
