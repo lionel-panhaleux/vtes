@@ -621,6 +621,7 @@ These three actions are very similar, although the cards they bring into play ar
 - **Allies:** non-vampire minions, such as mages, werewolves, or ordinary mortals. An ally is brought into play with the recruit ally action.
 
 A minion cannot perform each action via the same card in play (including from the minion’s own card text) more than once each turn, even if they unlock.
+If there are multiple copies of the same card in play allowing for an action, the same minion can perform this action once for each of those cards during the same turn.
 
 #### Bleed
 
@@ -804,6 +805,10 @@ If recruiting the ally requires a Discipline and the ally is put into play by so
 
 - **Who can perform an action by default:** Any ready minion.
   A minion cannot perform an action with the same action card from hand or in play more than once each turn, even if they unlock.
+  Different copies of the same action card *in hand*, even if using different discipline levels,
+  count as the same action and cannot be performed by the same minion more than once per turn.
+  Different copies of the same card *in play* allowing for an action however, count as different actions
+  and the same minion can perform the action once for each of those cards during the same turn (if they manage to unlock).
 
 - **Cost:** As listed on the card.
 
