@@ -1557,6 +1557,8 @@ If the sub-referendum is tied, the prisci block abstains from the main referendu
 As vampires cast their ballots in the sub-referendum, the prisci block of 3 votes might shift between “for”, “against”, and “abstain” (as the majority in the subreferendum changes).
 A vampire must cast all of their votes and ballots in agreement.
 
+##### Antitribu
+
 For the purpose of these rules, the antitribu clans are distinct from their non-antitribu counterparts.
 A vampire of one of the antitribu clans does not qualify to play a card that requires the counterpart, and vice versa.
 Likewise, if a vampire changes sect, their clan does not automatically change.
