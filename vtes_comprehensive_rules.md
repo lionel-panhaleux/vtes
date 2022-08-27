@@ -231,6 +231,39 @@ So after playing one effect, they may play another and another.
 Once they are finished, the opportunity passes to the defending Methuselah (in the cases of directed actions and combat), then to the rest of the Methuselahs in clockwise order from the acting Methuselah.
 Note that if any Methuselah uses a card or effect, the acting Methuselah again gets the opportunity to use the next card or effect.
 
+##### Order of effects
+
+Cards effects are always applied in full. When an effect resolves, no other effect can interrupt its resolution.
+
+Some cards and effects can only be used during specific timing windows: they cannot be played at any other time.
+
+**Immediate effects:** Except for strikes, actions and explicitly *delayed effects* (see below),
+cards and effects are always resolved immediately when the card is played or the effect announced.
+Methuselahs cannot postpone this resolution and use an effect before it resolves. If multiple Methuselahs want to play a card or effect at the same time,
+the normal [Sequencing](#sequencing) rules apply.
+
+**Ordered effects:** Some cards and effects can explicitely be used *"before"* or *"after"* a specific event (eg. *"after action resolution"*, *"before block resolution"*).
+This describes a precise time window: these effects must be used immediately before or after the the event specified (not at any time before or after it).
+If multiple methuselahs want to use an effect during the same ordered window, the normal [Sequencing](#sequencing) rules apply.
+
+**Replacement effects:** Some effects replace upcoming events, they use the auxiliary *"would"* (eg. *"when the bleed would be successful"*, *"if combat would end"*).
+These effect are to be used after ordered effects that are used *"before"* the event.
+They must also be played before any upcoming effect (see below)
+At any step, all methuselahs get an opportunity to play replacement effects before any of them can play direct effect, following the normal [Sequencing](#sequencing) rules.
+
+**Upcoming effect:** Some effects can only be used after any ordered or replacement effect, when an event is actually upcoming. They use the expression *"about to"*
+(eg. *"when the bleed is about to be successful"*, *"if the combat is about to end"*).
+They can only be used after all others effect, when the event is upcoming and it's advent cannot be avoided anymore.
+
+**Delayed effects:** Some cards set up effects that are to be resolved later (eg. *"If this action is blocked, before block resolution"*, *"During the next unlock phase"*). 
+Once a delayed effect is set up, it triggers immediately when the event happens: Methuselahs do not get an opportunity to use any effect before it.
+(eg. a delayed effect applied *"before block resolution"* is resolved before any Methuselah has a chance to play a card *"before block resolution"*).
+If multiple delayed effects trigger at the same time, the acting Methuselah, or the Methuselah whose turn it is if there is no action, decides the order.
+Once set up, a delayed effect can trigger even if its source is burned or removed from play.
+When a delayed effect triggers, it always resolves, even if the event triggering it ends prematurely.
+Delayed effects do not trigger if the event supposed to trigger them is replaced by a *replacement effect* or canceled.
+If the target of a delayed effect is out of play when the effect triggers, the target is unaffected.
+
 #### Master Cards
 
 Master cards are cards you play in your role as a Methuselah. There are two categories of master cards: regular and out-of-turn master cards.
@@ -930,7 +963,7 @@ In those, the action has no effect (it is still considered successful).
 
 If the action is blocked, then any card played to perform the action is burned and the block is resolved with these two simultaneous consequences:
 the blocking minion is locked and enters combat with the acting minion (see [Combat](#combat)).
-If an effect ends the action before the block resolution, neither consequence occurs.
+If an effect ends the action before the block resolution, neither consequence occurs. The action is still resolved and blocked.
 The effects of the action do not take place when the action is blocked and its cost is not paid.
 The combat is part of the action resolution. Action modifiers and reactions that are played after the action resolution are played after the combat.
 
@@ -1201,7 +1234,14 @@ If there is an uncancelled press to continue, then another round of combat begin
 
 In this step you use the combat cards or other effects that are only usable at the end of a round of combat, after the press step.
 
-Note that this step also occurs even if combat ends prematurely.
+Note that this step also occurs even if combat ends prematurely (eg. because of a [Combat Ends](#combat-ends) strike).
+If there is no uncancelled press, this step is also the end of combat.
+
+Some cards and effects can start a new combat or force its continuation when the combat ends.
+They cannot be used or played if another combat is already queued by a similar effect.
+Any other effect that was supposed to happend after the end of combat is cancelled.
+Note that replacement effects (*"When the combat would end"*) are played before
+any direct effect (*"When the combat is about to end"*).
 
 #### Retainers and Combat
 
@@ -1231,6 +1271,14 @@ This effect ends combat immediately.
 This type of strike is always the first to resolve, even before a strike done with first strike (see [First Strike](#first-strike)),
 and it ends combat before other strikes or other strike resolution effects are resolved. Combat ends is effective at any range.
 Combat ends is not affected by a dodge, since dodge only cancels effects that are directed at the dodging minion.
+
+
+
+ combat that was ended by
+(or continues the combat that was ended by) a
+"*combat ends and the action continues as if unblocked*" will nullify the
+"continue action" part. This includes `Psyche` (superior), `Fast Reaction`,
+`Hidden Lurker`, and `Telepathic Tracking`.
 
 ##### Steal Blood
 
@@ -1551,67 +1599,6 @@ These traits may allow minions to play certain cards that require a specific tra
 
 There may be other Traits that allow vampires and minions to play cards.
 
-### Other Disciplines
-
-- <img src="https://static.krcg.org/png_wb/disc/inf/abo.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/abo.png" width="30"> Abombwe
-- <img src="https://static.krcg.org/png_wb/disc/inf/chi.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/chi.png" width="30"> Chimerstry
-- <img src="https://static.krcg.org/png_wb/disc/inf/dai.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/dai.png" width="30"> Daimoinon
-- <img src="https://static.krcg.org/png_wb/disc/inf/dem.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/dem.png" width="30"> Dementation
-- <img src="https://static.krcg.org/png_wb/disc/inf/mel.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/mel.png" width="30"> Melpominee
-- <img src="https://static.krcg.org/png_wb/disc/inf/myt.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/myt.png" width="30"> Mytherceria
-- <img src="https://static.krcg.org/png_wb/disc/inf/nec.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/nec.png" width="30"> Necromancy
-- <img src="https://static.krcg.org/png_wb/disc/inf/obe.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/obe.png" width="30"> Obeah
-- <img src="https://static.krcg.org/png_wb/disc/inf/obt.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/obt.png" width="30"> Obtenebration
-- <img src="https://static.krcg.org/png_wb/disc/inf/qui.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/qui.png" width="30"> Quietus
-- <img src="https://static.krcg.org/png_wb/disc/inf/san.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/san.png" width="30"> Sanguinus
-- <img src="https://static.krcg.org/png_wb/disc/inf/ser.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/ser.png" width="30"> Serpentis
-- <img src="https://static.krcg.org/png_wb/disc/inf/spi.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/spi.png" width="30"> Spiritus
-- <img src="https://static.krcg.org/png_wb/disc/inf/tem.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/tem.png" width="30"> Temporis
-- <img src="https://static.krcg.org/png_wb/disc/inf/tha.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/tha.png" width="30"> Thanatosis
-- <img src="https://static.krcg.org/png_wb/disc/inf/val.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/val.png" width="30"> Valeren
-- <img src="https://static.krcg.org/png_wb/disc/inf/vic.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/vic.png" width="30"> Vicissitude
-- <img src="https://static.krcg.org/png_wb/disc/inf/vis.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/vis.png" width="30"> Visceratika
-
-### Other Clans
-
-Two clans have been renamed and have now a new symbol: the Assamite (now Banu Haqim) and the Followers of Set (now Ministry).
-In both cases, the old and new clan names are symbols are equivalent for all purposes: an Assamite can play a card requireing Banu Haqim and vice-versa.
-
-- <img src="https://static.krcg.org/png_wb/clan/abominations.png" width="30"> Abomination
-- <img src="https://static.krcg.org/png_wb/clan/ahrimanes.png" width="30"> Ahrimane
-- <img src="https://static.krcg.org/png_wb/clan/akunanse.png" width="30"> Akunanse
-- <img src="https://static.krcg.org/png_wb/clan/deprecated/assamite.png" width="30"> Assamite (now Banu Haqim)
-- <img src="https://static.krcg.org/png_wb/clan/baali.png" width="30"> Baali
-- <img src="https://static.krcg.org/png_wb/clan/bloodbrother.png" width="30"> Blood Brother
-- <img src="https://static.krcg.org/png_wb/clan/brujahantitribu.png" width="30"> Brujah antitribu
-- <img src="https://static.krcg.org/png_wb/clan/daughtersofcacophony.png" width="30"> Daughter of Cacophony
-- <img src="https://static.krcg.org/png_wb/clan/deprecated/followersofset.png" width="30"> Followers of Set (now Ministry)
-- <img src="https://static.krcg.org/png_wb/clan/gangrelantitribu.png" width="30"> Gangrel antitribu
-- <img src="https://static.krcg.org/png_wb/clan/gargoyles.png" width="30"> Gargoyle
-- <img src="https://static.krcg.org/png_wb/clan/giovanni.png" width="30"> Giovanni
-- <img src="https://static.krcg.org/png_wb/clan/guruhi.png" width="30"> Guruhi
-- <img src="https://static.krcg.org/png_wb/clan/harbingersofskulls.png" width="30"> Harbinger of Skulls
-- <img src="https://static.krcg.org/png_wb/clan/ishtarri.png" width="30"> Ishtarri
-- <img src="https://static.krcg.org/png_wb/clan/kiasyd.png" width="30"> Kiasyd
-- <img src="https://static.krcg.org/png_wb/clan/lasombra.png" width="30"> Lasombra
-- <img src="https://static.krcg.org/png_wb/clan/malkavianantitribu.png" width="30"> Malkavian antitribu
-- <img src="https://static.krcg.org/png_wb/clan/nagaraja.png" width="30"> Nagaraja
-- <img src="https://static.krcg.org/png_wb/clan/nosferatuantitribu.png" width="30"> Nosferatu antitribu
-- <img src="https://static.krcg.org/png_wb/clan/osebo.png" width="30"> Osebo
-- <img src="https://static.krcg.org/png_wb/clan/pander.png" width="30"> Pander
-- <img src="https://static.krcg.org/png_wb/clan/ravnos.png" width="30"> Ravnos
-- <img src="https://static.krcg.org/png_wb/clan/salubriantitribu.png" width="30"> Salubri antitribu
-- <img src="https://static.krcg.org/png_wb/clan/samedi.png" width="30"> Samedi
-- <img src="https://static.krcg.org/png_wb/clan/toreadorantitribu.png" width="30"> Toreador antitribu
-- <img src="https://static.krcg.org/png_wb/clan/tremereantitribu.png" width="30"> Tremere antitribu
-- <img src="https://static.krcg.org/png_wb/clan/truebrujah.png" width="30"> True Brujah
-- <img src="https://static.krcg.org/png_wb/clan/ventrueantitribu.png" width="30"> Ventrue antitribu
-
-### Other Symbols
-
-- <img src="https://www.vekn.net/images/stories/rulebook/legacy-clans/Blooddrop.png" width="30"> Blood Cost
-- <img src="https://www.vekn.net/images/stories/rulebook/legacy-clans/Pooldrop.png" width="30"> Pool Cost
-
 ## 8. Glossaries
  
 ### Vampire: The Eternal Struggle
@@ -1789,7 +1776,6 @@ In both cases, the old and new clan names are symbols are equivalent for all pur
 
 - **Wounded:** A vampire who has received damage that they have not mended or a vampire in torpor or on their way to torpor is said to be wounded.
 
- 
 ### World Of Darkness Glossary
 
 The following is a glossary of some of the relevant terms of Vampire: The Masquerade.
@@ -1844,6 +1830,27 @@ The following is a glossary of some of the relevant terms of Vampire: The Masque
 - <img src="https://static.krcg.org/png_wb/disc/inf/pre.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/pre.png" width="30"> Presence
 - <img src="https://static.krcg.org/png_wb/disc/inf/pro.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/pro.png" width="30"> Protean
  
+#### Legacy Disciplines
+
+- <img src="https://static.krcg.org/png_wb/disc/inf/abo.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/abo.png" width="30"> Abombwe
+- <img src="https://static.krcg.org/png_wb/disc/inf/chi.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/chi.png" width="30"> Chimerstry
+- <img src="https://static.krcg.org/png_wb/disc/inf/dai.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/dai.png" width="30"> Daimoinon
+- <img src="https://static.krcg.org/png_wb/disc/inf/dem.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/dem.png" width="30"> Dementation
+- <img src="https://static.krcg.org/png_wb/disc/inf/mel.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/mel.png" width="30"> Melpominee
+- <img src="https://static.krcg.org/png_wb/disc/inf/myt.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/myt.png" width="30"> Mytherceria
+- <img src="https://static.krcg.org/png_wb/disc/inf/nec.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/nec.png" width="30"> Necromancy
+- <img src="https://static.krcg.org/png_wb/disc/inf/obe.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/obe.png" width="30"> Obeah
+- <img src="https://static.krcg.org/png_wb/disc/inf/obt.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/obt.png" width="30"> Obtenebration
+- <img src="https://static.krcg.org/png_wb/disc/inf/qui.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/qui.png" width="30"> Quietus
+- <img src="https://static.krcg.org/png_wb/disc/inf/san.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/san.png" width="30"> Sanguinus
+- <img src="https://static.krcg.org/png_wb/disc/inf/ser.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/ser.png" width="30"> Serpentis
+- <img src="https://static.krcg.org/png_wb/disc/inf/spi.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/spi.png" width="30"> Spiritus
+- <img src="https://static.krcg.org/png_wb/disc/inf/tem.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/tem.png" width="30"> Temporis
+- <img src="https://static.krcg.org/png_wb/disc/inf/tha.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/tha.png" width="30"> Thanatosis
+- <img src="https://static.krcg.org/png_wb/disc/inf/val.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/val.png" width="30"> Valeren
+- <img src="https://static.krcg.org/png_wb/disc/inf/vic.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/vic.png" width="30"> Vicissitude
+- <img src="https://static.krcg.org/png_wb/disc/inf/vis.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/vis.png" width="30"> Visceratika
+
 ### Clans
 - <img src="https://static.krcg.org/png_wb/clan/banuhaqim.png" width="30"> Banu Haqim (previously Assamite)
 - <img src="https://static.krcg.org/png_wb/clan/brujah.png" width="30"> Brujah
@@ -1854,6 +1861,41 @@ The following is a glossary of some of the relevant terms of Vampire: The Masque
 - <img src="https://static.krcg.org/png_wb/clan/toreador.png" width="30"> Toreador
 - <img src="https://static.krcg.org/png_wb/clan/tremere.png" width="30"> Tremere
 - <img src="https://static.krcg.org/png_wb/clan/ventrue.png" width="30"> Ventrue
+
+#### Legacy Clans
+
+Two clans have been renamed and have now a new symbol: the Assamite (now Banu Haqim) and the Followers of Set (now Ministry).
+In both cases, the old and new clan names are symbols are equivalent for all purposes: an Assamite can play a card requireing Banu Haqim and vice-versa.
+
+- <img src="https://static.krcg.org/png_wb/clan/abominations.png" width="30"> Abomination
+- <img src="https://static.krcg.org/png_wb/clan/ahrimanes.png" width="30"> Ahrimane
+- <img src="https://static.krcg.org/png_wb/clan/akunanse.png" width="30"> Akunanse
+- <img src="https://static.krcg.org/png_wb/clan/deprecated/assamite.png" width="30"> Assamite (now Banu Haqim)
+- <img src="https://static.krcg.org/png_wb/clan/baali.png" width="30"> Baali
+- <img src="https://static.krcg.org/png_wb/clan/bloodbrother.png" width="30"> Blood Brother
+- <img src="https://static.krcg.org/png_wb/clan/brujahantitribu.png" width="30"> Brujah antitribu
+- <img src="https://static.krcg.org/png_wb/clan/daughtersofcacophony.png" width="30"> Daughter of Cacophony
+- <img src="https://static.krcg.org/png_wb/clan/deprecated/followersofset.png" width="30"> Followers of Set (now Ministry)
+- <img src="https://static.krcg.org/png_wb/clan/gangrelantitribu.png" width="30"> Gangrel antitribu
+- <img src="https://static.krcg.org/png_wb/clan/gargoyles.png" width="30"> Gargoyle
+- <img src="https://static.krcg.org/png_wb/clan/giovanni.png" width="30"> Giovanni
+- <img src="https://static.krcg.org/png_wb/clan/guruhi.png" width="30"> Guruhi
+- <img src="https://static.krcg.org/png_wb/clan/harbingersofskulls.png" width="30"> Harbinger of Skulls
+- <img src="https://static.krcg.org/png_wb/clan/ishtarri.png" width="30"> Ishtarri
+- <img src="https://static.krcg.org/png_wb/clan/kiasyd.png" width="30"> Kiasyd
+- <img src="https://static.krcg.org/png_wb/clan/lasombra.png" width="30"> Lasombra
+- <img src="https://static.krcg.org/png_wb/clan/malkavianantitribu.png" width="30"> Malkavian antitribu
+- <img src="https://static.krcg.org/png_wb/clan/nagaraja.png" width="30"> Nagaraja
+- <img src="https://static.krcg.org/png_wb/clan/nosferatuantitribu.png" width="30"> Nosferatu antitribu
+- <img src="https://static.krcg.org/png_wb/clan/osebo.png" width="30"> Osebo
+- <img src="https://static.krcg.org/png_wb/clan/pander.png" width="30"> Pander
+- <img src="https://static.krcg.org/png_wb/clan/ravnos.png" width="30"> Ravnos
+- <img src="https://static.krcg.org/png_wb/clan/salubriantitribu.png" width="30"> Salubri antitribu
+- <img src="https://static.krcg.org/png_wb/clan/samedi.png" width="30"> Samedi
+- <img src="https://static.krcg.org/png_wb/clan/toreadorantitribu.png" width="30"> Toreador antitribu
+- <img src="https://static.krcg.org/png_wb/clan/tremereantitribu.png" width="30"> Tremere antitribu
+- <img src="https://static.krcg.org/png_wb/clan/truebrujah.png" width="30"> True Brujah
+- <img src="https://static.krcg.org/png_wb/clan/ventrueantitribu.png" width="30"> Ventrue antitribu
 
 ### Card Types
 - <img src="https://static.krcg.org/png_wb/icon/action.png" width="30"> Action
@@ -1876,6 +1918,12 @@ The following is a glossary of some of the relevant terms of Vampire: The Masque
 - <img src="https://static.krcg.org/png_wb/icon/directed.png" width="30"> Directed Action
 - <img src="https://static.krcg.org/png_wb/icon/merged.png" width="30"> Merged
 - <img src="https://static.krcg.org/png_wb/icon/poolcost.png" width="30"> Pool Cost
+
+#### Legacy Symbols
+
+- <img src="https://www.vekn.net/images/stories/rulebook/legacy-clans/Blooddrop.png" width="30"> Blood Cost
+- <img src="https://www.vekn.net/images/stories/rulebook/legacy-clans/Pooldrop.png" width="30"> Pool Cost
+
 
 ## Appendix: Imbued Rules
 
