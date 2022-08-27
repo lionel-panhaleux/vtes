@@ -248,7 +248,9 @@ The general types of master cards are as follows:
 
 A location card represents a place (that is a building, a city, or a designated gathering place) that a Methuselah or their minions control.
 A location card stays in play and may be used repeatedly, even on the turn it is played.
-Some game effects can burn them.
+Some game effects can burn them, others can change their controller.
+When changing the controller of a location, if the location was on another controlled card,
+it is moved onto an appropriate card controlled by the new controller of the location.
 
 <img src="https://static.krcg.org/card/labyrinththe.jpg" width="150">
 
