@@ -938,8 +938,17 @@ Between the time the action card is played and the action resolved,
 the action card is neither in play nor in the ash heap, it is in limbo.
 When the action is resolved (blocked or successful), the card is burned or put in play, as appropriate.
 
-Combat cards that allow an action to continue as if unblocked need to bring the action card (if any) from the ash heap to limbo.
-If the action card is not in the ash heap at that point, the action cannot continue.
+##### Action Continues as if Unblocked
+
+When an action was blocked, some cards and effects allow it to resume and *continue as if unblocked*.
+
+If the action was not blocked (eg. an action to enter combat), it cannot *continue as if unblocked*.
+
+If the action was provided by a card that was played, it must be retrieved from the ash heap (where it was placed when the action was blocked)
+and put back in limbo. If the action card is not in the ash heap anymore, the action cannot be continued.
+
+All action modifiers and reaction cards that were played, as well as other effects pertaining to the action, are still in effect.
+The Methuselahs who had declared they were not doing any further block attempt are still bound by that decision.
 
 ### Politics
 
