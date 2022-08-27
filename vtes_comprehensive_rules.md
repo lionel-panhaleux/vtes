@@ -889,10 +889,17 @@ Note that this declaration is an effect and so allows the acting Methuselah (and
 > Sarah has no effects that she wishes to play before Alexis decides whether to block, so Sarah says “Do you block?”
 > Alexis decides not to block, so then Sarah plays Bonding (an action modifier that adds 1 to the bleed). Alexis is bled for 2 pool.
 
-
 #### 3. Resolve the Action
 
 If the action is successful (all block attempts were unsuccessful), then the cost of the action is paid and the effects of the successful action take place.
+At that point, circumstances might have changed, making the action invalid:
+
+- The cost cannot be paid anymore
+- The target(s) are not valid anymore
+- The action was granted by an equipment the minion does not have anymore
+- The acting minion has changed controller
+
+In those, the action has no effect (it is still considered successful).
 
 If the action is blocked, then any card played to perform the action is burned and the block is resolved with these two simultaneous consequences:
 the blocking minion is locked and enters combat with the acting minion (see [Combat](#combat)).
