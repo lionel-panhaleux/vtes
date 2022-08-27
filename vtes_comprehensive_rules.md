@@ -868,6 +868,7 @@ If more than one Methuselah has been targeted by the action, blocking attempts a
 
 If the action is not directed at another Methuselah or at something controlled by another Methuselah, then the action is called undirected
 and can be blocked by the acting Methuselah’s prey or predator, with the prey getting the first opportunity to block.
+An action you take directed only at yourself (or something you control) is undirected action, even if the action is marked with a (reminder) Ⓓ symbol.
 
 Actions targeting another player's hand, uncontrolled region, crypt, or library are directed at that player.
 Actions targeting another player's ash heap are undirected.
