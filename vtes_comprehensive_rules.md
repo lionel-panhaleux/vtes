@@ -1270,7 +1270,7 @@ To target a retainer with a ranged strike, the striking minion must announce the
 
 ##### Hand Strike
 
-The default strike is a hand strike.
+The default strike is a hand strike, it can be performed without combat card.
 When a minion strikes with a hand strike at close range, they do an amount of damage equal to their strength to the opposing minion.
 Vampires have a default strength of 1.
 
@@ -1288,20 +1288,13 @@ This type of strike is always the first to resolve, even before a strike done wi
 and it ends combat before other strikes or other strike resolution effects are resolved. Combat ends is effective at any range.
 Combat ends is not affected by a dodge, since dodge only cancels effects that are directed at the dodging minion.
 
-
-
- combat that was ended by
-(or continues the combat that was ended by) a
-"*combat ends and the action continues as if unblocked*" will nullify the
-"continue action" part. This includes `Psyche` (superior), `Fast Reaction`,
-`Hidden Lurker`, and `Telepathic Tracking`.
-
 ##### Steal Blood
 
 This effect moves blood counters or life counters from the target to the striking minion.
 This does not count as damage, so the effect cannot be prevented with damage prevention effects.
 This effect occurs before the mend damage step of damage resolution, so the stolen blood can be used to mend damage even if the damage is inflicted simultaneously.
 If the stolen blood causes the striking vampire to have more blood than their capacity, the excess drains off immediately.
+You can use an effect that will steal more blood (or life) than the target minion has: you steal what he has.
 
 > Chrysanthemum enters combat with an Underbridge Stray ally. Chrysanthemum has a capacity of 5 and has 4 blood. The ally has 2 life.
 > After determining range, Chrysanthemum steals 2 blood as her strike. The ally strikes for 1 damage.
