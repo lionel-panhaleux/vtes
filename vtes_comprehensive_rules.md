@@ -1142,7 +1142,8 @@ Each minion chooses their strike.
 The strike can be from a combat card, from a weapon the minion possesses, by default from a hand strike, or can be from any other card providing this minion a strike.
 If a minion has used a maneuver from a strike (either a strike card or a weapon) this round, then they cannot choose any other strike for their initial strike of the round.
 For additional strikes, any strike can be chosen, even if a maneuver of a strike card or a weapon has been used.
-If a strike card is cancelled, the minion who played it must choose a strike, which might come from another strike card.
+If a strike card is cancelled, all its effects are cancelled, including any optional maneuver or press,
+and the minion who played it must choose a strike, which might come from another strike card.
 
 ##### Resolve Strike
 
