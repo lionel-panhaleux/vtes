@@ -1105,7 +1105,7 @@ If a minion uses the maneuver from a strike card or a weapon, they are effective
 As such, they cannot use a second strike card or weapon to maneuver again in the same round.
 
 If a combat card played by a minion has a maneuver as part of an effect, the maneuver must be used that round of combat.
-If a combat card played by a minion has an “optional maneuver” as part of the effect, then the minion may decline to use the maneuver.
+If a combat card played by a minion has an “optional maneuver” as part of the effect, then the minion may decline to use the maneuver, but cannot use it in a subsequent round.
 
 Typically, a minion that can attack at long range will want to maneuver to long range against an opponent that they suspect can only attack at close range.
 
@@ -1230,6 +1230,9 @@ A minion or retainer who loses all of their life counters is burned.
 At the end of a round of combat, if both combatants are still ready, the combatants will either go their separate ways or one of them will give chase.
 Presses can be used to continue combat or to end combat by cancelling a press to continue.
 This is similar to the way maneuvers are used to determine range.
+
+If a combat card played by a minion has a press as part of an effect, the press must be used that round of combat.
+If a combat card played by a minion has an “optional press” as part of the effect, then the minion may decline to use the press, but cannot use it in a subsequent round.
 
 The two combatants can continue playing presses, to keep offsetting the effects of their opponent’s last press, for as long as they wish.
 A minion cannot play two presses in a row (which would effectively cancel each other).
