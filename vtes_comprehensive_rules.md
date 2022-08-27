@@ -735,7 +735,7 @@ If recruiting the ally requires a Discipline and the ally is put into play by so
 
 - **Cost:** As listed on the political action card.
 
-- **Default target:** None. Undirected action.
+- **Default target:** Always an undirected action. If the referendum requires any target, they are chosen only when and if the action resolves successfully.
 
 - **Default stealth:** +1 stealth.
 
@@ -872,8 +872,6 @@ Once a Methuselah decides not to make any further attempts to block, that decisi
 As a reminder, when a card describes an action that is typically directed at another Methuselah, the card’s text will usually include a Ⓓ symbol as a reminder that the action is typically directed.
 
 <img src="https://static.krcg.org/png_wb/icon/directed.png" width="80">
-
-Remember, political actions are always undirected.
 
 > Belinde’s action to bleed Alexis is directed at Alexis, so only Alexis’s ready unlocked minions can attempt to block. If one block attempt fails, another can be made.
 > The Dowager’s action to recruit the Underbridge Stray, an ally, is not directed at another Methuselah, so it is undirected. 
