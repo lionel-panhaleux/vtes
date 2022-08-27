@@ -863,13 +863,16 @@ Any card required for the action is played (face up) at this time. Lock the acti
 
 If the action targets one or more other Methuselahs or things controlled by other Methuselahs, then the action is called directed,
 and only the Methuselahs who are targeted may use their ready unlocked minions to attempt to block the action.
+As a reminder, when a card describes an action that is typically directed at another Methuselah, the card’s text will usually include a Ⓓ symbol as a reminder that the action is typically directed.
 If more than one Methuselah has been targeted by the action, blocking attempts are made in a clockwise order.
+
 If the action is not directed at another Methuselah or at something controlled by another Methuselah, then the action is called undirected
 and can be blocked by the acting Methuselah’s prey or predator, with the prey getting the first opportunity to block.
 A minion can attempt to block as many times as they wish as long as another minion is not already blocking.
 If one attempt to block fails, another can be made as often as the blocking Methuselah wishes.
+
 Once a Methuselah decides not to make any further attempts to block, that decision is final.
-As a reminder, when a card describes an action that is typically directed at another Methuselah, the card’s text will usually include a Ⓓ symbol as a reminder that the action is typically directed.
+**Exception:** If the target of an action changes during its course, the new target(s) get a new opportunity to attempt to block
 
 <img src="https://static.krcg.org/png_wb/icon/directed.png" width="80">
 
