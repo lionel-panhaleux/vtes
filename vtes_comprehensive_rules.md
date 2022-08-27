@@ -198,6 +198,12 @@ and some effects may require the vampire to possess several Disciplines.
 Each effect shows the icon(s) of the Discipline(s) required.
 An effect that allows a minion to play a card that requires a Discipline he does not have can be used to meet one (not more) of the Discipline requirements.
 
+When played, a card counts as requiring only the Discipline being used (if there is a choice).
+In the hand, library or ash heap, the card is considered to require either or all the Discipline requirements it has.
+
+If put into play, a card with a Discipline requirement uses either the basic or superior level.
+Once in play, the level it was played at cannot change anymore.
+
 A number in a red drop represents blood cost (the amount of blood the vampire must burn).
 A number in a white diamond with a skull represents pool cost (the amount of pool the Methuselah must burn).
 Cards with a cost can only be played if the cost can be paid by the Methuselah or minion playing it,
