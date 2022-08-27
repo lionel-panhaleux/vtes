@@ -900,7 +900,7 @@ As a reminder, when a card describes an action that is typically directed at ano
 If more than one Methuselah has been targeted by the action, blocking attempts are made in a clockwise order.
 
 If the action is not directed at another Methuselah or at something controlled by another Methuselah, then the action is called undirected
-and can be blocked by the acting Methuselah’s prey or predator, with the prey getting the first opportunity to block.
+and can be blocked by the acting Methuselah’s prey or predator ready unlocked minions, with the prey getting the first opportunity to block.
 An action you take directed only at yourself (or something you control) is undirected action, even if the action is marked with a (reminder) Ⓓ symbol.
 
 Actions targeting another player's hand, uncontrolled region, crypt, or library are directed at that player.
@@ -910,6 +910,9 @@ A minion can attempt to block as many times as they wish as long as another mini
 If one attempt to block fails, another can be made as often as the blocking Methuselah wishes.
 Once a Methuselah decides not to make any further attempts to block, that decision is final.
 **Exception:** If the target of an action changes during its course, the new target(s) get a new opportunity to attempt to block
+
+Some reactions card require the minion to make a block attempt (eg. *"this minion unlocks and attempts to block"*).
+They can only be used if the minion can attempt block the action (ie. if their controller is a target in case of a directed action or the prey or predator in case of an undirected one).
 
 <img src="https://static.krcg.org/png_wb/icon/directed.png" width="80">
 
