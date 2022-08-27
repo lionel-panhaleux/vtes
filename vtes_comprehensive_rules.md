@@ -1001,6 +1001,9 @@ Politics come into play when a vampire performs a political action or when a blo
 If a political action is successful, its cost is paid, and the referendum is called. The referendum consists of three steps:
 
 1. **Choose the terms**, if any, of the referendum.
+   Some effects ensure a referendum *"passes automatically"*.
+   In this case, skip the polling step and resolve the referendum directly:
+   cards and effects that can be used *"during a referendum"* cannot be used.
 
 2. **Polling:** Cards that are usable “during the polling step” but “before votes and ballots are cast” are used at this time. 
    Then, all Methuselahs may now cast any votes and ballots they have (see below) at this time, in any order. 
