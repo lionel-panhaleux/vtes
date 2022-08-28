@@ -573,7 +573,7 @@ On the other hand, you may wish to have a second copy handy in case the first is
 ##### Contested Titles
 
 Some titles are unique. For example, there can be only one prince or baron of a particular city (see [Vampiric Sects](#vampiric-sects)).
-If more than one vampire in play claims the same title, then the title is contested.
+If more than one vampire in play claims the same unique title, then the title is contested.
 While the title is being contested, the vampires involved in the contest are treated as if they have no title, but they remain controlled and may act and block as normal.
 
 The cost to contest a title is 1 blood, which is paid by the vampire during each of their unlock phases.
