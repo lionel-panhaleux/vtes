@@ -933,7 +933,7 @@ By default, minions have 0 stealth and 0 intercept.
 So a block attempt will normally succeed unless the action has inherent stealth (such as hunting) or a card or effect is used to increase the acting minion’s stealth.
 
 Some actions have an inherent stealth, as noted in the action list and on some action cards. The minion taking such an action starts with greater stealth than normal.
-Additionally, some cards and other effects can be used to increase a minion’s stealth or intercept, as noted on card text.
+Additionally, some cards and other effects can be used to increase or decrease a minion’s stealth or intercept (they can become negative), as noted on card text.
 
 Stealth can be added during an action only when needed, that is, only if the action is currently being blocked and the blocking minion has enough intercept to block the acting minion.
 Likewise, intercept can be added during an action only when needed, only by a blocking minion when the acting minion’s stealth exceeds their intercept.
