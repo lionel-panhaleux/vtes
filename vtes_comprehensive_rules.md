@@ -1193,6 +1193,7 @@ For each point of damage inflicted on a vampire, they must burn 1 blood to mend 
 A vampire can burn all of their blood if needed, and doing so does not have any other negative effects on the vampire.
 If a vampire cannot mend all the damage (that is, more damage is inflicted than they have blood with which to mend),
 they burn blood to mend what damage they can, and the unmended damage leaves them wounded.
+No card or effect can be used during the mending of simultaneous damage.
 
 A wounded vampire goes to torpor after all remaining damage is handled (see [Torpor](#torpor)).
 
