@@ -170,6 +170,7 @@ Event cards are put into play during the discard phase to represent events that 
 
 A card is played by announcing its effects, showing the card and placing it from the hand in the ash heap.
 Sometimes a card will state to put it into play, you should announce its effects and place the card in the play area.
+Action cards are put to the ash heap or in play as appropriate only when the action reaches resolution (see [Summary of the Course of an Action](#summary-of-the-course-of-an-action)).
 
 Some effects can cancel a card “as it is played.” These effects, as well as wake effects, are the only effects allowed during the “as played” time period of another card.
 Even drawing to replace cards, comes after this time period.
@@ -886,6 +887,8 @@ Any card required for the action is played (face up) at this time. Lock the acti
 
 **EXCEPTION:** Any decisions to be made for a referendum are not announced until the action succeeds (see [The Political Action](#the-political-action)).
 
+The action card stays in limbo until the action reaches resolution (blocked or successful), whence card is burned or put in play, as appropriate.
+
 > During Sarah’s minion phase, she decides that one of her unlocked minions, Belinde, will take an action to bleed her prey, Alexis.
 > Sarah locks Belinde and says, “Belinde bleeds Alexis for 1 (meaning 1 pool).”
 > After resolving that action (successful or not), Sarah decides that another of her unlocked minions, The Dowager, will recruit an ally, the Underbridge Stray, from her hand. 
@@ -970,10 +973,6 @@ the blocking minion is locked and enters combat with the acting minion (see [Com
 If an effect ends the action before the block resolution, neither consequence occurs. The action is still resolved and blocked.
 The effects of the action do not take place when the action is blocked and its cost is not paid.
 The combat is part of the action resolution. Action modifiers and reactions that are played after the action resolution are played after the combat.
-
-Between the time the action card is played and the action resolved,
-the action card is neither in play nor in the ash heap, it is in limbo.
-When the action is resolved (blocked or successful), the card is burned or put in play, as appropriate.
 
 ##### Action Continues as if Unblocked
 
