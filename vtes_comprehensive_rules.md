@@ -566,7 +566,7 @@ All the cards on counters stacked on it come back with it, unlocked.
 ##### Deck Construction Tip
 
 Be careful about putting duplicates of the same unique cards in your deck.
-You cannot control more than one of the same unique card at a time, and you cannot contest cards with yourself
+You cannot control more than one of the same unique card at a time, and you cannot contest cards nor titles with yourself
 (if some effect would force you to contest a card with yourself, then you simply burn the incoming copy of the unique card).
 On the other hand, you may wish to have a second copy handy in case the first is burned.
 
