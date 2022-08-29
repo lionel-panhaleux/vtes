@@ -161,10 +161,12 @@ Master cards are played by Methuselahs. Master cards have no icon at the top of 
 ##### Minion Cards
 
 Minion cards are played by the minions (vampires and allies) the Methuselah controls.
+They're also considered played by the Methuselah for all game and effect purposes.
 
 ##### Event Cards
 
 Event cards are put into play during the discard phase to represent events that affect the World of Darkness as a whole (see [Event Card](#event-card)).
+They're also considered played by the Methuselah for all game and effect purposes.
 
 ##### Playing a Card
 
