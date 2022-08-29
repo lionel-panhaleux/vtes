@@ -475,6 +475,19 @@ A minion card in play is controlled by the controller of the minion it is on.
 If a minion card is just in play and not on another controlled card, then it is controlled by the Methuselah who played it.
 Control can change through game effects and this is clearly noted when using those effects.
 
+##### Out of play
+
+During the course of the game, some cards can be put out of play.
+If a cards goes out of play or back to your uncontrolled region, all the cards and counters on it also go out of play.
+If they come back into play, those cards come back unlocked.
+All continuous effects that were affecting those cards resume when the cards come back in play.
+
+Cards that are out of play are not controlled, cannot be targeted without explicit effects and do not contest,
+except if they're out of play because the card they're on was contested (see [Contested Cards](#contested-cards)).
+
+Note that it's different if a card goes into your ash heap, library or crypt.
+Cards that go in that region are not tracked: if they come back they are considered as new copies of the card.
+
 ##### Locking and Unlocking
 
 During play, you will turn cards sideways 90º to lock them, indicating that the cards have been used for some particular purpose or effect.
