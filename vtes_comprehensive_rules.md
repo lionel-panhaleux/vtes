@@ -1288,8 +1288,8 @@ Note that this step also occurs even if combat ends prematurely (eg. because of 
 If there is no uncancelled press, this step is also the end of combat.
 
 Some cards and effects can start a new combat or force its continuation when the combat ends.
-They cannot be used or played if another combat is already queued by a similar effect.
-Any other effect that was supposed to happend after the end of combat is cancelled.
+In this case, any other effect that was supposed to happend after the end of combat is cancelled.
+An effect to start a new combat cannot be played if another combat is already queued by a similar effect.
 Note that replacement effects (*"When the combat would end"*) are played before
 any direct effect (*"When the combat is about to end"*).
 
