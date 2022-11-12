@@ -1473,7 +1473,7 @@ These traits may allow minions to play certain cards that require a specific tra
 - **Flight <img src="https://static.krcg.org/png_wb/disc/inf/flight.png" width="25">:** This Trait allows a minion to play or use cards requiring Flight.
 
 - **Red List:** Any Methuselah may use a master phase action to mark a Red List minion for the current turn.
-  Any ready vampire they control may enter combat with a marked Red List minion as a +1 stealth {} action that costs 1 blood.
+  Any ready vampire they control may enter combat with a marked Red List minion as a +1 stealth directed action that costs 1 blood.
   Each vampire can perform this action only once each turn.
   If a vampire burns a Red List minion in combat or as a directed action (including diablerie),
   their controller may search their library, ash heap, and/or hand for a master trophy card to put on that vampire and then reshuffle their library or draw back up to her hand size as necessary.
