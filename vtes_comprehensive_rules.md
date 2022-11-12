@@ -1490,71 +1490,6 @@ These traits may allow minions to play certain cards that require a specific tra
 
 There may be other Traits that allow vampires and minions to play cards.
 
-### Other Disciplines
-
-- <img src="https://static.krcg.org/png_wb/disc/inf/abo.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/abo.png" width="30"> Abombwe
-- <img src="https://static.krcg.org/png_wb/disc/inf/chi.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/chi.png" width="30"> Chimerstry
-- <img src="https://static.krcg.org/png_wb/disc/inf/dai.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/dai.png" width="30"> Daimoinon
-- <img src="https://static.krcg.org/png_wb/disc/inf/dem.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/dem.png" width="30"> Dementation
-- <img src="https://static.krcg.org/png_wb/disc/inf/mel.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/mel.png" width="30"> Melpominee
-- <img src="https://static.krcg.org/png_wb/disc/inf/myt.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/myt.png" width="30"> Mytherceria
-- <img src="https://static.krcg.org/png_wb/disc/inf/nec.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/nec.png" width="30"> Necromancy
-- <img src="https://static.krcg.org/png_wb/disc/inf/obe.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/obe.png" width="30"> Obeah
-- <img src="https://static.krcg.org/png_wb/disc/inf/obt.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/obt.png" width="30"> Obtenebration
-- <img src="https://static.krcg.org/png_wb/disc/inf/qui.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/qui.png" width="30"> Quietus
-- <img src="https://static.krcg.org/png_wb/disc/inf/san.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/san.png" width="30"> Sanguinus
-- <img src="https://static.krcg.org/png_wb/disc/inf/ser.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/ser.png" width="30"> Serpentis
-- <img src="https://static.krcg.org/png_wb/disc/inf/spi.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/spi.png" width="30"> Spiritus
-- <img src="https://static.krcg.org/png_wb/disc/inf/tem.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/tem.png" width="30"> Temporis
-- <img src="https://static.krcg.org/png_wb/disc/inf/tha.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/tha.png" width="30"> Thanatosis
-- <img src="https://static.krcg.org/png_wb/disc/inf/val.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/val.png" width="30"> Valeren
-- <img src="https://static.krcg.org/png_wb/disc/inf/vic.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/vic.png" width="30"> Vicissitude
-- <img src="https://static.krcg.org/png_wb/disc/inf/vis.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/vis.png" width="30"> Visceratika
-
-### Other Clans
-
-- <img src="https://static.krcg.org/png_wb/clan/abominations.png" width="30"> Abomination
-- <img src="https://static.krcg.org/png_wb/clan/ahrimanes.png" width="30"> Ahrimane
-- <img src="https://static.krcg.org/png_wb/clan/akunanse.png" width="30"> Akunanse
-- <img src="https://static.krcg.org/png_wb/clan/deprecated/assamite.png" width="30"> Assamitte
-- <img src="https://static.krcg.org/png_wb/clan/baali.png" width="30"> Baali
-- <img src="https://static.krcg.org/png_wb/clan/bloodbrother.png" width="30"> Blood Brother
-- <img src="https://static.krcg.org/png_wb/clan/brujah.png" width="30"> Brujah
-- <img src="https://static.krcg.org/png_wb/clan/brujahantitribu.png" width="30"> Brujah antitribu
-- <img src="https://static.krcg.org/png_wb/clan/daughtersofcacophony.png" width="30"> Daughter of Cacophony
-- <img src="https://static.krcg.org/png_wb/clan/deprecated/followersofset.png" width="30"> Followers of Set
-- <img src="https://static.krcg.org/png_wb/clan/gangrel.png" width="30"> Gangrel
-- <img src="https://static.krcg.org/png_wb/clan/gangrelantitribu.png" width="30"> Gangrel antitribu
-- <img src="https://static.krcg.org/png_wb/clan/gargoyles.png" width="30"> Gargoyle
-- <img src="https://static.krcg.org/png_wb/clan/giovanni.png" width="30"> Giovanni
-- <img src="https://static.krcg.org/png_wb/clan/guruhi.png" width="30"> Guruhi
-- <img src="https://static.krcg.org/png_wb/clan/harbingersofskulls.png" width="30"> Harbinger of Skulls
-- <img src="https://static.krcg.org/png_wb/clan/ishtarri.png" width="30"> Ishtarri
-- <img src="https://static.krcg.org/png_wb/clan/kiasyd.png" width="30"> Kiasyd
-- <img src="https://static.krcg.org/png_wb/clan/lasombra.png" width="30"> Lasombra
-- <img src="https://static.krcg.org/png_wb/clan/malkavian.png" width="30"> Malkavian
-- <img src="https://static.krcg.org/png_wb/clan/malkavianantitribu.png" width="30"> Malkavian antitribu
-- <img src="https://static.krcg.org/png_wb/clan/nagaraja.png" width="30"> Nagaraja
-- <img src="https://static.krcg.org/png_wb/clan/nosferatu.png" width="30"> Nosferatu
-- <img src="https://static.krcg.org/png_wb/clan/nosferatuantitribu.png" width="30"> Nosferatu antitribu
-- <img src="https://static.krcg.org/png_wb/clan/osebo.png" width="30"> Osebo
-- <img src="https://static.krcg.org/png_wb/clan/pander.png" width="30"> Pander
-- <img src="https://static.krcg.org/png_wb/clan/ravnos.png" width="30"> Ravnos
-- <img src="https://static.krcg.org/png_wb/clan/salubriantitribu.png" width="30"> Salubri antitribu
-- <img src="https://static.krcg.org/png_wb/clan/samedi.png" width="30"> Samedi
-- <img src="https://static.krcg.org/png_wb/clan/toreador.png" width="30"> Toreador
-- <img src="https://static.krcg.org/png_wb/clan/toreadorantitribu.png" width="30"> Toreador antitribu
-- <img src="https://static.krcg.org/png_wb/clan/tremere.png" width="30"> Tremere
-- <img src="https://static.krcg.org/png_wb/clan/tremereantitribu.png" width="30"> Tremere antitribu
-- <img src="https://static.krcg.org/png_wb/clan/truebrujah.png" width="30"> True Brujah
-- <img src="https://static.krcg.org/png_wb/clan/ventrue.png" width="30"> Ventrue
-- <img src="https://static.krcg.org/png_wb/clan/ventrueantitribu.png" width="30"> Ventrue antitribu
-
-### Other Symbols
-
-- <img src="https://www.vekn.net/images/stories/rulebook/legacy-clans/Blooddrop.png" width="30"> Blood Cost
-- <img src="https://www.vekn.net/images/stories/rulebook/legacy-clans/Pooldrop.png" width="30"> Pool Cost
-
 ## 8. Glossaries
  
 ### Vampire: The Eternal Struggle
@@ -1786,21 +1721,72 @@ The following is a glossary of some of the relevant terms of Vampire: The Masque
 - <img src="https://static.krcg.org/png_wb/disc/inf/pre.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/pre.png" width="30"> Presence
 - <img src="https://static.krcg.org/png_wb/disc/inf/pro.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/pro.png" width="30"> Protean
  
+#### Legacy Disciplines
+
+- <img src="https://static.krcg.org/png_wb/disc/inf/abo.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/abo.png" width="30"> Abombwe
+- <img src="https://static.krcg.org/png_wb/disc/inf/chi.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/chi.png" width="30"> Chimerstry
+- <img src="https://static.krcg.org/png_wb/disc/inf/dai.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/dai.png" width="30"> Daimoinon
+- <img src="https://static.krcg.org/png_wb/disc/inf/dem.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/dem.png" width="30"> Dementation
+- <img src="https://static.krcg.org/png_wb/disc/inf/mel.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/mel.png" width="30"> Melpominee
+- <img src="https://static.krcg.org/png_wb/disc/inf/myt.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/myt.png" width="30"> Mytherceria
+- <img src="https://static.krcg.org/png_wb/disc/inf/nec.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/nec.png" width="30"> Necromancy
+- <img src="https://static.krcg.org/png_wb/disc/inf/obe.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/obe.png" width="30"> Obeah
+- <img src="https://static.krcg.org/png_wb/disc/inf/obt.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/obt.png" width="30"> Obtenebration
+- <img src="https://static.krcg.org/png_wb/disc/inf/qui.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/qui.png" width="30"> Quietus
+- <img src="https://static.krcg.org/png_wb/disc/inf/san.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/san.png" width="30"> Sanguinus
+- <img src="https://static.krcg.org/png_wb/disc/inf/ser.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/ser.png" width="30"> Serpentis
+- <img src="https://static.krcg.org/png_wb/disc/inf/spi.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/spi.png" width="30"> Spiritus
+- <img src="https://static.krcg.org/png_wb/disc/inf/tem.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/tem.png" width="30"> Temporis
+- <img src="https://static.krcg.org/png_wb/disc/inf/tha.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/tha.png" width="30"> Thanatosis
+- <img src="https://static.krcg.org/png_wb/disc/inf/val.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/val.png" width="30"> Valeren
+- <img src="https://static.krcg.org/png_wb/disc/inf/vic.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/vic.png" width="30"> Vicissitude
+- <img src="https://static.krcg.org/png_wb/disc/inf/vis.png" width="30"> <img src="https://static.krcg.org/png_wb/disc/sup/vis.png" width="30"> Visceratika
+
 ### Clans
-- <img src="https://static.krcg.org/png_wb/clan/banuhaqim.png" width="30"> Banu Haqim (Assamite)
+- <img src="https://static.krcg.org/png_wb/clan/banuhaqim.png" width="30"> Banu Haqim (previously Assamite)
 - <img src="https://static.krcg.org/png_wb/clan/brujah.png" width="30"> Brujah
-- <img src="https://static.krcg.org/png_wb/clan/caitiff.png" width="30"> Caitiff
 - <img src="https://static.krcg.org/png_wb/clan/gangrel.png" width="30"> Gangrel
-- <img src="https://static.krcg.org/png_wb/clan/lasombra.png" width="30"> Lasombra
 - <img src="https://static.krcg.org/png_wb/clan/malkavian.png" width="30"> Malkavian
-- <img src="https://static.krcg.org/png_wb/clan/ministry.png" width="30"> Ministry (Followers of Set)
+- <img src="https://static.krcg.org/png_wb/clan/ministry.png" width="30"> Ministry (previously Followers of Set)
 - <img src="https://static.krcg.org/png_wb/clan/nosferatu.png" width="30"> Nosferatu
-- <img src="https://static.krcg.org/png_wb/clan/ravnos.png" width="30"> Ravnos
-- <img src="https://static.krcg.org/png_wb/clan/salubri.png" width="30"> Salubri
 - <img src="https://static.krcg.org/png_wb/clan/toreador.png" width="30"> Toreador
 - <img src="https://static.krcg.org/png_wb/clan/tremere.png" width="30"> Tremere
-- <img src="https://static.krcg.org/png_wb/clan/tzimisce.png" width="30"> Tzimisce
 - <img src="https://static.krcg.org/png_wb/clan/ventrue.png" width="30"> Ventrue
+
+#### Legacy Clans
+
+Two clans have been renamed and have now a new symbol: the Assamite (now Banu Haqim) and the Followers of Set (now Ministry).
+In both cases, the old and new clan names and symbols are equivalent for all purposes: an Assamite can play a card requiring Banu Haqim and vice-versa.
+
+- <img src="https://static.krcg.org/png_wb/clan/abominations.png" width="30"> Abomination
+- <img src="https://static.krcg.org/png_wb/clan/ahrimanes.png" width="30"> Ahrimane
+- <img src="https://static.krcg.org/png_wb/clan/akunanse.png" width="30"> Akunanse
+- <img src="https://static.krcg.org/png_wb/clan/deprecated/assamite.png" width="30"> Assamite (now Banu Haqim)
+- <img src="https://static.krcg.org/png_wb/clan/baali.png" width="30"> Baali
+- <img src="https://static.krcg.org/png_wb/clan/bloodbrother.png" width="30"> Blood Brother
+- <img src="https://static.krcg.org/png_wb/clan/brujahantitribu.png" width="30"> Brujah antitribu
+- <img src="https://static.krcg.org/png_wb/clan/daughtersofcacophony.png" width="30"> Daughter of Cacophony
+- <img src="https://static.krcg.org/png_wb/clan/deprecated/followersofset.png" width="30"> Followers of Set (now Ministry)
+- <img src="https://static.krcg.org/png_wb/clan/gangrelantitribu.png" width="30"> Gangrel antitribu
+- <img src="https://static.krcg.org/png_wb/clan/gargoyles.png" width="30"> Gargoyle
+- <img src="https://static.krcg.org/png_wb/clan/giovanni.png" width="30"> Giovanni
+- <img src="https://static.krcg.org/png_wb/clan/guruhi.png" width="30"> Guruhi
+- <img src="https://static.krcg.org/png_wb/clan/harbingersofskulls.png" width="30"> Harbinger of Skulls
+- <img src="https://static.krcg.org/png_wb/clan/ishtarri.png" width="30"> Ishtarri
+- <img src="https://static.krcg.org/png_wb/clan/kiasyd.png" width="30"> Kiasyd
+- <img src="https://static.krcg.org/png_wb/clan/lasombra.png" width="30"> Lasombra
+- <img src="https://static.krcg.org/png_wb/clan/malkavianantitribu.png" width="30"> Malkavian antitribu
+- <img src="https://static.krcg.org/png_wb/clan/nagaraja.png" width="30"> Nagaraja
+- <img src="https://static.krcg.org/png_wb/clan/nosferatuantitribu.png" width="30"> Nosferatu antitribu
+- <img src="https://static.krcg.org/png_wb/clan/osebo.png" width="30"> Osebo
+- <img src="https://static.krcg.org/png_wb/clan/pander.png" width="30"> Pander
+- <img src="https://static.krcg.org/png_wb/clan/ravnos.png" width="30"> Ravnos
+- <img src="https://static.krcg.org/png_wb/clan/salubriantitribu.png" width="30"> Salubri antitribu
+- <img src="https://static.krcg.org/png_wb/clan/samedi.png" width="30"> Samedi
+- <img src="https://static.krcg.org/png_wb/clan/toreadorantitribu.png" width="30"> Toreador antitribu
+- <img src="https://static.krcg.org/png_wb/clan/tremereantitribu.png" width="30"> Tremere antitribu
+- <img src="https://static.krcg.org/png_wb/clan/truebrujah.png" width="30"> True Brujah
+- <img src="https://static.krcg.org/png_wb/clan/ventrueantitribu.png" width="30"> Ventrue antitribu
 
 ### Card Types
 - <img src="https://static.krcg.org/png_wb/icon/action.png" width="30"> Action
@@ -1813,6 +1799,7 @@ The following is a glossary of some of the relevant terms of Vampire: The Masque
 - <img src="https://static.krcg.org/png_wb/icon/reaction.png" width="30"> Reaction
 - <img src="https://static.krcg.org/png_wb/icon/reflex.png" width="30"> Reflex
 - <img src="https://static.krcg.org/png_wb/icon/retainer.png" width="30"> Retainer
+- Master (no icon)
  
 ### Other Symbols
 - <img src="https://static.krcg.org/png_wb/icon/adv.png" width="30"> Advanced
@@ -1822,6 +1809,12 @@ The following is a glossary of some of the relevant terms of Vampire: The Masque
 - <img src="https://static.krcg.org/png_wb/icon/directed.png" width="30"> Directed Action
 - <img src="https://static.krcg.org/png_wb/icon/merged.png" width="30"> Merged
 - <img src="https://static.krcg.org/png_wb/icon/poolcost.png" width="30"> Pool Cost
+
+#### Legacy Symbols
+
+- <img src="https://www.vekn.net/images/stories/rulebook/legacy-clans/Blooddrop.png" width="30"> Blood Cost
+- <img src="https://www.vekn.net/images/stories/rulebook/legacy-clans/Pooldrop.png" width="30"> Pool Cost
+
 
 ## Appendix: Imbued Rules
 
