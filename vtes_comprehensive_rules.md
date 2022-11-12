@@ -60,7 +60,7 @@ Choose an object to represent the Edge. Any small, distinctive object, such as a
 ### Crypt cards
 
 Each crypt card has a set of elements that are described below.
-Some advanced expansions include other types of crypt cards – to learn about those, check the [Appendix](#appendix).
+Some advanced expansions include other types of crypt cards – to learn about those, check the [Appendix](#appendix-imbued-rules).
 
 ##### Name
 
@@ -90,7 +90,7 @@ Each vampire belongs to a clan, identified by the symbol at the top of the attri
 
 <img src="https://www.vekn.net/images/stories/rulebook/6_clan.png" width=150>
 
-See the [Quick Reference](#quick-reference) page for a list of the clan symbols.
+See the [Quick Reference](#9-quick-reference) page for a list of the clan symbols.
 Some library cards require a member of a particular vampire clan to play, while other library cards may affect only vampires of a particular clan.
 
 ##### Disciplines
@@ -114,7 +114,7 @@ A Discipline symbol within a diamond signifies that the vampire has the superior
 
 <img src="https://static.krcg.org/png_wb/disc/sup/ani.png" width="50">
 
-Some library cards have multiple Discipline symbols on the attribute bar (see [Requirements for Playing Cards](#requirement-for-playing-cards)).
+Some library cards have multiple Discipline symbols on the attribute bar (see [Requirements for Playing Cards](#requirements-for-playing-cards)).
 
 ##### Group
 
@@ -128,13 +128,14 @@ This does not restrict a Methuselah from stealing vampires from other groups thr
 
 An advanced card is a type of vampire card for your crypt.
 An advanced card looks just like a regular crypt card except that it has an Advanced icon under the clan icon.
-The advanced card is a vampire card in all respects, so it can be influenced in the normal manner (see Advanced).
+The advanced card is a vampire card in all respects, so it can be influenced in the normal manner
+(see [Advanced and Merged](#advanced-and-merged)).
 
 <img src="https://static.krcg.org/png_wb/icon/adv.png" width="50">
 
 ##### Text box
 
-The area containing a vampire’s sect (Camarilla in this case), title, special abilities or other attributes.
+The area containing a vampire’s sect, title, special abilities or other attributes.
 
 ##### Expansion symbol
 
@@ -163,9 +164,9 @@ Master cards are played by Methuselahs. Master cards have no icon at the top of 
 Minion cards are played by the minions (vampires and allies) the Methuselah controls.
 They're also considered played by the Methuselah for all game and effect purposes.
 
-##### Event Cards
+##### Events
 
-Event cards are put into play during the discard phase to represent events that affect the World of Darkness as a whole (see [Event Card](#event-card)).
+Event cards are put into play during the discard phase to represent events that affect the World of Darkness as a whole (see [Event Cards](#event-cards)).
 They're also considered played by the Methuselah for all game and effect purposes.
 
 ##### Playing a Card
@@ -213,6 +214,7 @@ Cards with a cost can only be played if the cost can be paid by the Methuselah o
 taking into account all effects modifying the cost or contributing to the paiement.
 
 The cost must be paid immediately, before resolving the card effect.
+
 **Exception:** The cost for action cards is only paid when the action is about to resolve successfully
 (see [Summary of the Course of an Action](#summary-of-the-course-of-an-action)).
 Cards effect that burn blood or pool are not considered costs.
@@ -228,10 +230,11 @@ If a card needs a target (chooses, selects, is played on, etc.), then it can onl
 
 #### Master Cards
 
-Master cards are cards you play in your role as a Methuselah. There are two categories of master cards: regular and out-of-turn master cards.
-
+Master cards are cards you play in your role as a Methuselah.
+There are two categories of master cards: regular and out-of-turn master cards.
 Regular master cards are played during your master phase as master phase actions.
 At the start of each of your master phases, you get one master phase action, which you can use to play a regular master card.
+
 Out-of-turn master cards can only be played during other Methuselahs’ turns.
 By playing an out-of-turn master card, you are using a master phase action from your next master phase, playing the card now instead of waiting until your next master phase.
 
@@ -258,10 +261,6 @@ A Methuselah can gain only one master phase action from trifles in a given maste
 
 <img src="https://static.krcg.org/card/lifeinthecity.jpg" width="150">
 
-##### Other master cards
-
-Any master cards not explained here have their effects described on them.
-
 ##### Disciplines
 
 A Discipline card is played on a controlled vampire to give them an additional level of a Discipline,
@@ -271,22 +270,26 @@ but they do not automatically gain an extra blood to fill the new capacity.
 
 ##### Trophy
 
-A trophy may be put into play using a master phase action (or can be retrieved as described in traits: Red List).
+A trophy may be put into play using a master phase action (or can be retrieved as described in [traits: Red List](#traits)).
 It has no effect until it is moved to a vampire.
 Once placed on a vampire, a trophy is controlled by the controller of the vampire it is on, and it cannot be awarded again.
 
 ##### Out-of-turn
 
 You may play an out-of-turn master card whenever appropriate during another Methuselah’s turn.
-Doing so counts against the allotted number of master phase actions you receive in your next master phase, even if the out-of-turn master card is cancelled (see Master Phase).
+Doing so counts against the allotted number of master phase actions you receive in your next master phase,
+even if the out-of-turn master card is cancelled (see [Master Phase](#2-master-phase)).
 
 Regardless of the number of master phase actions you normally have, you cannot play a second out-of-turn master card before your next master phase.
 You cannot play an out-of-turn master card on your own turn.
 
+##### Other master cards
+
+Any master cards not explained here have their effects described on them.
+
 #### Minion Cards
 
 Minion cards are cards that your vampires and allies (collectively referred to as “minions”) play.
-
 A minion card in play is controlled by the controller of the minion it is on.
 If a minion card is just in play and not on another controlled card, then it is controlled by the Methuselah who played it.
 
@@ -298,7 +301,7 @@ The general types of minion cards are as follows. It is possible for a minion ca
 
 ##### Action cards
 
-A ready unlocked (see [Important Terms of the Game](#important-terms-of-the-game)) minion can play an action card to perform an action other than the default actions.
+A ready unlocked (see [Important Terms in the Game](#important-terms-in-the-game)) minion can play an action card to perform an action other than the default actions.
 Only one action card can be played for the action. Action cards cannot be used to modify other actions.
 
 <img src="https://www.vekn.net/images/stories/rulebook/20_minion_cards.png" width="200">
@@ -390,30 +393,30 @@ Each event can only be played once in a game. An event card is controlled by the
 ##### Order of Play
 
 Seating order can be determined by whatever method the Methuselahs choose. Randomly determine a Methuselah to act as first Methuselah.
-For each Methuselah, the Methuselah to your left is your prey (1). They are the Methuselah you hope to oust from the game.
-The Methuselah to your right is your predator (2). They are the Methuselah who hopes to oust you from the game.
+For each Methuselah, the Methuselah to your left is your prey ❶. They are the Methuselah you hope to oust from the game.
+The Methuselah to your right is your predator ❷. They are the Methuselah who hopes to oust you from the game.
 When your prey is ousted, the next Methuselah to your left becomes your new prey.
 
 ##### Blood Bank
 
-Each Methuselah takes 30 blood counters to form their starting pool (3).
-The remaining blood counters are placed in the central area to form the blood bank (4).
+Each Methuselah takes 30 blood counters to form their starting pool ❸.
+The remaining blood counters are placed in the central area to form the blood bank ❹.
 The number of blood counters in the blood bank can never run out, just use additional counters, coins, stones etc as needed.
 
 ##### The Edge
 
-The Edge (5) begins the game uncontrolled and is placed in the central area as well.
+The Edge ❺ begins the game uncontrolled and is placed in the central area as well.
 
 ##### Play Area
 
-The area in front of each Methuselah is divided into two regions: the uncontrolled region (6), and the controlled region (7).
-The controlled region is further divided into two areas: the ready region (8) and the torpor region (9).
+The area in front of each Methuselah is divided into two regions: the uncontrolled region ❻, and the controlled region ❼.
+The controlled region is further divided into two areas: the ready region ❽ and the torpor region ❾.
 Torpor is a special area for wounded vampires.
 As the game progresses, you will gain control of some of your minions, moving them to the ready region, face up.
 
-To begin, separate your crypt cards (10) from your library cards (11).
+To begin, separate your crypt cards ❿ from your library cards ⓫.
 Shuffle both decks and allow your predator to cut both. Place both decks in front of you.
-Draw the top seven library cards to form your hand (12) and deal the top four crypt cards face down into your uncontrolled region (6).
+Draw the top seven library cards to form your hand ⓬ and deal the top four crypt cards face down into your uncontrolled region ❻.
 You can look at the cards in your hand and in your uncontrolled region at any time during the game.
 
 ![Play Area](https://www.vekn.net/images/stories/rulebook/30_game_setup.png)
@@ -446,7 +449,7 @@ All continuous effects that were affecting those cards resume when the cards com
 Cards that are out of play are not controlled, cannot be targeted without explicit effects and do not contest,
 except if they're out of play because the card they're on was contested (see [Contested Cards](#contested-cards)).
 
-Note that it's different if a card goes into your ash heap, library or crypt.
+Note that it is different if a card goes into your ash heap, library or crypt.
 Cards that go in that region are not tracked: if they come back they are considered as new copies of the card.
 
 ##### Locking and Unlocking
@@ -501,7 +504,8 @@ Precise timing rules allow to resolve these interactions with consistency, they 
 If two or more Methuselahs want to play a card or effect, the acting Methuselah plays first.
 At every stage, the acting Methuselah always has the opportunity to play the next card or effect.
 So after playing one effect, they may play another and another.
-Once they are finished, the opportunity passes to the defending Methuselah (in the cases of directed actions and combat), then to the rest of the Methuselahs in clockwise order from the acting Methuselah.
+Once they are finished, the opportunity passes to the defending Methuselah (in the cases of directed actions and combat),
+then to the rest of the Methuselahs in clockwise order from the acting Methuselah.
 Note that if any Methuselah uses a card or effect, the acting Methuselah again gets the opportunity to use the next card or effect.
 
 #### Order of effects
@@ -516,20 +520,20 @@ the normal [Sequencing](#sequencing) rules apply.
 
 **Ordered effects:** Some cards and effects can explicitely be used *"before"* or *"after"* a specific event (eg. *"after action resolution"*, *"before block resolution"*).
 This describes a precise time window: these effects must be used immediately before or after the the event specified (not at any time before or after it).
-If multiple methuselahs want to use an effect during the same ordered window, the normal [Sequencing](#sequencing) rules apply.
+If multiple Methuselahs want to use an ordered effect at the same time, the normal [Sequencing](#sequencing) rules apply.
 
 **Replacement effects:** Some effects replace upcoming events, they use the auxiliary *"would"* (eg. *"when the bleed would be successful"*, *"if combat would end"*).
 These effect are to be used after ordered effects that are used *"before"* the event.
-They must also be played before any upcoming effect (see below)
-At any step, all methuselahs get an opportunity to play replacement effects before any of them can play direct effect, following the normal [Sequencing](#sequencing) rules.
+They must also be played before any *upcoming effect* (see below)
+At any step, all Methuselahs get an opportunity to play replacement effects before any of them can play an upcoming effect, following the normal [Sequencing](#sequencing) rules.
 
 **Upcoming effect:** Some effects can only be used after any ordered or replacement effect, when an event is actually upcoming. They use the expression *"about to"*
 (eg. *"when the bleed is about to be successful"*, *"if the combat is about to end"*).
-They can only be used after all others effect, when the event is upcoming and it's advent cannot be avoided anymore.
+They can only be used after all others effect, when the event is upcoming and its advent cannot be avoided anymore.
 
 **Delayed effects:** Some cards set up effects that are to be resolved later (eg. *"If this action is blocked, before block resolution"*, *"During the next unlock phase"*). 
 Once a delayed effect is set up, it triggers immediately when the event happens: Methuselahs do not get an opportunity to use any effect before it.
-(eg. a delayed effect applied *"before block resolution"* is resolved before any Methuselah has a chance to play a card *"before block resolution"*).
+(eg. a delayed effect applied *"before block resolution"* is resolved before any Methuselah get to use an ordered effect *"before block resolution"*).
 If multiple delayed effects trigger at the same time, the acting Methuselah, or the Methuselah whose turn it is if there is no action, decides the order.
 Once set up, a delayed effect can trigger even if its source is burned or removed from play.
 When a delayed effect triggers, it always resolves, even if the event triggering it ends prematurely.
@@ -561,7 +565,7 @@ If you have the Edge, you may gain 1 pool from the blood bank.
 ##### Burn Option
 
 Some cards have a burn option icon.
-This icon means that a Methuselah who does not control a minion that meets the requirements of this card may discard it during ANY Methuselah’s unlock phase and replace it.
+This icon means that a Methuselah who does not control a minion that meets the requirements of this card may discard it during *any* Methuselah’s unlock phase and replace it.
 Each Methuselah is limited to one such discard each unlock phase.
 
 ##### Contested Cards
@@ -592,7 +596,7 @@ On the other hand, you may wish to have a second copy handy in case the first is
 
 ##### Contested Titles
 
-Some titles are unique. For example, there can be only one prince or baron of a particular city (see [Vampiric Sects](#vampiric-sects)).
+Some titles are unique. For example, there can be only one prince or baron of a particular city (see [Vampiric Sects](#6-vampire-sects)).
 If more than one vampire in play claims the same unique title, then the title is contested.
 While the title is being contested, the vampires involved in the contest are treated as if they have no title, but they remain controlled and may act and block as normal.
 
@@ -614,14 +618,14 @@ It is not compulsory to use your master phase actions. However, you cannot save 
 
 ##### Red List Marking
 
-You can use a master phase action to mark a Red List minion (see [Red List](#red-list)).
+You can use a master phase action to mark a Red List minion (see [traits: Red List](#traits)).
 If you’ve played an out-of-turn master card against this master phase (even if it was cancelled), then you gain one fewer master phase actions than normal (see [Master Cards](#master-cards)).
 
 ### 3. Minion Phase
 
 Most of the activity in the game occurs in the minion phase. During your minion phase, you may have your minions perform actions.
 Only ready unlocked minions can perform actions, and taking an action locks the acting minion.
-Ready unlocked minions, controlled by other Methuselahs, may attempt to block your action, and blocking locks the blocking minion (see [Resolve Any Block Attempts](#resolve-any-block-attempts)).
+Ready unlocked minions, controlled by other Methuselahs, may attempt to block your action, and blocking locks the blocking minion (see [Resolve Any Block Attempts](#2-resolve-any-block-attempts)).
 An action is successful only if it is not blocked. Each action must be resolved (successful or blocked) before another action can be performed.
 
 If a minion manages to unlock (due to a card or an effect) during this phase, it is possible for them to perform another action.
@@ -935,6 +939,7 @@ Actions targeting another player's ash heap are undirected.
 A minion can attempt to block as many times as they wish as long as another minion is not already blocking.
 If one attempt to block fails, another can be made as often as the blocking Methuselah wishes.
 Once a Methuselah decides not to make any further attempts to block, that decision is final.
+
 **Exception:** If the target of an action changes during its course, the new target(s) get a new opportunity to attempt to block
 
 Some reactions card require the minion to make a block attempt (eg. *"this minion unlocks and attempts to block"*).
@@ -999,8 +1004,7 @@ The combat is part of the action resolution. Action modifiers and reactions that
 ##### Action Continues as if Unblocked
 
 When an action was blocked, some cards and effects allow it to resume and *continue as if unblocked*.
-
-If the action was not blocked (eg. an action to enter combat), it cannot *continue as if unblocked*.
+If the action was not blocked (*eg.* an action to enter combat), it cannot *continue as if unblocked*.
 
 If the action was provided by a card that was played, it must be retrieved from the ash heap (where it was placed when the action was blocked)
 and put back in limbo. If the action card is not in the ash heap anymore, the action cannot be continued.
@@ -1180,7 +1184,7 @@ The effects of the strikes from both minions are resolved simultaneously.
 Most strikes are effective only at close range, unless the strike is identified as ranged, does “R” damage, or is a dodge or a combat ends.
 Ranged strikes and strikes that do “R” damage can be used at any range, close or long.
 
-When a minion or retainer takes damage (either from a strike or from other means), they must burn blood or life, as appropriate (see [Damage Resolution](#damage-resolution)).
+When a minion or retainer takes damage (either from a strike or from other means), they must burn blood or life, as appropriate (see [Damage Resolution](#5-damage-resolution)).
 Note that the effects of a strike are applied and then damage is resolved. This timing is important for some special strikes.
 If one or both of the combatants are no longer ready, because one has taken too much damage, for instance, then the round and the combat end immediately.
 This is true at any point during combat, not just during strike resolution.
@@ -1284,14 +1288,14 @@ If there is an uncancelled press to continue, then another round of combat begin
 
 In this step you use the combat cards or other effects that are only usable at the end of a round of combat, after the press step.
 
-Note that this step also occurs even if combat ends prematurely (eg. because of a [Combat Ends](#combat-ends) strike).
+Note that this step also occurs even if combat ends prematurely (*eg.* because of a [Combat Ends](#combat-ends) strike).
 If there is no uncancelled press, this step is also the end of combat.
 
 Some cards and effects can start a new combat or force its continuation when the combat ends.
 In this case, any other effect that was supposed to happend after the end of combat is cancelled.
 An effect to start a new combat cannot be played if another combat is already queued by a similar effect.
 Note that replacement effects (*"When the combat would end"*) are played before
-any direct effect (*"When the combat is about to end"*).
+any upcoming effect (*"When the combat is about to end"*).
 
 #### Retainers and Combat
 
@@ -1409,7 +1413,8 @@ Otherwise, this referendum is handled just like any other.
 ### 4. Influence Phase
 
 Methuselahs vehemently strive to dominate vampire society, but most younger vampires are reluctant to defer to the whims of the ancients.
-Methuselahs must apply their resources skilfully to entice their younger brethren to do their bidding (often with the vampires not even realising that they are being manipulated).
+Methuselahs must apply their resources skilfully to entice their younger brethren to do their bidding
+(often with the vampires not even realising that they are being manipulated).
 
 Your influence phase allows you to devote some of your pool to gaining control of the vampires in your uncontrolled region.
 This phase can also be used to move new vampires from your crypt to your uncontrolled region.
@@ -1433,7 +1438,8 @@ During your influence phase you may spend transfers as follows:
 
 <img src="https://www.vekn.net/images/stories/rulebook/45_transfers.png" width="600">
 
-At any time during this phase, if a vampire has at least as many blood counters as their capacity, the Methuselah can move that vampire face up to the ready region, unlocked.
+At any time during this phase, if a vampire has at least as many blood counters as their capacity,
+the Methuselah can move that vampire face up to the ready region, unlocked.
 The counters are kept on them to represent their blood. Counters in excess of his capacity drain off immediately as usual.
 If the vampire grants additional transfers, those cannot be used on this turn because transfers are gained at the start of the influence phase.
 Other types of crypt cards are handled similarly.
@@ -1445,7 +1451,7 @@ Other types of crypt cards are handled similarly.
 > Now she has 3 pool and 2 transfers left to spend.
 > She spends the 2 transfers by moving 2 of the 3 counters from her pool to Alexa Draper and moves her to the ready region.
 
-##### Advanced
+##### Advanced and Merged
 
 An advanced card is a type of vampire card for your crypt. An advanced card has a special icon under the clan icon.
 The advanced card is a vampire card in all respects, so it can be influenced in the normal manner.
@@ -1471,7 +1477,8 @@ The advanced vampire (merged or not) will contest other copies of the same vampi
 
 ### 5. Discard Phase
 
-In your discard phase you receive by default one discard phase action. You can use a discard phase action to discard a card from your hand and draw to replace it.
+In your discard phase you receive by default one discard phase action.
+You can use a discard phase action to discard a card from your hand and draw to replace it.
 Discard phase actions not used are lost; they cannot be saved for later.
 
 You may use a discard phase action to put an event card into play but no more than one per phase.
@@ -1479,7 +1486,8 @@ Some effects may change the number of discard phase actions you receive or may g
 
 ## 5. Ending the Game
 
-When a Methuselah runs out of pool counters, they are ousted from the game. If you are ousted, all the cards you control are removed from the game.
+When a Methuselah runs out of pool counters, they are ousted from the game.
+If you are ousted, all the cards you control are removed from the game.
 Any of your rivals’ cards you control are returned to them at the end of the game.
 Any of your cards controlled by other Methuselahs remain in play as normal. The game continues until only one Methuselah is left.
 
