@@ -1133,7 +1133,7 @@ The acting minion always gets first opportunity to use cards or effects before t
 
 Some cards or effects will be played before range is determined. This is clearly stated upon those cards.
 
-**Note:** Effects that are played “before range is determined” must be played before the acting minion decides whether or not to play a maneuver.
+**Note:** Effects that are played “before range is chosen” must be played before the acting minion decides whether or not to play a maneuver.
 
 #### 2. Determine Range
 
