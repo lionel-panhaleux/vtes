@@ -945,14 +945,26 @@ whence card is put in the ash heap or in play, as appropriate.
 
 If the action targets one or more other Methuselahs or things controlled by other Methuselahs, then the action is called directed,
 and only the Methuselahs who are targeted may use their ready unlocked minions to attempt to block the action.
+As a reminder, when a card describes an action that is typically directed at another Methuselah, the card’s text will usually include a Ⓓ symbol as a reminder that the action is typically directed.
 If more than one Methuselah has been targeted by the action, blocking attempts are made in a clockwise order.
 
 If the action is not directed at another Methuselah or at something controlled by another Methuselah, then the action is called undirected
-and can be blocked by the acting Methuselah’s prey or predator, with the prey getting the first opportunity to block.
+and can be blocked by the acting Methuselah’s prey or predator ready unlocked minions, with the prey getting the first opportunity to block.
+An action you take directed only at yourself (or something you control) is undirected action, even if the action is marked with a (reminder) Ⓓ symbol. Note that even if undirected actions often get a stealth bonus, this is not automatic: some undirected actions have no stealth by default.
+
+Actions targeting another player's hand, uncontrolled region, crypt, or library are directed at that player.
+Actions targeting another player's ash heap are undirected.
+
 A minion can attempt to block as many times as they wish as long as another minion is not already blocking.
 If one attempt to block fails, another can be made as often as the blocking Methuselah wishes.
 Once a Methuselah decides not to make any further attempts to block, that decision is final.
-As a reminder, when a card describes an action that is typically directed at another Methuselah, the card’s text will usually include a Ⓓ symbol as a reminder that the action is typically directed.
+After all Methuselahs have declined to block, they get a new opportunity to play
+modifiers, reactions and effects before the action resolves, starting with the acting Methuselah and following the standard [Sequencing](#sequencing) rule.
+
+**Exception:** If the target of an action changes during its course, the new target(s) get a new opportunity to attempt to block.
+
+Some reactions card require the minion to make a block attempt (eg. *"this minion unlocks and attempts to block"*).
+They can only be used if the minion can attempt block the action (ie. if their controller is a target in case of a directed action or the prey or predator in case of an undirected one). They can be used is the minion is already attempting to block.
 
 <img src="https://static.krcg.org/png_wb/icon/directed.png" width="80">
 
