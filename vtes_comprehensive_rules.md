@@ -580,14 +580,19 @@ Each Methuselah is limited to one such discard each unlock phase.
 Some of the cards in the game represent unique resources, such as specific locations, equipment, or people.
 These cards will be identified as “unique” in their card text. In addition, all crypt cards represent unique minions.
 If more than one unique card with the same name is brought into play, that means control of the card is being contested.
-For the duration of the contest, all of the contested cards are turned face down and are out of play.
+For the duration of the contest, all of the contested cards are turned face down and are out of play, as well as the cards and counters on them.
 If another unique card with the same name is brought into play, it is immediately contested and turned face down as well.
+Unique cards that are out of play because they are on a contested card do still contest as normal.
+
+An incoming copy that whould contest a card does enter play prior to being contested.
+If an effect removes the incoming copy from play as it enters, it does not contest.
 
 For each card and title you are contesting, you must choose to yield or to pay to contest it.
 The cost to contest a card is 1 pool, which you pay during each of your unlock phases.
 Instead of paying the cost to contest the card, you may choose to yield the card. A yielded card is burned.
 Any cards or counters stacked on the yielded card are also burned.
 If all other cards contesting your unique card are yielded, then the card is unlocked and turned face up during your next unlock phase, ending the contest.
+All the cards on counters stacked on it come back with it, unlocked.
 
 ##### Deck Construction Tip
 
@@ -599,8 +604,9 @@ On the other hand, you may wish to have a second copy handy in case the first is
 ##### Contested Titles
 
 Some titles are unique. For example, there can be only one prince or baron of a particular city (see [Vampiric Sects](#6-vampire-sects)).
-If more than one vampire in play claims the same title, then the title is contested.
+If more than one vampire in play claims the same unique title, then the title is contested.
 While the title is being contested, the vampires involved in the contest are treated as if they have no title, but they remain controlled and may act and block as normal.
+You can control different vampires contesting the same unique title.
 
 The cost to contest a title is 1 blood, which is paid by the vampire during each of their unlock phases.
 Instead of paying the cost to contest the title, the vampire may choose to yield the title (or may be forced to yield, if they have no blood to pay).
