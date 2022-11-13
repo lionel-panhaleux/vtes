@@ -1150,6 +1150,7 @@ The ability to maneuver can come from combat cards, weapons, or other cards in p
 To use a maneuver from a strike card, the minion plays the strike card during this step instead of during the choose strike step.
 If a minion uses the maneuver from a strike card or a weapon, they are effectively choosing their strike as well.
 As such, they cannot use a second strike card or weapon to maneuver again in the same round.
+Only maneuvering with a weapon commits you to striking with that weapon: other effects granted by the weapon can be used without striking with it.
 
 If a combat card played by a minion has a maneuver as part of an effect, the maneuver must be used that round of combat.
 If a combat card played by a minion has an “optional maneuver” as part of the effect, then the minion may decline to use the maneuver.
