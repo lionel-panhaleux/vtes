@@ -697,7 +697,7 @@ If there are multiple copies of the same card in play allowing for an action, th
 *Performing a bleed action represents the efforts of your minion to undermine the power and pool of the target Methuselah. You might picture bleeding as paying bribes, changing bank records, spreading rumors, or the like.*
 
 A bleed can be made with an action card or through the basic bleed action.
-During a bleed action, a minion cannot play more than one action modifier card to increase the bleed amount.
+During a bleed action, no more than one action modifier card can be played to increase the bleed amount.
 This rule is reminded on those cards by the “(limited)” card text.
 
 - **Who can bleed:** Any ready minion. A minion cannot perform more than one bleed action each turn, with or without an action card, even if they unlock.
