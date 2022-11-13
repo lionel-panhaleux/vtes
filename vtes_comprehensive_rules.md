@@ -195,15 +195,32 @@ or Discipline (if any) required to play the card, and the cost (if any) of playi
 
 Some cards will have other requirements (such as capacity or title) stated in the card text.
 Only a minion who meets the requirements given on a minion card can play it, whereas only a Methuselah who controls a ready minion who meets the requirements of a master card can play it.
+Requirements need only be met when a card is played. Once it is in play, actions or effects that change the controller of the card ignore requirements.
 
 Some of the effects listed on cards may require one of the Disciplines listed, while other effects require another listed Discipline,
 and some effects may require the vampire to possess several Disciplines.
 Each effect shows the icon(s) of the Discipline(s) required.
+An effect that allows a minion to play a card that requires a Discipline he does not have can be used to meet one (not more) of the Discipline requirements.
+
+When played, a card counts as requiring only the Discipline being used (if there is a choice).
+In the hand, library or ash heap, the card is considered to require either or all the Discipline requirements it has.
+Similarily for a card with multiple types.
+
+If put into play, a card with a Discipline requirement uses either the basic or superior level.
+Once in play, the level it was played at cannot change anymore.
 
 A number in a red drop represents blood cost (the amount of blood the vampire must burn).
-Only a vampire with enough blood on them can play a card with a blood cost.
 A number in a white diamond with a skull represents pool cost (the amount of pool the Methuselah must burn).
-Only a Methuselah with enough pool can play a card with a pool cost.
+Cards with a cost can only be played if the cost can be paid by the Methuselah or minion playing it,
+taking into account all effects modifying the cost or contributing to the paiement.
+When multiple effects change the cost of a card, effects that multiply or divide the cost are handled first, before additions and substractions.
+
+The cost must be paid immediately, before resolving the card effect.
+
+**Exception:** The cost for action cards is only paid when the action is about to resolve successfully
+(see [Summary of the Course of an Action](#summary-of-the-course-of-an-action)).
+
+Cards effects that burn blood or pool are not considered costs.
 
 <img src="https://www.vekn.net/images/stories/rulebook/16_costs.png" width="300">
 
