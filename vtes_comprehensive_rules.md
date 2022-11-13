@@ -1331,6 +1331,8 @@ If you are ousted, all the cards you control are removed from the game.
 Any of your rivals’ cards you control are returned to them at the end of the game.
 Any of your cards controlled by other Methuselahs remain in play as normal. The game continues until only one Methuselah is left.
 
+Any oust is handled immediately when they happen, if an action is in progress it continues after the oust is handled.
+
 You get 1 victory point and 6 pool counters from the blood bank whenever your prey is ousted (no matter how or by whom your prey was ousted).
 You receive an additional victory point if you are the last Methuselah remaining.
 At the end of the game, the winner is the Methuselah with the most victory points, even if they have been ousted.
@@ -1338,6 +1340,7 @@ At the end of the game, the winner is the Methuselah with the most victory point
 In the case of a tie there is no winner of the game.
 
 **Exception:** If a Methuselah is ousted at the same time that their prey is ousted, the Methuselah gets the victory point but does not gain 6 pool counters.
+Since ousts are not delayed, such a simultaneous oust can only happen as the result of a single effect.
 
 When your prey is ousted, the next Methuselah to your left (the ousted Methuselah’s prey) becomes your new prey, and you become their new predator.
 
