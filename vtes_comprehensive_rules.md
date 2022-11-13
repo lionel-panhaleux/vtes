@@ -1838,6 +1838,9 @@ When an imbued enters play with no conviction, they may gain 1 conviction from y
 In addition to their own effects, conviction cards may be spent (burned) to pay the conviction costs which some cards require.
 Each imbued has a limit of 5 conviction. Any conviction gained above five is burned instead.
 
+Convictions costs are paid in the same way blood and pool costs are paid.
+In particular, the conviction cost for an action is only paid if the action succeeds, not if it is blocked.
+
 ### 3. Power
 
 Power is a new minion card type, only playable by imbued. An imbued may get a power as a +1 stealth action, like equipment or retainers.
