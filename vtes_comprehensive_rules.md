@@ -231,16 +231,6 @@ Vampires in the torpor region are eligible targets by default, but vampires in t
 
 If a card needs a target (chooses, selects, is played on, etc.), then it can only be played if an appropriate target is available.
 
-##### Sequencing
-
-If two or more Methuselahs want to play a card or effect, the acting Methuselah plays first.
-At every stage, the acting Methuselah always has the opportunity to play the next card or effect.
-So after playing one effect, they may play another and another.
-Once they are finished, the opportunity passes to the defending Methuselah (in the cases of directed actions and combat),
-or the prey then the predator (in the case of undirected actions),
-then to the rest of the Methuselahs in clockwise order from the acting Methuselah.
-Note that if any Methuselah uses a card or effect, the acting Methuselah again gets the opportunity to use the next card or effect.
-
 #### Master Cards
 
 Master cards are cards you play in your role as a Methuselah.
@@ -487,6 +477,51 @@ A cancelled card has no effect, but it is still considered played.
 If an action card is cancelled, the minion does not lock (they do not pay for the action card), and can play the same action card again.
 If a non-action card is cancelled, its cost should be paid as normal.
 If a combat card used for a strike is cancelled, the minion who played it must choose a strike which may come from another strike card.
+
+### Timing
+
+During the course of a game, situations may arised where multiple effects happen at once or in very close succession.
+Precise timing rules allow to resolve these interactions with consistency, they apply to all cards and effects.
+
+#### Sequencing
+
+If two or more Methuselahs want to play a card or effect, the acting Methuselah plays first.
+At every stage, the acting Methuselah always has the opportunity to play the next card or effect.
+So after playing one effect, they may play another and another.
+Once they are finished, the opportunity passes to the defending Methuselah (in the cases of directed actions and combat), or the prey then the predator (in the case of undirected actions),
+then to the rest of the Methuselahs in clockwise order from the acting Methuselah.
+Note that if any Methuselah uses a card or effect, the acting Methuselah again gets the opportunity to use the next card or effect.
+
+#### Order of effects
+
+Cards effects are always applied in full. When an effect resolves, no other effect can interrupt its resolution.
+Some cards and effects can only be used during specific timing windows: they cannot be played at any other time.
+In all cases, if multiple Methuselahs want to use an effect at the same time, the standard [Sequencing](#sequencing) rule applies.
+
+**Immediate effects:** Except for strikes, actions, and explicitly *delayed effects* (see below),
+effects are always resolved immediately when announced.
+Methuselahs cannot postpone this resolution or use another effect before it resolves.
+
+**Ordered effects:** Some effects are explicitely used *"before"* or *"after"* a specific event (eg. *"after action resolution"*, *"before block resolution"*).
+This describes a precise time window: these effects must be used immediately before or after the event specified (not at any time before or after it).
+
+**Replacement effects:** Some effects replace upcoming events, they use the auxiliary *"would"* (eg. *"when the bleed would be successful"*, *"if combat would end"*).
+These effects are to be used after *ordered effects* that are used *"before"* the event.
+They must also be played before any *upcoming effect* (see below)
+
+**Upcoming effect:** Some effects can only be used after any *ordered* or *replacement* effect when an event is upcoming. They use the expression *"about to"*
+(eg. *"when the bleed is about to be successful"*, *"if the combat is about to end"*).
+They can only be used after all other effects when the event is upcoming and its advent cannot be avoided anymore.
+All Methuselahs can play *ordered* and *replacement* effects before any of them get to play an *upcoming effect*.
+
+**Delayed effects:** Some cards set up effects that are to be resolved later (eg. *"If this action is blocked, before block resolution"*, *"During the next unlock phase"*).
+Once a delayed effect is set up, it triggers immediately when the event happens: Methuselahs do not get an opportunity to use any effect beforehand.
+(eg. a delayed effect applied *"before block resolution"* is resolved before any Methuselah gets to use an ordered effect *"before block resolution"*).
+If multiple delayed effects trigger at the same time, the acting Methuselah, or the Methuselah whose turn it is if there is no action, decides the order.
+Once set up, a delayed effect can trigger even if its source is burned or removed from play.
+When a delayed effect triggers, it always resolves, even if the event triggering it ends prematurely.
+Delayed effects do not trigger if the event supposed to trigger them is replaced by a *replacement effect* or canceled.
+If the target of a delayed effect is out of play when the effect triggers, the target is unaffected.
 
 ## 4. Detailed Turn Sequence
 
