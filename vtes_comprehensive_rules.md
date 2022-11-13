@@ -173,6 +173,8 @@ They're also considered played by the Methuselah for all game and effect purpose
 
 A card is played by announcing its effects, showing the card and placing it from the hand in the ash heap.
 Sometimes a card will state to put it into play, you should announce its effects and place the card in the play area.
+Action cards are put to the ash heap or in play as appropriate only when the action reaches resolution (see [Summary of the Course of an Action](#summary-of-the-course-of-an-action)).
+
 Some effects can cancel a card “as it is played.” These effects, as well as wake effects, are the only effects allowed during the “as played” time period of another card.
 Even drawing to replace cards, comes after this time period.
 
@@ -817,6 +819,9 @@ Any card required for the action is played (face up) at this time. Lock the acti
 
 **Exception:** Any decisions to be made for a referendum are not announced until the action succeeds (see [The Political Action](#the-political-action)).
 
+The action card (if any) stays in limbo until the action reaches resolution (blocked or successful),
+whence card is put in the ash heap or in play, as appropriate.
+
 > During Sarah’s minion phase, she decides that one of her unlocked minions, Belinde, will take an action to bleed her prey, Alexis.
 > Sarah locks Belinde and says, “Belinde bleeds Alexis for 1 (meaning 1 pool).”
 > After resolving that action (successful or not), Sarah decides that another of her unlocked minions, The Dowager, will recruit an ally, the Underbridge Stray, from her hand. 
@@ -883,11 +888,17 @@ If the action is successful (all block attempts were unsuccessful), then the cos
 
 If the action is blocked, then any card played to perform the action is burned and the block is resolved with these two simultaneous consequences:
 the blocking minion is locked and enters combat with the acting minion (see [Combat](#combat)).
-If an effect ends the action before the block resolution or one of these two consequences (such as entering combat), neither consequence occurs.
-The effects of the action do not take place when the action is blocked.
-Note that the action’s cost, if any, is only paid if the action succeeds; the cost is not paid if the action is blocked.
-The costs of action modifiers and reaction cards are always paid when the cards are played, regardless of the success of the action.
 
+##### Action Continues as if Unblocked
+
+When an action was blocked, some cards and effects allow it to resume and *continue as if unblocked*.
+If the action was not blocked (eg. an action to enter combat), it cannot *continue as if unblocked*.
+
+If the action was provided by a card that was played, it must be retrieved from the ash heap (where it was placed when the action was blocked) and put back in limbo.
+If the action card is not in the ash heap anymore, the action cannot be continued.
+
+All action modifiers and reaction cards that were played, as well as other effects pertaining to the action, are still in effect.
+The Methuselahs who had declared they were not doing any further block attempt are still bound by that decision.
 
 ### Politics
 
