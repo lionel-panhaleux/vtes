@@ -1202,7 +1202,7 @@ The base damage does not inherit the properties of the additional damage.
 ##### Resolve Strike
 
 The effects of the strikes from both minions are resolved simultaneously.
-Most strikes are effective only at close range, unless the strike is identified as ranged, does “R” damage, or is a defensive strike such as dodge or combat ends.
+Most strikes are effective only at close range, unless the strike is identified as ranged, does “R” damage, or is a dodge or a combat ends.
 Ranged strikes and strikes that do “R” damage can be used at any range, close or long.
 
 When a minion or retainer takes damage (either from a strike or from other means), they must burn blood or life, as appropriate (see [Damage Resolution](#5-damage-resolution)).
