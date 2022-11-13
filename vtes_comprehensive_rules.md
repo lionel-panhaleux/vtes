@@ -434,6 +434,7 @@ The ash heap can be examined by any Methuselah at any time. When a counter is bu
 Sometimes, an instruction may say to remove a card from the game.
 While some cards and effects can retrieve cards from the ash heap, cards that are removed from the game cannot be retrieved or affected in any way.
 When a card is burned or removed from the game, any counters or other cards on it are burned.
+Discarding or playing a card does not count as burning it.
 
 ##### Control
 
