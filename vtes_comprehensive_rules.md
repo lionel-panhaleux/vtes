@@ -753,6 +753,7 @@ A hunt can be made with an action card or through the basic hunt action.
 - **Effect when equipping from another minion you control:** Equip with an equipment card currently possessed by one of your other minions. 
   More than one equipment card can be taken from a minion in a single action, but the equipment you wish to take must be announced as the action is announced.
   If the action is unsuccessful, the equipment remains where it is.
+  Requirements from the equipment card (eg. clan requirement) do not apply when equipping from another minion, only when equipping from your hand.
 
 <img src="https://www.vekn.net/images/stories/rulebook/35_equip.png" width="400">
 
