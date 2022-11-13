@@ -82,7 +82,7 @@ An uncontrolled vampire will have blood counters stacked on them representing th
 During the influence phase, if that stack equals or exceeds their blood capacity, you can reveal the vampire and place them in the ready region.
 They retain the pool counters used to influence them on their card to serve as their blood, any blood counters in excess of the capacity drain back to the blood bank (see Influence Phase).
 
-Some cards can augment or reduce a vampire's capacity; there is no maximum, but it can never be reduced below one.
+Some cards can augment or reduce a vampire's capacity: there is no maximum, but it can never be reduced below one.
 
 ##### Clan
 
@@ -204,6 +204,7 @@ An effect that allows a minion to play a card that requires a Discipline he does
 
 When played, a card counts as requiring only the Discipline being used (if there is a choice).
 In the hand, library or ash heap, the card is considered to require either or all the Discipline requirements it has.
+Similarily for a card with multiple types.
 
 If put into play, a card with a Discipline requirement uses either the basic or superior level.
 Once in play, the level it was played at cannot change anymore.
@@ -212,12 +213,14 @@ A number in a red drop represents blood cost (the amount of blood the vampire mu
 A number in a white diamond with a skull represents pool cost (the amount of pool the Methuselah must burn).
 Cards with a cost can only be played if the cost can be paid by the Methuselah or minion playing it,
 taking into account all effects modifying the cost or contributing to the paiement.
+When multiple effects change the cost of a card, effects that multiply or divide the cost are handled first, before additions and substractions.
 
 The cost must be paid immediately, before resolving the card effect.
 
 **Exception:** The cost for action cards is only paid when the action is about to resolve successfully
 (see [Summary of the Course of an Action](#summary-of-the-course-of-an-action)).
-Cards effect that burn blood or pool are not considered costs.
+
+Cards effects that burn blood or pool are not considered costs.
 
 <img src="https://www.vekn.net/images/stories/rulebook/16_costs.png" width="300">
 
@@ -232,6 +235,7 @@ If a card needs a target (chooses, selects, is played on, etc.), then it can onl
 
 Master cards are cards you play in your role as a Methuselah.
 There are two categories of master cards: regular and out-of-turn master cards.
+
 Regular master cards are played during your master phase as master phase actions.
 At the start of each of your master phases, you get one master phase action, which you can use to play a regular master card.
 
@@ -430,6 +434,7 @@ The ash heap can be examined by any Methuselah at any time. When a counter is bu
 Sometimes, an instruction may say to remove a card from the game.
 While some cards and effects can retrieve cards from the ash heap, cards that are removed from the game cannot be retrieved or affected in any way.
 When a card is burned or removed from the game, any counters or other cards on it are burned.
+Discarding or playing a card does not count as burning it.
 
 ##### Control
 
@@ -447,10 +452,10 @@ If they come back into play, those cards come back unlocked.
 All continuous effects that were affecting those cards resume when the cards come back in play.
 
 Cards that are out of play are not controlled, cannot be targeted without explicit effects and do not contest,
-except if they're out of play because the card they're on was contested (see [Contested Cards](#contested-cards)).
+except if they're out of play because the card they are on was contested (see [Contested Cards](#contested-cards)).
 
 Note that it is different if a card goes into your ash heap, library or crypt.
-Cards that go in that region are not tracked: if they come back they are considered as new copies of the card.
+Cards that go in those regions are not tracked: if they come back they are considered as new copies of the card.
 
 ##### Locking and Unlocking
 
@@ -476,6 +481,9 @@ Whenever the cards contradict the rules, the cards take precedence.
 
 The “during X do Y” template is used in several cards. When this template is used, only one Y can be done per X with this card.
 For instance, you may move blood from your vampire to your pool with Vessel only once per unlock phase.
+
+*“During X, Z can Y”* is the same template and follows the same rules,
+only if multiple Z can use it (*eg.* "any older vampire"), each of them gets the opportunity once.
 
 ##### “Lock X to do Y”
 
@@ -504,7 +512,7 @@ Precise timing rules allow to resolve these interactions with consistency, they 
 If two or more Methuselahs want to play a card or effect, the acting Methuselah plays first.
 At every stage, the acting Methuselah always has the opportunity to play the next card or effect.
 So after playing one effect, they may play another and another.
-Once they are finished, the opportunity passes to the defending Methuselah (in the cases of directed actions and combat),
+Once they are finished, the opportunity passes to the defending Methuselah (in the cases of directed actions and combat), or the prey then the predator (in the case of undirected actions),
 then to the rest of the Methuselahs in clockwise order from the acting Methuselah.
 Note that if any Methuselah uses a card or effect, the acting Methuselah again gets the opportunity to use the next card or effect.
 
@@ -512,28 +520,27 @@ Note that if any Methuselah uses a card or effect, the acting Methuselah again g
 
 Cards effects are always applied in full. When an effect resolves, no other effect can interrupt its resolution.
 Some cards and effects can only be used during specific timing windows: they cannot be played at any other time.
+In all cases, if multiple Methuselahs want to use an effect at the same time, the standard [Sequencing](#sequencing) rule applies.
 
-**Immediate effects:** Except for strikes, actions and explicitly *delayed effects* (see below),
-cards and effects are always resolved immediately when the card is played or the effect announced.
-Methuselahs cannot postpone this resolution and use an effect before it resolves. If multiple Methuselahs want to play a card or effect at the same time,
-the normal [Sequencing](#sequencing) rules apply.
+**Immediate effects:** Except for strikes, actions, and explicitly *delayed effects* (see below),
+effects are always resolved immediately when announced.
+Methuselahs cannot postpone this resolution or use another effect before it resolves.
 
-**Ordered effects:** Some cards and effects can explicitely be used *"before"* or *"after"* a specific event (eg. *"after action resolution"*, *"before block resolution"*).
-This describes a precise time window: these effects must be used immediately before or after the the event specified (not at any time before or after it).
-If multiple Methuselahs want to use an ordered effect at the same time, the normal [Sequencing](#sequencing) rules apply.
+**Ordered effects:** Some effects are explicitely used *"before"* or *"after"* a specific event (eg. *"after action resolution"*, *"before block resolution"*).
+This describes a precise time window: these effects must be used immediately before or after the event specified (not at any time before or after it).
 
 **Replacement effects:** Some effects replace upcoming events, they use the auxiliary *"would"* (eg. *"when the bleed would be successful"*, *"if combat would end"*).
-These effect are to be used after ordered effects that are used *"before"* the event.
+These effects are to be used after *ordered effects* that are used *"before"* the event.
 They must also be played before any *upcoming effect* (see below)
-At any step, all Methuselahs get an opportunity to play replacement effects before any of them can play an upcoming effect, following the normal [Sequencing](#sequencing) rules.
 
-**Upcoming effect:** Some effects can only be used after any ordered or replacement effect, when an event is actually upcoming. They use the expression *"about to"*
+**Upcoming effect:** Some effects can only be used after any *ordered* or *replacement* effect when an event is upcoming. They use the expression *"about to"*
 (eg. *"when the bleed is about to be successful"*, *"if the combat is about to end"*).
-They can only be used after all others effect, when the event is upcoming and its advent cannot be avoided anymore.
+They can only be used after all other effects when the event is upcoming and its advent cannot be avoided anymore.
+All Methuselahs can play *ordered* and *replacement* effects before any of them get to play an *upcoming effect*.
 
-**Delayed effects:** Some cards set up effects that are to be resolved later (eg. *"If this action is blocked, before block resolution"*, *"During the next unlock phase"*). 
-Once a delayed effect is set up, it triggers immediately when the event happens: Methuselahs do not get an opportunity to use any effect before it.
-(eg. a delayed effect applied *"before block resolution"* is resolved before any Methuselah get to use an ordered effect *"before block resolution"*).
+**Delayed effects:** Some cards set up effects that are to be resolved later (eg. *"If this action is blocked, before block resolution"*, *"During the next unlock phase"*).
+Once a delayed effect is set up, it triggers immediately when the event happens: Methuselahs do not get an opportunity to use any effect beforehand.
+(eg. a delayed effect applied *"before block resolution"* is resolved before any Methuselah gets to use an ordered effect *"before block resolution"*).
 If multiple delayed effects trigger at the same time, the acting Methuselah, or the Methuselah whose turn it is if there is no action, decides the order.
 Once set up, a delayed effect can trigger even if its source is burned or removed from play.
 When a delayed effect triggers, it always resolves, even if the event triggering it ends prematurely.
@@ -551,7 +558,7 @@ Any cards or effects that require or allow you to do something during your unloc
 You may choose the order in which these effects take place.
 Along with effects generated by cards, there are other effects that are resolved during the unlock phase:
 
-##### Inferal minions
+##### Infernal Minions
 
 An *infernal* minion does not unlock as normal at the beginning unlock phase.
 During its controller’s unlock phase, they may burn 1 pool to unlock that *infernal* minion.
@@ -692,7 +699,7 @@ A bleed can be made with an action card or through the basic bleed action.
 During a bleed action, no more than one action modifier card can be played to increase the bleed amount.
 This rule is reminded on those cards by the “(limited)” card text.
 
-- **Who can bleed:** Any ready minion. A minion cannot perform more than one bleed action each turn, even if they unlock.
+- **Who can bleed:** Any ready minion. A minion cannot perform more than one bleed action each turn, with or without an action card, even if they unlock.
 
 - **Default cost:** None.
 
@@ -792,7 +799,7 @@ If recruiting the ally requires a Discipline and the ally is put into play by so
 
 #### Political Action
 
-- **Who can take a political action:** Any ready vampire. A vampire cannot perform more than one political action each turn.
+- **Who can take a political action:** Any ready vampire. A vampire cannot perform more than one political action each turn, even if they unlock.
 
 - **Cost:** As listed on the political action card.
 
@@ -866,10 +873,10 @@ If recruiting the ally requires a Discipline and the ally is put into play by so
 
 - **Who can perform an action by default:** Any ready minion.
   A minion cannot perform an action with the same action card from hand or in play more than once each turn, even if they unlock.
-  Different copies of the same action card *in hand*, even if using different discipline levels,
+  Different copies of the same action card *in hand*, even if using different disciplines or discipline levels,
   count as the same action and cannot be performed by the same minion more than once per turn.
   Different copies of the same card *in play* allowing for an action however, count as different actions
-  and the same minion can perform the action once for each of those cards during the same turn (if they manage to unlock).
+  and the same minion can perform the action once for each of those cards during the same turn if they manage to unlock (see [Performing an action](#performing-an-action)).
 
 - **Cost:** As listed on the card.
 
@@ -888,7 +895,7 @@ If recruiting the ally requires a Discipline and the ally is put into play by so
 - **Cost:** 2 blood, or 1 blood if the controller controls at least 1 other ready Anarch.
 - **Default target:** None. Undirected action.
 - **Default stealth:** +1 stealth.
-- **Effect:** If the action is successful, the acting vampire is now of the Anarch sect.
+- **Effect:** If the action is successful, the acting vampire is now of the [Anarch](#anarch) sect.
 
 ### Summary of the Course of an Action
 
@@ -906,14 +913,25 @@ Only the acting minion can play action modifiers, while only other Methuselahs�
 The effect of an action modifier or a reaction card lasts for the duration of the current action.
 Also remember that the same minion cannot play the same action modifier or reaction card more than once per action.
 
+#### Non Repeatable Action
+
+If a minion manages to unlock after they have acted, they can perform another action later in the turn.
+But there are some limitations as to which actions a minion can undertake multiple times:
+
+- A minion cannot bleed twice in the same turn (see [Bleed](#bleed)).
+- A minion cannot perform two political actions in the same turn (see [Political Action](#political-action)).
+- A minion cannot play the same action card twice in the same turn (see [Action Card](#action-card-or-card-in-play)).
+- A minion cannot use the action provided by a card in play twice in the same turn (see [Performing an Action](#performing-an-action)).
+
 #### 1. Announce the Action
 
 All details of the action are defined when the action is announced, including the target(s), the cost, the effects, and so on.
 Any card required for the action is played (face up) at this time. Lock the acting minion (only ready unlocked minions can perform actions).
 
-**EXCEPTION:** Any decisions to be made for a referendum are not announced until the action succeeds (see [The Political Action](#the-political-action)).
+**Exception:** Any decisions to be made for a referendum are not announced until the action succeeds (see [The Political Action](#the-political-action)).
 
-The action card stays in limbo until the action reaches resolution (blocked or successful), whence card is burned or put in play, as appropriate.
+The action card (if any) stays in limbo until the action reaches resolution (blocked or successful),
+whence card is put in the ash heap or in play, as appropriate.
 
 > During Sarah’s minion phase, she decides that one of her unlocked minions, Belinde, will take an action to bleed her prey, Alexis.
 > Sarah locks Belinde and says, “Belinde bleeds Alexis for 1 (meaning 1 pool).”
@@ -931,7 +949,7 @@ If more than one Methuselah has been targeted by the action, blocking attempts a
 
 If the action is not directed at another Methuselah or at something controlled by another Methuselah, then the action is called undirected
 and can be blocked by the acting Methuselah’s prey or predator ready unlocked minions, with the prey getting the first opportunity to block.
-An action you take directed only at yourself (or something you control) is undirected action, even if the action is marked with a (reminder) Ⓓ symbol.
+An action you take directed only at yourself (or something you control) is undirected action, even if the action is marked with a (reminder) Ⓓ symbol. Note that even if undirected actions often get a stealth bonus, this is not automatic: some undirected actions have no stealth by default.
 
 Actions targeting another player's hand, uncontrolled region, crypt, or library are directed at that player.
 Actions targeting another player's ash heap are undirected.
@@ -939,11 +957,13 @@ Actions targeting another player's ash heap are undirected.
 A minion can attempt to block as many times as they wish as long as another minion is not already blocking.
 If one attempt to block fails, another can be made as often as the blocking Methuselah wishes.
 Once a Methuselah decides not to make any further attempts to block, that decision is final.
+After all Methuselahs have declined to block, they get a new opportunity to play
+modifiers, reactions and effects before the action resolves, starting with the acting Methuselah and following the standard [Sequencing](#sequencing) rule.
 
-**Exception:** If the target of an action changes during its course, the new target(s) get a new opportunity to attempt to block
+**Exception:** If the target of an action changes during its course, the new target(s) get a new opportunity to attempt to block.
 
 Some reactions card require the minion to make a block attempt (eg. *"this minion unlocks and attempts to block"*).
-They can only be used if the minion can attempt block the action (ie. if their controller is a target in case of a directed action or the prey or predator in case of an undirected one).
+They can only be used if the minion can attempt block the action (ie. if their controller is a target in case of a directed action or the prey or predator in case of an undirected one). They can be used is the minion is already attempting to block.
 
 <img src="https://static.krcg.org/png_wb/icon/directed.png" width="80">
 
@@ -993,7 +1013,7 @@ At that point, circumstances might have changed, making the action invalid:
 - The action was granted by an equipment the minion does not have anymore
 - The acting minion has changed controller
 
-In those, the action has no effect (it is still considered successful).
+In those cases, the action has no effect (it is still considered successful).
 
 If the action is blocked, then any card played to perform the action is burned and the block is resolved with these two simultaneous consequences:
 the blocking minion is locked and enters combat with the acting minion (see [Combat](#combat)).
@@ -1004,10 +1024,10 @@ The combat is part of the action resolution. Action modifiers and reactions that
 ##### Action Continues as if Unblocked
 
 When an action was blocked, some cards and effects allow it to resume and *continue as if unblocked*.
-If the action was not blocked (*eg.* an action to enter combat), it cannot *continue as if unblocked*.
+If the action was not blocked (eg. an action to enter combat), it cannot *continue as if unblocked*.
 
-If the action was provided by a card that was played, it must be retrieved from the ash heap (where it was placed when the action was blocked)
-and put back in limbo. If the action card is not in the ash heap anymore, the action cannot be continued.
+If the action was provided by a card that was played, it must be retrieved from the ash heap (where it was placed when the action was blocked) and put back in limbo.
+If the action card is not in the ash heap anymore, the action cannot be continued.
 
 All action modifiers and reaction cards that were played, as well as other effects pertaining to the action, are still in effect.
 The Methuselahs who had declared they were not doing any further block attempt are still bound by that decision.
@@ -1029,7 +1049,7 @@ If a political action is successful, its cost is paid, and the referendum is cal
 1. **Choose the terms**, if any, of the referendum.
    Some effects ensure a referendum *"passes automatically"*.
    In this case, skip the polling step and resolve the referendum directly:
-   cards and effects that can be used *"during a referendum"* cannot be used.
+   cards and effects that are played *"during a referendum"* cannot be used.
 
 2. **Polling:** Cards that are usable “during the polling step” but “before votes and ballots are cast” are used at this time. 
    Then, all Methuselahs may now cast any votes and ballots they have (see below) at this time, in any order. 
@@ -1112,7 +1132,7 @@ The acting minion always gets first opportunity to use cards or effects before t
 
 Some cards or effects will be played before range is determined. This is clearly stated upon those cards.
 
-**Note:** Effects that are played “before range is chosen must be played before the acting minion decides whether or not to play a maneuver.
+**Note:** Effects that are played “before range is chosen” must be played before the acting minion decides whether or not to play a maneuver.
 
 #### 2. Determine Range
 
@@ -1129,7 +1149,7 @@ The ability to maneuver can come from combat cards, weapons, or other cards in p
 To use a maneuver from a strike card, the minion plays the strike card during this step instead of during the choose strike step.
 If a minion uses the maneuver from a strike card or a weapon, they are effectively choosing their strike as well.
 As such, they cannot use a second strike card or weapon to maneuver again in the same round.
-Only maneuvering with a weapon commits you to striking with that weapon; other effects can be used without striking with the weapon.
+Only maneuvering with a weapon commits you to striking with that weapon: other effects granted by the weapon can be used without striking with it.
 
 If a combat card played by a minion has a maneuver as part of an effect, the maneuver must be used that round of combat.
 If a combat card played by a minion has an “optional maneuver” as part of the effect, then the minion may decline to use the maneuver, but cannot use it in a subsequent round.
@@ -1137,7 +1157,7 @@ If a combat card played by a minion has an “optional maneuver” as part of th
 Typically, a minion that can attack at long range will want to maneuver to long range against an opponent that they suspect can only attack at close range.
 
 Some effects set the range of a round (and skip this phase). In this case, no other effect can be used to set the range this round.
-If both Methuselahs want to use an effect to set the range, the normal [Sequencing](#sequencing) rules apply.
+If both Methuselahs want to use an effect to set the range, the normal [Sequencing](#sequencing) rule applies.
 
 > Ayelech has just blocked Colette, and combat ensues.
 > Ayelech has a .44 Magnum that allows her to strike for 2 damage at either close or long range, and gives her an optional maneuver.
@@ -1194,9 +1214,9 @@ This is true at any point during combat, not just during strike resolution.
 Some cards and effects allow a minion to make additional strikes during the current round of combat.
 Additional strikes are announced and performed only after the first pair of strikes is completed.
 The acting minion decides whether or not to gain additional strikes before the opposing minion, as usual.
-A minion can gain additional strikes even if they cannot strike.
+A minion can gain additional strikes even if they cannot use it or strike effectively with it.
 
-Additional strikes are handled by having another choose strike step and resolve strike step in which only the minions with additional strikes may play strike cards.
+Additional strikes are handled by having subsequent "choose strike" and "resolve strike" steps in which only the minions with additional strikes may play strike cards.
 All additional strikes take place at the same range. This is repeated as necessary.
 A minion cannot use more than one card or effect to gain additional strikes per round of combat.
 This rule is reminded on those cards by the “(limited)” card text.
@@ -1220,7 +1240,7 @@ Damage resolution has two steps: prevent damage and mend damage.
 First, the minion taking damage can play combat cards that prevent damage.
 These damage prevention cards are played one at a time until all the damage is prevented or until the minion chooses not to play any more.
 Any unprevented damage is successfully inflicted.
-Damage prevention cards or effect cannot be played or used if there's no damage left to prevent. They can be used to prevent less damage than they ought though.
+Damage prevention cards or effects cannot be played or used if there's no damage left to prevent. They can be used to prevent less damage than they ought to though.
 Prevention effects are applied to the damage being currenlty resolved, they do not carry over to later damage.
 
 The damage is then mended, if the victim is a vampire, or burns life counters, if the victim is an ally or a retainer.
@@ -1276,7 +1296,7 @@ At the end of a round of combat, if both combatants are still ready, the combata
 Presses can be used to continue combat or to end combat by cancelling a press to continue.
 This is similar to the way maneuvers are used to determine range.
 
-If a combat card played by a minion has a press as part of an effect, the press must be used that round of combat.
+If a combat card played by a minion has a press as part of the effect, the press must be used during that round of combat.
 If a combat card played by a minion has an “optional press” as part of the effect, then the minion may decline to use the press, but cannot use it in a subsequent round.
 
 The two combatants can continue playing presses, to keep offsetting the effects of their opponent’s last press, for as long as they wish.
@@ -1288,7 +1308,7 @@ If there is an uncancelled press to continue, then another round of combat begin
 
 In this step you use the combat cards or other effects that are only usable at the end of a round of combat, after the press step.
 
-Note that this step also occurs even if combat ends prematurely (*eg.* because of a [Combat Ends](#combat-ends) strike).
+Note that this step also occurs even if combat ends prematurely (eg. because of a [Combat Ends](#combat-ends) strike).
 If there is no uncancelled press, this step is also the end of combat.
 
 Some cards and effects can start a new combat or force its continuation when the combat ends.
@@ -1407,7 +1427,9 @@ In practice, however, this brand of justice is not always meted out fairly, depe
 
 When a vampire commits diablerie, a referendum is automatically and immediately conducted to determine if a blood hunt will be called on the diablerist.
 If the referendum passes, a blood hunt is called, and the diablerist is burned.
-This referendum is not an action, so it cannot be blocked, and action modifiers and reaction cards cannot be played.
+This referendum is not an action, so it cannot be blocked (it takes place during an ongoing action).
+
+During a Blood Hunt referendum, action modifiers and reaction cards cannot be played.
 Otherwise, this referendum is handled just like any other.
 
 ### 4. Influence Phase
@@ -1499,7 +1521,7 @@ At the end of the game, the winner is the Methuselah with the most victory point
 
 In the case of a tie there is no winner of the game.
 
-**EXCEPTION:** If a Methuselah is ousted at the same time that their prey is ousted, the Methuselah gets the victory point but does not gain 6 pool counters.
+**Exception:** If a Methuselah is ousted at the same time that their prey is ousted, the Methuselah gets the victory point but does not gain 6 pool counters.
 Since ousts are not delayed, such a simultaneous oust can only happen as the result of a single effect.
 
 When your prey is ousted, the next Methuselah to your left (the ousted Methuselah’s prey) becomes your new prey, and you become their new predator.
@@ -1632,7 +1654,7 @@ These traits may allow minions to play certain cards that require a specific tra
 
 - **Circle:** Each Blood Brother is identified with a particular circle. A vampire without a circle designation is their own circle. Inner Circle is not a Blood Brother circle.
 
-- **Infernal:** An infernal minion does not unlock as normal in the unlock phase. During its controller’s unlock phase, they may burn 1 pool to unlock that Infernal minion.
+- **Infernal:** An infernal minion does not unlock as normal: their controller may burn 1 pool during their unlock phase, to unlock them (See [Infernal Minions](#infernal-minions)).
 
 - **Flight <img src="https://static.krcg.org/png_wb/disc/inf/flight.png" width="25">:** This Trait allows a minion to play or use cards requiring Flight.
 
@@ -1922,7 +1944,7 @@ The following is a glossary of some of the relevant terms of Vampire: The Masque
 #### Legacy Clans
 
 Two clans have been renamed and have now a new symbol: the Assamite (now Banu Haqim) and the Followers of Set (now Ministry).
-In both cases, the old and new clan names are symbols are equivalent for all purposes: an Assamite can play a card requireing Banu Haqim and vice-versa.
+In both cases, the old and new clan names and symbols are equivalent for all purposes: an Assamite can play a card requiring Banu Haqim and vice-versa.
 
 - <img src="https://static.krcg.org/png_wb/clan/abominations.png" width="30"> Abomination
 - <img src="https://static.krcg.org/png_wb/clan/ahrimanes.png" width="30"> Ahrimane
