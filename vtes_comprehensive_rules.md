@@ -644,7 +644,11 @@ Some actions are mandatory. Any of those actions must be performed before any no
 If you have two or more minions with mandatory actions, they may be done in the order you choose.
 A minion required to take a mandatory action cannot perform any other action.
 For example, a ready vampire with no blood must hunt as a mandatory action.
-If a single minion has two or more different mandatory actions, then they are “stuck” and cannot perform any action (this does not prevent your other minions from performing actions, however).
+If a single minion cannot perform a mandatory action or has two or more different mandatory actions,
+then they are “stuck” and cannot perform any action (this does not prevent your other minions from performing actions, however).
+
+A mandatory action provided by a card in play needs only to be performed once per turn.
+If the minion unlocks afterwards, they're free to take any other action.
 
 #### Types of Actions
 
