@@ -1190,6 +1190,9 @@ The strike can be from a combat card, from a weapon the minion possesses, by def
 If a minion has used a maneuver from a strike (either a strike card or a weapon) this round, then they cannot choose any other strike for their initial strike of the round.
 For additional strikes, any strike can be chosen, even if a maneuver of a strike card or a weapon has been used.
 
+If a strike card is cancelled, all its effects are cancelled, including any optional maneuver or press,
+and the minion who played it must choose a strike, which might come from another strike card.
+
 Some combat cards that change the nature or quantity of damage can be played up until this point, before or after the opponent chooses their strike.
 They cannot be played later if they are to modify the damage of this strike before its resolution.
 
