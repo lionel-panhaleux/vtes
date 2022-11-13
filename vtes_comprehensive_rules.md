@@ -1337,7 +1337,7 @@ Vampires have a default strength of 1.
 
 A dodge strike deals no damage, but it protects the dodging minion and their possessions from the effects of the opposing strike.
 Retainers are not protected, however. A dodge is effective at any range.
-A dodge protects even from the effects of a strike done with first strike (see [First Strike](#first-strike)).
+A dodge protects even from the effects of a strike done with first strike (see [First Strike](#first-strike)) or additional effects from a combat ends strike (see [Combat ends](#combat-ends)).
 A dodge is a strike, even though it is solely defensive. It represents the activity of the minion during that pair of strikes.
 
 ##### Combat Ends
@@ -1345,7 +1345,7 @@ A dodge is a strike, even though it is solely defensive. It represents the activ
 This effect ends combat immediately.
 This type of strike is always the first to resolve, even before a strike done with first strike (see [First Strike](#first-strike)),
 and it ends combat before other strikes or other strike resolution effects are resolved. Combat ends is effective at any range.
-Combat ends is not affected by a dodge, since dodge only cancels effects that are directed at the dodging minion.
+The combat ends even if the strike is dodged, since dodge only cancels effects that are directed at the dodging minion.
 
 ##### Steal Blood
 
