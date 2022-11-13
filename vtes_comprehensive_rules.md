@@ -690,6 +690,7 @@ These three actions are very similar, although the cards they bring into play ar
 - **Allies:** non-vampire minions, such as mages, werewolves, or ordinary mortals. An ally is brought into play with the recruit ally action.
 
 A minion cannot perform each action via the same card in play (including from the minion’s own card text) more than once each turn, even if they unlock.
+If there are multiple copies of the same card in play allowing for an action, the same minion can perform this action once for each of those cards during the same turn.
 
 #### Bleed
 
@@ -699,7 +700,7 @@ A bleed can be made with an action card or through the basic bleed action.
 During a bleed action, a minion cannot play more than one action modifier card to increase the bleed amount.
 This rule is reminded on those cards by the “(limited)” card text.
 
-- **Who can bleed:** Any ready minion. A minion cannot perform more than one bleed action each turn, even if they unlock.
+- **Who can bleed:** Any ready minion. A minion cannot perform more than one bleed action each turn, with or without an action card, even if they unlock.
 
 - **Default cost:** None.
 
@@ -798,7 +799,7 @@ If recruiting the ally requires a Discipline and the ally is put into play by so
 
 #### Political Action
 
-- **Who can take a political action:** Any ready vampire. A vampire cannot perform more than one political action each turn.
+- **Who can take a political action:** Any ready vampire. A vampire cannot perform more than one political action each turn, even if they unlock.
 
 - **Cost:** As listed on the political action card.
 
@@ -872,6 +873,10 @@ If recruiting the ally requires a Discipline and the ally is put into play by so
 
 - **Who can perform an action by default:** Any ready minion.
   A minion cannot perform an action with the same action card from hand or in play more than once each turn, even if they unlock.
+  Different copies of the same action card *in hand*, even if using different disciplines or discipline levels,
+  count as the same action and cannot be performed by the same minion more than once per turn.
+  Different copies of the same card *in play* allowing for an action however, count as different actions
+  and the same minion can perform the action once for each of those cards during the same turn if they manage to unlock (see [Performing an action](#performing-an-action)).
 
 - **Cost:** As listed on the card.
 
@@ -907,6 +912,16 @@ If recruiting the ally requires a Discipline and the ally is put into play by so
 Only the acting minion can play action modifiers, while only other Methuselahs’ ready unlocked minions can play reaction cards.
 The effect of an action modifier or a reaction card lasts for the duration of the current action.
 Also remember that the same minion cannot play the same action modifier or reaction card more than once per action.
+
+#### Non Repeatable Action
+
+If a minion manages to unlock after they have acted, they can perform another action later in the turn.
+But there are some limitations as to which actions a minion can undertake multiple times:
+
+- A minion cannot bleed twice in the same turn (see [Bleed](#bleed)).
+- A minion cannot perform two political actions in the same turn (see [Political Action](#political-action)).
+- A minion cannot play the same action card twice in the same turn (see [Action Card](#action-card-or-card-in-play)).
+- A minion cannot use the action provided by a card in play twice in the same turn (see [Performing an Action](#performing-an-action)).
 
 #### 1. Announce the Action
 
