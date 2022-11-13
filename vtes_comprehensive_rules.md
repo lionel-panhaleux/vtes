@@ -1157,6 +1157,9 @@ If a combat card played by a minion has an “optional maneuver” as part of th
 
 Typically, a minion that can attack at long range will want to maneuver to long range against an opponent that they suspect can only attack at close range.
 
+Some effects set the range of a round (and skip this phase). In this case, no other effect can be used to set the range this round.
+If both Methuselahs want to use an effect to set the range, the normal [Sequencing](#sequencing) rule applies.
+
 > Ayelech has just blocked Colette, and combat ensues.
 > Ayelech has a .44 Magnum that allows her to strike for 2 damage at either close or long range, and gives her an optional maneuver.
 > Colette, as the acting minion, declines to maneuver.
