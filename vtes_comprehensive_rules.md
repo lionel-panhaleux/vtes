@@ -1441,6 +1441,7 @@ Whichever side has the greater number of ballots in the sub-referendum gains 3 v
 If the sub-referendum is tied, the prisci block abstains from the main referendum.
 As vampires cast their ballots in the sub-referendum, the prisci block of 3 votes might shift between “for”, “against”, and “abstain” (as the majority in the subreferendum changes).
 A vampire must cast all of their votes and ballots in agreement.
+Ballots are not votes: from the perspectives of other cards and effects, a normal Priscus has no vote.
 
 ##### Antitribu
 
