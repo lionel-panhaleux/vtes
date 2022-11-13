@@ -135,7 +135,7 @@ The advanced card is a vampire card in all respects, so it can be influenced in 
 
 ##### Text box
 
-The area containing a vampire’s sect (Camarilla in this case), title, special abilities or other attributes.
+The area containing a vampire’s sect, title, special abilities or other attributes.
 
 ##### Expansion symbol
 
