@@ -270,10 +270,6 @@ A Methuselah can gain only one master phase action from trifles in a given maste
 
 <img src="https://static.krcg.org/card/lifeinthecity.jpg" width="150">
 
-##### Other master cards
-
-Any master cards not explained here have their effects described on them.
-
 ##### Disciplines
 
 A Discipline card is played on a controlled vampire to give them an additional level of a Discipline,
@@ -295,6 +291,10 @@ even if the out-of-turn master card is cancelled (see [Master Phase](#2-master-p
 
 Regardless of the number of master phase actions you normally have, you cannot play a second out-of-turn master card before your next master phase.
 You cannot play an out-of-turn master card on your own turn.
+
+##### Other master cards
+
+Any master cards not explained here have their effects described on them.
 
 #### Minion Cards
 
@@ -505,7 +505,6 @@ If you have the Edge, you may gain 1 pool from the blood bank.
 Some cards have a burn option icon.
 This icon means that a Methuselah who does not control a minion that meets the requirements of this card may discard it during *any* Methuselah’s unlock phase and replace it.
 Each Methuselah is limited to one such discard each unlock phase.
-For each card and title you are contesting, you must choose to yield or to pay to contest it.
 
 ##### Contested Cards
 
@@ -515,6 +514,7 @@ If more than one unique card with the same name is brought into play, that means
 For the duration of the contest, all of the contested cards are turned face down and are out of play.
 If another unique card with the same name is brought into play, it is immediately contested and turned face down as well.
 
+For each card and title you are contesting, you must choose to yield or to pay to contest it.
 The cost to contest a card is 1 pool, which you pay during each of your unlock phases.
 Instead of paying the cost to contest the card, you may choose to yield the card. A yielded card is burned.
 Any cards or counters stacked on the yielded card are also burned.
