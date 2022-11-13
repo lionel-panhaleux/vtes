@@ -1241,12 +1241,16 @@ Damage resolution has two steps: prevent damage and mend damage.
 First, the minion taking damage can play combat cards that prevent damage.
 These damage prevention cards are played one at a time until all the damage is prevented or until the minion chooses not to play any more.
 Any unprevented damage is successfully inflicted.
+Damage prevention cards or effects cannot be played or used if there's no damage left to prevent. They can be used to prevent less damage than they ought to though.
+Prevention effects are applied to the damage being currenlty resolved, they do not carry over to later damage.
+
 The damage is then mended, if the victim is a vampire, or burns life counters, if the victim is an ally or a retainer.
 
 For each point of damage inflicted on a vampire, they must burn 1 blood to mend the damage.
 A vampire can burn all of their blood if needed, and doing so does not have any other negative effects on the vampire.
 If a vampire cannot mend all the damage (that is, more damage is inflicted than they have blood with which to mend),
 they burn blood to mend what damage they can, and the unmended damage leaves them wounded.
+No card or effect can be used during the mending of simultaneous damage.
 
 A wounded vampire goes to torpor after all remaining damage is handled (see [Torpor](#torpor)).
 
