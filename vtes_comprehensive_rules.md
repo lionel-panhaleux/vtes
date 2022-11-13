@@ -235,6 +235,7 @@ If two or more Methuselahs want to play a card or effect, the acting Methuselah 
 At every stage, the acting Methuselah always has the opportunity to play the next card or effect.
 So after playing one effect, they may play another and another.
 Once they are finished, the opportunity passes to the defending Methuselah (in the cases of directed actions and combat),
+or the prey then the predator (in the case of undirected actions),
 then to the rest of the Methuselahs in clockwise order from the acting Methuselah.
 Note that if any Methuselah uses a card or effect, the acting Methuselah again gets the opportunity to use the next card or effect.
 
