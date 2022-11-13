@@ -1329,7 +1329,7 @@ To target a retainer with a ranged strike, the striking minion must announce the
 
 ##### Hand Strike
 
-The default strike is a hand strike.
+The default strike is a hand strike, it can be performed without combat card.
 When a minion strikes with a hand strike at close range, they do an amount of damage equal to their strength to the opposing minion.
 Vampires have a default strength of 1.
 
