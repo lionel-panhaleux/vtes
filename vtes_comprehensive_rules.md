@@ -317,7 +317,7 @@ A minion cannot play the same action modifier card more than once during a singl
 
 <img src="https://www.vekn.net/images/stories/rulebook/21_action_modifier.png" width="200">
 
-Some action modifier cards are played by minions “other than the acting minion”. Only minions controlled by the same Methuselah can play those cards.
+Some action modifier cards are played by minions “other than the acting minion”. Only ready minions controlled by the same Methuselah can play those cards.
 
 ##### Ally cards
 
