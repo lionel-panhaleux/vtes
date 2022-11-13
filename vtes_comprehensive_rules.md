@@ -1428,7 +1428,9 @@ In practice, however, this brand of justice is not always meted out fairly, depe
 
 When a vampire commits diablerie, a referendum is automatically and immediately conducted to determine if a blood hunt will be called on the diablerist.
 If the referendum passes, a blood hunt is called, and the diablerist is burned.
-This referendum is not an action, so it cannot be blocked, and action modifiers and reaction cards cannot be played.
+This referendum is not an action, so it cannot be blocked (it takes place during an ongoing action).
+
+During a Blood Hunt referendum, action modifiers and reaction cards cannot be played.
 Otherwise, this referendum is handled just like any other.
 
 ### 4. Influence Phase
