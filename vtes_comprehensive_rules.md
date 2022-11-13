@@ -482,6 +482,9 @@ Whenever the cards contradict the rules, the cards take precedence.
 The “during X do Y” template is used in several cards. When this template is used, only one Y can be done per X with this card.
 For instance, you may move blood from your vampire to your pool with Vessel only once per unlock phase.
 
+*“During X, Z can Y”* is the same template and follows the same rules,
+only if multiple Z can use it (*eg.* "any older vampire"), each of them gets the opportunity once.
+
 ##### “Lock X to do Y”
 
 These effects require an unlocked minion to be used, they cannot be used by locked minions.
