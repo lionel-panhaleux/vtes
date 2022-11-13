@@ -1353,6 +1353,7 @@ This effect moves blood counters or life counters from the target to the strikin
 This does not count as damage, so the effect cannot be prevented with damage prevention effects.
 This effect occurs before the mend damage step of damage resolution, so the stolen blood can be used to mend damage even if the damage is inflicted simultaneously.
 If the stolen blood causes the striking vampire to have more blood than their capacity, the excess drains off immediately.
+You can use an effect that will steal more blood (or life) than the target minion has: you steal what he has.
 
 > Chrysanthemum enters combat with an Underbridge Stray ally. Chrysanthemum has a capacity of 5 and has 4 blood. The ally has 2 life.
 > After determining range, Chrysanthemum steals 2 blood as her strike. The ally strikes for 1 damage.
