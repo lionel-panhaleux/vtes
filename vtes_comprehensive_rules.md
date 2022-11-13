@@ -1215,11 +1215,14 @@ This is true at any point during combat, not just during strike resolution.
 Some cards and effects allow a minion to make additional strikes during the current round of combat.
 Additional strikes are announced and performed only after the first pair of strikes is completed.
 The acting minion decides whether or not to gain additional strikes before the opposing minion, as usual.
+A minion can gain additional strikes even if they cannot use it or strike effectively with it.
 
-Additional strikes are handled by having another choose strike step and resolve strike step in which only the minions with additional strikes may play strike cards.
+Additional strikes are handled by having subsequent "choose strike" and "resolve strike" steps in which only the minions with additional strikes may play strike cards.
 All additional strikes take place at the same range. This is repeated as necessary.
 A minion cannot use more than one card or effect to gain additional strikes per round of combat.
 This rule is reminded on those cards by the “(limited)” card text.
+Some cards overcome this limitation. If you have any pending (additional) strikes,
+wait until those strikes are resolved before gaining further additional strikes.
 
 > Wauneka is blocked by Flávio Gonçalves, and they enter combat. Neither of them maneuvers, so the round is at close range.
 > Wauneka announces he is using a Roundhouse card, which allows him to inflict 4 damage, as his strike.
