@@ -1107,7 +1107,7 @@ Combat results when a minion blocks the action of a ready minion. Also, some car
 Whatever caused the combat, it is important to remember that only ready minions can participate in combat and that your minions cannot enter combat with other minions you control.
 Being locked or unlocked does not matter for combat. Locked minions fight just the same as unlocked minions.
 
-**Note:** The only cards that can be played during combat are combat cards.
+**Note:** The only minion cards that can be played during combat are combat cards.
 
 #### Combat Sequence
 
