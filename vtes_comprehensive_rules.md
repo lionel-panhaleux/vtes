@@ -229,6 +229,8 @@ Cards effects that burn blood or pool are not considered costs.
 If a card is played on another card, or targets another card, the target card must be in play (that is, controlled).
 Vampires in the torpor region are eligible targets by default, but vampires in the uncontrolled region and contested cards are not.
 
+If a card needs a target (chooses, selects, is played on, etc.), then it can only be played if an appropriate target is available.
+
 ##### Sequencing
 
 If two or more Methuselahs want to play a card or effect, the acting Methuselah plays first.
