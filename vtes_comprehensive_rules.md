@@ -1309,7 +1309,14 @@ If there is an uncancelled press to continue, then another round of combat begin
 
 In this step you use the combat cards or other effects that are only usable at the end of a round of combat, after the press step.
 
-Note that this step also occurs even if combat ends prematurely.
+Note that this step also occurs even if combat ends prematurely (eg. because of a [Combat Ends](#combat-ends) strike).
+If there is no uncancelled press, this step is also the end of combat.
+
+Some cards and effects can start a new combat or force its continuation when the combat ends.
+In this case, any other effect that was supposed to happend after the end of combat is cancelled.
+An effect to start a new combat cannot be played if another combat is already queued by a similar effect.
+Note that replacement effects (*"When the combat would end"*) are played before
+any upcoming effect (*"When the combat is about to end"*).
 
 #### Retainers and Combat
 
