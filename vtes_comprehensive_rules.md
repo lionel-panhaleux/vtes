@@ -1092,6 +1092,10 @@ Other minions may have votes or ballots (as listed on card text) without holding
 A minion’s votes and ballots can be used only when the minion is ready.
 Whether or not a minion is locked or unlocked does not have any impact on their ability to vote.
 
+Some vampires have **personal titles**, like "2 votes (titled)". They are titles in their own rights, but do not contest and are not bound to a specific sect.
+They are still titles, so they are lost if the vampire gains another title (see [Vampire Sects](#6-vampire-sects)).
+Other vampires have **vote bonuses**, like "+2 votes". This does not count as a title and the bonus continues to apply even if the vampire changes sect or gains a title.
+
 ##### Burning the Edge
 
 The Methuselah who has the Edge can burn it (return it, uncontrolled, to the central area) to gain 1 vote.
@@ -1571,6 +1575,8 @@ A vampire must belong to the appropriate sect to receive a title.
 If a vampire with a title changes clans or sects to a clan or sect inappropriate for their title, they lose the benefit of the title until their clan or sect changes appropriately.
 If they receive a new title, or if their title is contested (see [Contested Titles](#contested-titles)), they immediately yield the old title.
 
+**Exception:** Personal titles (see [Title Vampires](#titled-vampires)) are not bound to a sect, so they are not lost if the vampire changes sect.
+
 ### Camarilla
 
 Only Camarilla vampires can hold the Camarilla titles primogen, prince, justicar, and Inner Circle member.
@@ -1594,7 +1600,7 @@ If a baron changes sect, they lose the benefit of the title until they become An
 ### Independent
 
 Any vampire not aligned with any of the major sects is an Independent vampire. These vampires are identified simply as “Independent” in card text.
-Some Independent vampires may start with votes, as listed on card text. Treat these vampires as if they had titles of their own.
+There are no independant titles, but some Independent vampires hold personal titles (see [Titled Vampires](#titled-vampires)).
 
 ## 7. Legacy Sets
 
