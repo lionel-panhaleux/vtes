@@ -489,6 +489,9 @@ only if multiple Z can use it (*eg.* "any older vampire"), each of them gets the
 
 These effects require an unlocked minion to be used, they cannot be used by locked minions.
 
+*"Do X to do Y"* is the same template and follows the same rule: the effect cannot be used (nor the card played)
+if X cannot be done.
+
 ##### “Search”
 
 Some effects have you search your library or crypt.
