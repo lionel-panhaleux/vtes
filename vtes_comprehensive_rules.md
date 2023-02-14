@@ -1295,7 +1295,7 @@ If aggravated damage burns them, they go directly to the ash heap. They do not g
 > The aggravated damage burns him, since he already is wounded and cannot burn 1 blood to prevent his destruction.
 
 Allies and retainers treat aggravated damage the same as normal damage.
-For each point of damage successfully inflicted on a ally or retainer, they burn 1 life counter.
+For each point of damage successfully inflicted on an ally or retainer, they burn 1 life counter.
 An ally or retainer who loses all of their life counters is burned.
 
 #### 6. Press
