@@ -600,7 +600,7 @@ All the cards on counters stacked on it come back with it, unlocked.
 ##### Deck Construction Tip
 
 Be careful about putting duplicates of the same unique cards in your deck.
-You cannot control more than one of the same unique card at a time, and you cannot contest cards nor titles with yourself
+You cannot control more than one of the same unique card at a time, and you cannot contest cards with yourself
 (if some effect would force you to contest a card with yourself, then you simply burn the incoming copy of the unique card).
 On the other hand, you may wish to have a second copy handy in case the first is burned.
 
@@ -609,6 +609,7 @@ On the other hand, you may wish to have a second copy handy in case the first is
 Some titles are unique. For example, there can be only one prince or baron of a particular city (see [Vampiric Sects](#6-vampire-sects)).
 If more than one vampire in play claims the same unique title, then the title is contested.
 While the title is being contested, the vampires involved in the contest are treated as if they have no title, but they remain controlled and may act and block as normal.
+You can control different vampires contesting the same unique title.
 
 The cost to contest a title is 1 blood, which is paid by the vampire during each of their unlock phases.
 Instead of paying the cost to contest the title, the vampire may choose to yield the title (or may be forced to yield, if they have no blood to pay).
