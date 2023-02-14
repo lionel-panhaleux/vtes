@@ -1012,12 +1012,12 @@ Note that this declaration is an effect and so allows the acting Methuselah (and
 If the action is successful (all block attempts were unsuccessful), then the cost of the action is paid and the effects of the successful action take place.
 At that point, circumstances might have changed, making the action invalid:
 
-- The cost cannot be paid anymore
-- The target(s) are not valid anymore
+- The cost cannot be paid in full anymore
 - The action was granted by an equipment the minion does not have anymore
 - The acting minion has changed controller
 
-In those cases, the action has no effect (it is still considered successful).
+In those cases, the action has no effect but its cost (or as much of it as can be) is paid: it is still considered successful.
+If some of the action's targets are not valid anymore those are unaffected, but the effects that can be applied are (the action resolves as much as possible).
 
 If the action is blocked, then any card played to perform the action is burned and the block is resolved with these two simultaneous consequences:
 the blocking minion is locked and enters combat with the acting minion (see [Combat](#combat)).
