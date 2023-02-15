@@ -80,7 +80,7 @@ A vampire cannot have more blood than their capacity; if an effect puts more blo
 
 An uncontrolled vampire will have blood counters stacked on them representing the amount of pool that has been invested in them.
 During the influence phase, if that stack equals or exceeds their blood capacity, you can reveal the vampire and place them in the ready region.
-They retain the pool counters used to influence them on their card to serve as their blood, any blood counters in excess of the capacity drain back to the blood bank (see Influence Phase).
+They retain the pool counters used to influence them on their card to serve as their blood, any blood counters in excess of the capacity drain back to the blood bank (see [Influence Phase](#4-influence-phase)).
 
 Some cards can augment or reduce a vampire's capacity: there is no maximum, but it can never be reduced below one.
 
