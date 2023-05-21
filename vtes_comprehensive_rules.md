@@ -1363,7 +1363,7 @@ If the stolen blood causes the striking vampire to have more blood than their ca
 You can use an effect that will steal more blood (or life) than the target minion has: you steal what he has.
 
 > Chrysanthemum enters combat with an Underbridge Stray ally. Chrysanthemum has a capacity of 5 and has 4 blood. The ally has 2 life.
-> After determining range, Chrysanthemum steals 2 blood as her strike. The ally strikes for 1 damage.
+> After determining range, Chrysanthemum plays Theft of Vitae to steal 2 blood as her strike. The ally strikes for 1 damage.
 > During the strike resolution 2 life counters are moved to Chrysanthemum from the ally, and Chrysanthemum takes 1 damage.
 > Chrysanthemum has 6 blood, but her capacity is only 5, so 1 blood is moved to the blood bank.
 > The Underbridge Stray has no life counters remaining, so the ally is burned.
