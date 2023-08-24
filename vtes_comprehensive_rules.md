@@ -1627,14 +1627,14 @@ During the polling step of a referendum, a Methuselah gains:
 - 3 votes for each ready cardinal
 - 4 votes for each ready regent
 
-##### The Prisci Block
+##### The Prisci Bloc
 
-The prisci as a group have 3 votes. During a referendum, the prisci block of 3 votes is cast “for” or “against” the referendum according to the prisci sub-referendum.
+The prisci as a group have 3 votes. During a referendum, the prisci bloc of 3 votes is cast “for” or “against” the referendum according to the prisci sub-referendum.
 Each ready priscus provides 1 ballot for this sub-referendum, and votes may not be used in this sub-referendum.
 Each ballot cast is either “for” or “against” the main referendum.
 Whichever side has the greater number of ballots in the sub-referendum gains 3 votes in the main referendum.
-If the sub-referendum is tied, the prisci block abstains from the main referendum.
-As vampires cast their ballots in the sub-referendum, the prisci block of 3 votes might shift between “for”, “against”, and “abstain” (as the majority in the subreferendum changes).
+If the sub-referendum is tied, the prisci bloc abstains from the main referendum.
+As vampires cast their ballots in the sub-referendum, the prisci bloc of 3 votes might shift between “for”, “against”, and “abstain” (as the majority in the sub-referendum changes).
 A vampire must cast all of their votes and ballots in agreement.
 Ballots are not votes: from the perspectives of other cards and effects, a normal Priscus has no vote.
 
